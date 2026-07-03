@@ -9,7 +9,7 @@ import {
   RemoteJoinerQuery,
   RemoteNestedExpands,
 } from "@medusajs/types"
-import { isPresent, isString, toPascalCase, GraphQLUtils } from "@medusajs/utils"
+import { isPresent, isString, toPascalCase } from "@medusajs/utils"
 import { RelationMap, RemoteJoiner } from "../joiner"
 import { toRemoteJoinerQuery } from "./to-remote-joiner-query"
 
@@ -27,14 +27,6 @@ export class RemoteQuery {
     method: string,
     options: { select?: string[]; relations: string[] }
   ) => Promise<any>
-
-  static parseQuery(
-    graphqlQuery: string,
-    variables?: Record<string, unknown>
-  ): RemoteJoinerQuery {
-    const parser = new GraphQLUtils.GraphQLParser(graphqlQuery, variables)
-    return parser.parseQuery()
-  }
 
   constructor({
     modulesLoaded,
@@ -415,15 +407,13 @@ export class RemoteQuery {
   }
 
   public async query(
-    query: string | RemoteJoinerQuery | object,
+    query: RemoteJoinerQuery | object,
     variables?: Record<string, unknown>,
     options?: RemoteJoinerOptions
   ): Promise<any> {
     let finalQuery: RemoteJoinerQuery = query as RemoteJoinerQuery
 
-    if (isString(query)) {
-      finalQuery = RemoteQuery.parseQuery(query, variables)
-    } else if (!isString(finalQuery?.service) && !isString(finalQuery?.alias)) {
+    if (!isString(finalQuery?.service) && !isString(finalQuery?.alias)) {
       finalQuery = toRemoteJoinerQuery(query, variables)
     }
 

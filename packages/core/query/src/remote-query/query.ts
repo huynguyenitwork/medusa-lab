@@ -12,64 +12,17 @@ import {
   RemoteQueryObjectFromStringResult,
 } from "@medusajs/types"
 import {
-  Cached,
   MedusaError,
   applyTranslations,
+  GraphQLUtils,
+  Cached,
   isObject,
   remoteQueryObjectFromString,
   unflattenObjectKeys,
 } from "@medusajs/utils"
+import { queryCacheDecoratorOptions } from "./cache"
 import { RemoteQuery } from "./remote-query"
 import { toRemoteQuery } from "./to-remote-query"
-
-function extractCacheOptions(option: string) {
-  return function extractKey(args: any[]) {
-    return args[1]?.cache?.[option]
-  }
-}
-
-function isCacheEnabled(args: any[]) {
-  const isEnabled = extractCacheOptions("enable")(args)
-  if (isEnabled === false) {
-    return false
-  }
-
-  return (
-    isEnabled === true ||
-    extractCacheOptions("key")(args) ||
-    extractCacheOptions("ttl")(args) ||
-    extractCacheOptions("tags")(args) ||
-    extractCacheOptions("autoInvalidate")(args) ||
-    extractCacheOptions("providers")(args)
-  )
-}
-
-const cacheDecoratorOptions = {
-  enable: isCacheEnabled,
-  key: async (args, cachingModule) => {
-    const key = extractCacheOptions("key")(args)
-    if (key) {
-      return key
-    }
-
-    const queryOptions = args[0]
-    const remoteJoinerOptions = args[1] ?? {}
-    const { initialData, cache, ...restOptions } = remoteJoinerOptions
-
-    const keyInput = {
-      queryOptions,
-      options: restOptions,
-    }
-    return await cachingModule.computeKey(keyInput)
-  },
-  ttl: extractCacheOptions("ttl"),
-  tags: extractCacheOptions("tags"),
-  autoInvalidate: extractCacheOptions("autoInvalidate"),
-  providers: extractCacheOptions("providers"),
-  container: function (this: Query) {
-    return this.container
-  },
-}
 
 /**
  * API wrapper around the remoteQuery
@@ -111,6 +64,14 @@ export class Query {
     },
   }
 
+  static parseGraphqlQuery(
+    graphqlQuery: string,
+    variables?: Record<string, unknown>
+  ): RemoteJoinerQuery {
+    const parser = new GraphQLUtils.GraphQLParser(graphqlQuery, variables)
+    return parser.parseQuery()
+  }
+
   constructor({
     remoteQuery,
     indexModule,
@@ -123,48 +84,6 @@ export class Query {
     this.#remoteQuery = remoteQuery
     this.#indexModule = indexModule
     this.container = container
-  }
-
-  #unwrapQueryConfig(
-    config:
-      | RemoteQueryObjectFromStringResult<any>
-      | RemoteQueryObjectConfig<any>
-      | RemoteJoinerQuery
-  ): object {
-    let normalizedQuery: any = config
-
-    if ("__value" in config) {
-      normalizedQuery = config.__value
-    } else if ("entity" in normalizedQuery) {
-      normalizedQuery = toRemoteQuery(
-        normalizedQuery,
-        this.#remoteQuery.getJoinerConfigs()
-      )
-    } else if (
-      "entryPoint" in normalizedQuery ||
-      "service" in normalizedQuery
-    ) {
-      normalizedQuery = remoteQueryObjectFromString(
-        normalizedQuery as Parameters<typeof remoteQueryObjectFromString>[0]
-      ).__value
-    }
-
-    return normalizedQuery
-  }
-
-  #unwrapRemoteQueryResponse(
-    response:
-      | any[]
-      | { rows: any[]; metadata: RemoteQueryFunctionReturnPagination }
-  ): GraphResultSet<any> {
-    if (Array.isArray(response)) {
-      return { data: response, metadata: undefined }
-    }
-
-    return {
-      data: response.rows,
-      metadata: response.metadata,
-    }
   }
 
   async query(
@@ -182,7 +101,18 @@ export class Query {
       )
     }
 
-    const config = this.#unwrapQueryConfig(queryOptions)
+    let config: any = queryOptions
+
+    if ("__value" in queryOptions) {
+      config = queryOptions.__value
+    } else if ("entity" in config) {
+      config = toRemoteQuery(config, this.#remoteQuery.getJoinerConfigs())
+    } else if ("entryPoint" in config || "service" in config) {
+      config = remoteQueryObjectFromString(
+        config as Parameters<typeof remoteQueryObjectFromString>[0]
+      ).__value
+    }
+
     if (Query.traceRemoteQuery) {
       return await Query.traceRemoteQuery(
         async () => await this.#remoteQuery.query(config, undefined, options),
@@ -199,15 +129,20 @@ export class Query {
    * @param variables
    * @param options
    */
-  async gql(query, variables?, options?) {
-    return await this.#remoteQuery.query(query, variables, options)
+  async gql(
+    query: string,
+    variables?: Record<string, unknown>,
+    options?: RemoteJoinerOptions
+  ) {
+    const joinerQuery = Query.parseGraphqlQuery(query, variables)
+    return await this.#remoteQuery.query(joinerQuery, undefined, options)
   }
 
   /**
    * Graph function uses the remoteQuery under the hood and
    * returns a result set
    */
-  @Cached(cacheDecoratorOptions)
+  @Cached(queryCacheDecoratorOptions)
   async graph<const TEntry extends string>(
     queryOptions: RemoteQueryInput<TEntry>,
     options?: RemoteJoinerOptions
@@ -239,7 +174,16 @@ export class Query {
       )
     }
 
-    const result = this.#unwrapRemoteQueryResponse(response)
+    let result: GraphResultSet<any>
+
+    if (Array.isArray(response)) {
+      result = { data: response, metadata: undefined }
+    } else {
+      result = {
+        data: response.rows,
+        metadata: response.metadata,
+      }
+    }
 
     if (options?.locale) {
       await applyTranslations({
@@ -256,7 +200,7 @@ export class Query {
    * Index function uses the Index module to query and hydrates the data with query.graph
    * returns a result set
    */
-  @Cached(cacheDecoratorOptions)
+  @Cached(queryCacheDecoratorOptions)
   async index<const TEntry extends string>(
     queryOptions: RemoteQueryInput<TEntry> & {
       joinFilters?: RemoteQueryFilters<TEntry>
