@@ -1,5 +1,16 @@
 # Change Log
 
+## 2.17.3
+
+### Patch Changes
+
+- [#15302](https://github.com/medusajs/medusa/pull/15302) [`3af18a52c12a2db2933bdb376ed4308ccb0b6519`](https://github.com/medusajs/medusa/commit/3af18a52c12a2db2933bdb376ed4308ccb0b6519) Thanks [@Ultron03](https://github.com/Ultron03)! - fix(medusa, cli): db commands now exit with code 1 when container initialization fails
+  chore(loyalty,draft-order): update build process to handle plugin build without cyclic deps issue
+- Updated dependencies []:
+  - @medusajs/utils@2.17.3
+  - @medusajs/deps@2.17.3
+  - @medusajs/telemetry@2.17.3
+
 ## 2.17.2
 
 ### Patch Changes
