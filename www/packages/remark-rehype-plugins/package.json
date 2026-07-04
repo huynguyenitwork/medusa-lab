@@ -27,23 +27,23 @@
     "clean": "rimraf dist"
   },
   "dependencies": {
-    "@cloudinary/url-gen": "^1.17.0",
-    "remark-frontmatter": "^5.0.0",
-    "remark-parse": "^11.0.0",
-    "remark-stringify": "^11.0.0",
-    "to-vfile": "^8.0.0",
-    "unified": "^11.0.4",
+    "@cloudinary/url-gen": "1.17.0",
+    "remark-frontmatter": "5.0.0",
+    "remark-parse": "11.0.0",
+    "remark-stringify": "11.0.0",
+    "to-vfile": "8.0.0",
+    "unified": "11.0.4",
     "unist-builder": "3.0.0",
     "unist-util-visit": "4.1.2",
-    "vfile-matter": "^5.0.0"
+    "vfile-matter": "5.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.20",
+    "@types/node": "20.11.20",
     "docs-ui": "*",
-    "rimraf": "^5.0.5",
+    "rimraf": "5.0.5",
     "tsconfig": "*",
     "types": "*",
-    "typescript": "^5.3.3"
+    "typescript": "5.3.3"
   },
   "engines": {
     "node": ">=18.17.0"

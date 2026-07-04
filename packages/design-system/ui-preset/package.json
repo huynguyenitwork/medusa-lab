@@ -23,18 +23,18 @@
     "generate": "toolbox tokens -o './src/theme'"
   },
   "dependencies": {
-    "@tailwindcss/forms": "^0.5.3",
-    "tailwindcss-animate": "^1.0.6"
+    "@tailwindcss/forms": "0.5.3",
+    "tailwindcss-animate": "1.0.6"
   },
   "peerDependencies": {
     "tailwindcss": ">=3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "20",
     "@medusajs/toolbox": "workspace:^",
-    "tailwindcss": "^3.4.1",
-    "tsup": "^7.1.0",
-    "typescript": "^5.1.6"
+    "tailwindcss": "3.4.1",
+    "tsup": "7.1.0",
+    "typescript": "5.1.6"
   },
   "publishConfig": {
     "access": "public"

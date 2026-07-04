@@ -13,7 +13,7 @@
   ],
   "dependencies": {
     "@medusajs/ui-preset": "workspace:^",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "1.0.7"
   },
   "peerDependencies": {
     "docs-ui": "*"

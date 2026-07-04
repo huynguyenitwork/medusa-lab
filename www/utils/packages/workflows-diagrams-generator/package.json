@@ -18,12 +18,12 @@
   },
   "dependencies": {
     "@medusajs/workflows-sdk": "latest",
-    "@mermaid-js/mermaid-cli": "^10.6.1",
-    "commander": "^11.1.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.6.2"
+    "@mermaid-js/mermaid-cli": "10.6.1",
+    "commander": "11.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.6.2"
   },
   "devDependencies": {
-    "@types/node": "^20.12.10"
+    "@types/node": "20.12.10"
   }
 }

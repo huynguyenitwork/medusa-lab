@@ -19,16 +19,16 @@
     "build": "tsup"
   },
   "devDependencies": {
-    "@types/react": "^18.3.2",
-    "tsup": "^8.0.1",
-    "typescript": "^5.3.3",
-    "zod": "^3.22"
+    "@types/react": "18.3.2",
+    "tsup": "8.0.1",
+    "typescript": "5.3.3",
+    "zod": "3.22"
   },
   "dependencies": {
     "@medusajs/admin-shared": "workspace:^"
   },
   "peerDependencies": {
-    "zod": "^3.22"
+    "zod": "3.22"
   },
   "packageManager": "pnpm@11.3.0"
 }
