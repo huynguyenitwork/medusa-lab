@@ -600,3 +600,7 @@ pnpm --filter=@medusajs/utils why ts-jest
   ]
 }
 ```
+* lọc và sửa toàn bộ package nào chứa `"jest": "29.7.0"` và có `tsconfig.json` mở rộng dùng chung với `root`
+```json
+"@types/jest": "29.5.12"
+```

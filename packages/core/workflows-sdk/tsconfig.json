@@ -1,8 +1,3 @@
 {
-  "extends": "../../../_tsconfig.base.json",
-    "compilerOptions": {
-      "types": [
-        "@types/jest"
-      ]
-    }
+  "extends": "../../../_tsconfig.base.json"
 }

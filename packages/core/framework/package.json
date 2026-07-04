@@ -63,6 +63,7 @@
     "awilix": "8.0.1",
     "ioredis": "5.4.1",
     "jest": "29.7.0",
+    "@types/jest": "29.5.12",
     "pg": "8.13.0",
     "rimraf": "3.0.2",
     "supertest": "4.0.2",
