@@ -28,11 +28,9 @@
   },
   "scripts": {
     "start": "nodemon --watch plugins/ --watch src/ --exec node src/index.js",
-    "prepare": "cross-env NODE_ENV=production pnpm run build",
     "watch": "tsc --build --watch",
     "build": "rimraf dist && tsc --build",
     "serve": "node dist/index.js",
-    "postinstall": "node dist/postinstall.js || true",
     "test": "jest --passWithNoTests src"
   },
   "dependencies": {
