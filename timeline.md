@@ -543,3 +543,40 @@ pnpm --filter @medusajs/ui build
 ```bash
 pnpm --filter @medusajs/orchestration build
 ```
+
+# check build
+* test lỗi
+```bash
+pnpm --filter @medusajs/utils build
+```
+* test từ lỗi trở đi
+```bash
+pnpm exec turbo build --no-daemon --filter=@medusajs/utils...
+```
+## done
+@medusajs/admin-shared
+@medusajs/toolbox
+@medusajs/telemetry
+medusa-dev-cli
+@medusajs/types
+create-medusa-app
+@medusajs/ui-preset
+@medusajs/icons
+@medusajs/admin-sdk
+@medusajs/admin-vite-plugin
+## fail
+@medusajs/utils
+## todo
+@medusajs/ui
+@medusajs/dashboard
+@medusajs/admin-bundler
+
+## resolve
+### @medusajs/utils
+```bash
+pnpm --filter=@medusajs/utils why typescript
+pnpm --filter=@medusajs/utils why jest
+pnpm --filter=@medusajs/utils why @types/jest
+pnpm --filter=@medusajs/utils why @types/node
+pnpm --filter=@medusajs/utils why ts-jest
+```
