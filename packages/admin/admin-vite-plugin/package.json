@@ -40,12 +40,12 @@
     "@babel/parser": "7.25.6",
     "@babel/traverse": "7.25.6",
     "@babel/types": "7.25.6",
-    "@medusajs/admin-shared": "2.0.7",
+    "@medusajs/admin-shared": "workspace:^",
     "chokidar": "3.5.3",
     "fdir": "6.1.1",
     "magic-string": "0.30.5",
     "outdent": "^0.8.0",
     "picocolors": "^1.1.0"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "pnpm@11.3.0"
 }

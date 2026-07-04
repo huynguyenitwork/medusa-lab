@@ -45,9 +45,9 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "@medusajs/orchestration": "^2.0.7",
-    "@medusajs/types": "^2.0.7",
-    "@medusajs/utils": "^2.0.7"
+    "@medusajs/orchestration": "workspace:^",
+    "@medusajs/types": "workspace:^",
+    "@medusajs/utils": "workspace:^"
   },
   "peerDependencies": {
     "@mikro-orm/core": "5.9.7",

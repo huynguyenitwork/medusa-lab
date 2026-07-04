@@ -40,10 +40,10 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "@medusajs/modules-sdk": "^2.0.7",
-    "@medusajs/orchestration": "^2.0.7",
-    "@medusajs/types": "^2.0.7",
-    "@medusajs/utils": "^2.0.7",
+    "@medusajs/modules-sdk": "workspace:^",
+    "@medusajs/orchestration": "workspace:^",
+    "@medusajs/types": "workspace:^",
+    "@medusajs/utils": "workspace:^",
     "ulid": "^2.3.0"
   },
   "peerDependencies": {

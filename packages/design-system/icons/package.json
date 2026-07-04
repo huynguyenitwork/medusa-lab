@@ -19,7 +19,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "yarn build:bundles && yarn build:types",
+    "build": "pnpm build:bundles && pnpm build:types",
     "build:bundles": "rollup -c ./rollup.config.mjs",
     "build:types": "tsc --emitDeclarationOnly",
     "test": "vitest --run",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@atomico/rollup-plugin-sizes": "^1.1.4",
-    "@medusajs/toolbox": "^2.0.7",
+    "@medusajs/toolbox": "workspace:^",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-replace": "^5.0.2",
     "@testing-library/dom": "^9.3.1",
@@ -57,7 +57,7 @@
   "peerDependencies": {
     "react": "^16.x || ^17.x || ^18.x"
   },
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "pnpm@11.3.0",
   "publishConfig": {
     "access": "public"
   }

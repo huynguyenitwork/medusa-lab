@@ -1,0 +1,14 @@
+packages:
+- packages/medusa
+- packages/medusa-test-utils
+- packages/modules/*
+- packages/modules/providers/*
+- packages/core/*
+- packages/framework/*
+- packages/cli/*
+- packages/cli/oas/*
+- packages/*
+- packages/admin/*
+- packages/design-system/*
+- packages/generated/*
+- integration-tests/**/*

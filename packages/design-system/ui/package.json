@@ -29,7 +29,7 @@
     "styles.css"
   ],
   "scripts": {
-    "build": "yarn clean && yarn build:js:cjs && yarn build:js:esm",
+    "build": "pnpm clean && pnpm build:js:cjs && pnpm build:js:esm",
     "build:js:cjs": "tsc --project tsconfig.cjs.json && tsc-alias -p tsconfig.cjs.json",
     "build:js:esm": "tsc --project tsconfig.esm.json && tsc-alias -p tsconfig.esm.json",
     "clean": "rimraf dist",
@@ -42,7 +42,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@medusajs/ui-preset": "^2.0.1",
+    "@medusajs/ui-preset": "workspace:^",
     "@storybook/addon-essentials": "^8.3.5",
     "@storybook/addon-interactions": "^8.3.5",
     "@storybook/addon-links": "^8.3.5",
@@ -80,7 +80,7 @@
     "vitest": "^0.32.2"
   },
   "dependencies": {
-    "@medusajs/icons": "^2.0.1",
+    "@medusajs/icons": "workspace:^",
     "@radix-ui/react-accordion": "1.2.0",
     "@radix-ui/react-alert-dialog": "1.1.1",
     "@radix-ui/react-avatar": "1.1.0",

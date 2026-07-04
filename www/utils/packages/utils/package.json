@@ -9,7 +9,7 @@
   "types": "./dist/index.d.ts",
   "version": "0.0.0",
   "scripts": {
-    "build": "yarn clean && tsc",
+    "build": "pnpm clean && tsc",
     "lint": "eslint --ext .ts src",
     "clean": "rimraf dist",
     "watch": "tsc --watch"

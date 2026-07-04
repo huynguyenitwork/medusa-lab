@@ -23,7 +23,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "yarn clean && tsc",
+    "build": "pnpm clean && tsc",
     "clean": "rimraf dist"
   },
   "dependencies": {

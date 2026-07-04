@@ -27,7 +27,7 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "yarn clean && tsc",
+    "build": "pnpm clean && tsc",
     "clean": "rimraf dist"
   },
   "devDependencies": {
@@ -40,6 +40,6 @@
     "node": ">=18.17.0"
   },
   "dependencies": {
-    "@medusajs/icons": "^2.0.0"
+    "@medusajs/icons": "workspace:^"
   }
 }
