@@ -1,3 +1,9 @@
 {
-  "extends": "../../../_tsconfig.base.json"
+  "extends": "../../../_tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [
+      "ES2022",
+      "DOM"
+    ]
+  }
 }

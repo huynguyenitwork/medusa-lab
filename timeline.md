@@ -131,7 +131,7 @@ không dùng `prepare` để build toàn bộ monorepo.
 ```bash
 pnpm exec turbo run build
 ```
-## 3. `ts2580: cannot find name 'module'`
+## 3. `ts2580: cannot find name 'module'` trong package @medusajs/ui-preset
 ### hiện tượng
 ```text
 cannot find name 'module'
@@ -156,7 +156,7 @@ pnpm install
 pnpm --filter @medusajs/ui-preset build
 pnpm exec turbo run build
 ```
-## 4. `ts2322: type 'unknown' is not assignable to type 'string'`
+## 4. `ts2322: type 'unknown' is not assignable to type 'string'` trong package create-medusa-app
 ### hiện tượng
 ```text
 type 'unknown' is not assignable to type 'string'
@@ -179,3 +179,93 @@ kiểm tra
 pnpm --filter create-medusa-app build
 pnpm exec turbo run build
 ```
+## 5. `ts2582: cannot find name 'describe' / 'it' / 'test'` trong package @medusajs/types
+### hiện tượng
+```text
+cannot find name 'describe'
+cannot find name 'it'
+cannot find name 'test'
+```
+thường xuất hiện khi build package chứa file `*.spec.ts`.
+### nguyên nhân
+typescript đang compile luôn các file test nhưng môi trường build không có type của test runner (`vitest`, `jest`, `mocha`...).
+thường xảy ra khi:
+* `tsconfig.build.json` include nhầm `**/*.spec.ts`
+* hoặc package thiếu `@types/jest` / `vitest`
+* hoặc sau khi migrate, cấu hình build thay đổi.
+### xử lý
+**nếu test không phải một phần của build**
+loại khỏi build:
+```json
+{
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/__tests__/**"
+  ]
+}
+```
+**nếu build cần compile test**
+cài đúng type:
+```bash
+pnpm add -D @types/jest
+```
+### kiểm tra
+```bash
+pnpm --filter @medusajs/types build
+```
+## 6. `ts2307: cannot find module '@mikro-orm/core'` trong package @medusajs/types
+### hiện tượng
+```text
+cannot find module '@mikro-orm/core'
+```
+### nguyên nhân
+typescript tìm thấy import nhưng package chưa được cài hoặc workspace chưa link đúng.
+thường xảy ra khi:
+* chuyển dependency sang `workspace:*`
+* package chưa build
+* thiếu dependency trong `package.json`
+### xử lý
+kiểm tra package có tồn tại
+```bash
+pnpm --filter @medusajs/types why @mikro-orm/core
+```
+nếu không có
+```json
+"@mikro-orm/core": "5.9.7"
+```
+### kiểm tra
+```bash
+pnpm install
+pnpm --filter @medusajs/types build
+```
+
+
+## 7. `ts2304: cannot find name 'filelist'` trong package @medusajs/types
+### hiện tượng
+```text
+cannot find name 'FileList'
+```
+### nguyên nhân
+`FileList` thuộc DOM API.
+project đang compile bằng tsconfig không có thư viện `dom`.
+thường xảy ra khi package được build trong môi trường node.
+### xử lý
+nếu package cần dùng DOM
+```json
+{
+  "extends": "../../../_tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [
+      "ES2022",
+      "DOM"
+    ]
+  }
+}
+```
+nếu package chỉ chạy trên node thì nên thay `FileList` bằng kiểu riêng hoặc tránh phụ thuộc DOM.
+### kiểm tra
+```bash
+pnpm --filter @medusajs/types build
+```
+# nhưng trường hợp của bạn có một dấu hiệu quan trọng hơn

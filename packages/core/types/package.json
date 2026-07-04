@@ -35,6 +35,8 @@
     "bignumber.js": "^9.1.2"
   },
   "devDependencies": {
+    "@mikro-orm/core": "5.9.7",
+    "@types/jest": "^30.0.0",
     "awilix": "^8.0.1",
     "expect-type": "^0.20.0",
     "ioredis": "^5.4.1",
