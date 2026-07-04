@@ -102,9 +102,8 @@ root/
       └── ... 
 ```
 # troubleshoot
-# trouble shooting
-## `pnpm install` báo `failed to create bin ... dist/...`
-### hiện tượng 1
+## 1. `pnpm install` báo `failed to create bin ... dist/...`
+### hiện tượng
 ```text
 failed to create bin ...
 enoent ... dist/.../bin.js
@@ -118,8 +117,8 @@ sau khi `pnpm install` hoàn tất:
 pnpm exec turbo run build
 ```
 để turbo build theo dependency graph.
-## `ts2307: cannot find module '@medusajs/framework/*'`
-### hiện tượng 2
+## 2. `ts2307: cannot find module '@medusajs/framework/*'`
+### hiện tượng
 ```text
 cannot find module '@medusajs/framework/types'
 cannot find module '@medusajs/framework/utils'
@@ -132,7 +131,7 @@ không dùng `prepare` để build toàn bộ monorepo.
 ```bash
 pnpm exec turbo run build
 ```
-## `ts2580: cannot find name 'module'`
+## 3. `ts2580: cannot find name 'module'`
 ### hiện tượng
 ```text
 cannot find name 'module'
@@ -155,5 +154,28 @@ vào đúng package sử dụng `module`, sau đó:
 ```bash
 pnpm install
 pnpm --filter @medusajs/ui-preset build
+pnpm exec turbo run build
+```
+## 4. `ts2322: type 'unknown' is not assignable to type 'string'`
+### hiện tượng
+```text
+type 'unknown' is not assignable to type 'string'
+```
+### nguyên nhân
+sau khi migrate hoặc cập nhật dependency, một số package có type chặt hơn (ví dụ `winston`, `triple-beam`, `typescript`). giá trị trước đây suy luận là `string` có thể trở thành `unknown`.
+### xử lý
+không tắt kiểm tra kiểu.
+ép kiểu hoặc chuyển đổi rõ ràng:
+```ts
+string(value)
+```
+hoặc
+```ts
+value as string
+```
+sau khi xác nhận giá trị thực sự là chuỗi.
+kiểm tra
+```bash
+pnpm --filter create-medusa-app build
 pnpm exec turbo run build
 ```
