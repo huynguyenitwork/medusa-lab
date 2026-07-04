@@ -1,6 +1,6 @@
 # workflow
 * chuyển medusa 2.0.7 từ yarn sang pnpm thì nên chuẩn hóa theo thứ tự sau:
-1. **root**
+0. **root**
 * đổi:
   ```json
   "packageManager": "pnpm@11.3.0"
@@ -450,7 +450,10 @@ Cannot find name 'describe'
 Cannot find name 'it'
 ```
 ### nguyên nhân
-TypeScript đang compile các file test nhưng chưa nạp type của Jest.
+typescript đang compile các file test nhưng chưa nạp type của jest.
+```json
+"@types/jest": "^30.0.0"
+```
 thường xảy ra khi `tsconfig.json` không khai báo:
 ```json
 {
@@ -517,4 +520,26 @@ chỉ sử dụng `typeof BigNumberJS` khi thực sự cần type của construc
 ### kiểm tra
 ```bash
 pnpm --filter @medusajs/utils build
+```
+## 15. @medusajs/ui thiếu phụ thuộc
+* dependencies
+```json
+"tslib": "^2.8.1",
+"@internationalized/date" : "^3.12.2",
+```
+* kiểm tra
+```bash
+pnpm --filter @medusajs/ui why tslib
+pnpm --filter @medusajs/ui why @internationalized/date
+pnpm --filter @medusajs/ui why react-aria
+pnpm --filter @medusajs/ui why react-stately
+pnpm --filter @medusajs/ui why @react-types/shared
+pnpm --filter @medusajs/ui why sonner
+pnpm view react-aria@3.33.1 dependencies
+pnpm --filter @medusajs/ui build
+```
+## troubleshoot loop
+1. @medusajs/orchestration giống #13 + #12
+```bash
+pnpm --filter @medusajs/orchestration build
 ```
