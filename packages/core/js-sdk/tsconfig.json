@@ -1,3 +1,10 @@
 {
-  "extends": "../../../_tsconfig.base.json"
+  "extends": "../../../_tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [
+      "ES2021",
+      "DOM",
+      "DOM.Iterable"
+    ]
+  }
 }

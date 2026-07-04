@@ -268,4 +268,117 @@ nếu package chỉ chạy trên node thì nên thay `FileList` bằng kiểu ri
 ```bash
 pnpm --filter @medusajs/types build
 ```
-# nhưng trường hợp của bạn có một dấu hiệu quan trọng hơn
+## 8. `ts2304: cannot find name 'window' / 'requestinfo' / 'response'` trong package `@medusajs/js-sdk`
+### hiện tượng
+```text
+cannot find name 'window'
+cannot find name 'RequestInfo'
+cannot find name 'Response'
+cannot find name 'FileList'
+```
+### nguyên nhân
+package sử dụng Web API nhưng `tsconfig` chỉ khai báo
+```json
+"lib": [
+  "ES2021"
+]
+```
+nên TypeScript không nạp các kiểu của DOM.
+thường xảy ra khi:
+* package browser kế thừa tsconfig dùng cho node.
+* migrate sang tsconfig chung chỉ còn `ES2021`.
+### xử lý
+bổ sung DOM, dùng iterator của DOM thì thêm
+```json
+{
+  "extends": "../../../_tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [
+      "ES2021",
+      "DOM",
+      "DOM.Iterable"
+    ]
+  }
+}
+```
+### kiểm tra
+```bash
+pnpm --filter @medusajs/js-sdk build
+```
+## 9. `ts2304: cannot find name 'expect' / 'jest' / 'beforeall' / 'afterall'` trong package `@medusajs/js-sdk`
+### hiện tượng
+```text
+cannot find name 'describe'
+cannot find name 'it'
+cannot find name 'expect'
+cannot find name 'jest'
+cannot find name 'beforeAll'
+cannot find name 'afterEach'
+```
+### nguyên nhân
+TypeScript đang compile các file test nhưng không có type của Jest.
+khác với package `types`, ở đây còn xuất hiện
+* `expect`
+* `jest`
+* `beforeAll`
+* `afterEach`
+=> gần như chắc chắn test đang dùng **Jest**.
+### xử lý
+nếu test không phải một phần của build
+```json
+{
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/__tests__/**"
+  ]
+}
+```
+nếu build cần compile test
+```bash
+pnpm add -D @types/jest
+```
+và
+```json
+{
+  "compilerOptions": {
+    "types": [
+      "jest"
+    ]
+  }
+}
+```
+### kiểm tra
+```bash
+pnpm --filter @medusajs/js-sdk build
+```
+## 10. `ts2322: type 'unknown' is not assignable to type 'response'` trong package `@medusajs/js-sdk`
+### hiện tượng
+```text
+Type 'unknown' is not assignable to type 'Response'
+```
+hoặc
+```text
+Type '(...) => Promise<unknown>' is not assignable to type 'ClientFetch'
+```
+### nguyên nhân
+sau khi cập nhật TypeScript hoặc thay đổi type của `fetch`, giá trị trả về được suy luận là `Promise<unknown>` thay vì `Promise<Response>`.
+thường xảy ra khi:
+* thiếu DOM typings.
+* type của `fetch` thay đổi.
+* generic bị mất trong quá trình migrate.
+### xử lý
+ưu tiên xử lý lỗi DOM trước.
+nếu vẫn còn lỗi thì ép kiểu rõ ràng
+```ts
+return fetch(...) as Promise<Response>
+```
+hoặc
+```ts
+const response: Response = await fetch(...)
+```
+không nên dùng `any`.
+### kiểm tra
+```bash
+pnpm --filter @medusajs/js-sdk build
+```
