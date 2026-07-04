@@ -547,11 +547,11 @@ pnpm --filter @medusajs/orchestration build
 # check build
 * test lỗi
 ```bash
-pnpm --filter @medusajs/modules-sdk build
+pnpm --filter @medusajs/workflows-sdk build
 ```
 * test từ lỗi trở đi phụ thuộc sau
 ```bash
-pnpm exec turbo build --no-daemon --filter=@medusajs/modules-sdk...
+pnpm exec turbo build --no-daemon --filter=@medusajs/workflows-sdk...
 ```
 * test lại toàn bộ
 ```bash
@@ -569,8 +569,9 @@ create-medusa-app
 @medusajs/admin-sdk
 @medusajs/admin-vite-plugin
 @medusajs/utils
-## fail
 @medusajs/modules-sdk
+## fail
+@medusajs/workflows-sdk
 ## todo
 @medusajs/ui
 @medusajs/dashboard
@@ -586,7 +587,7 @@ pnpm --filter=@medusajs/utils why @types/node
 pnpm --filter=@medusajs/utils why ts-jest
 ```
 * chốt @types/jest và @types/node
-### @medusajs/modules-sdk
+### @medusajs/modules-sdk + @medusajs/workflows-sdk
 * package.json
 ```json
 "@types/jest": "29.5.12"
