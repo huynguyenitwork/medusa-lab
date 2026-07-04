@@ -1230,6 +1230,9 @@ importers:
       '@swc/jest':
         specifier: 0.2.36
         version: 0.2.36(@swc/core@1.7.28(@swc/helpers@0.5.11))
+      '@types/jest':
+        specifier: 29.5.12
+        version: 29.5.12
       awilix:
         specifier: 8.0.1
         version: 8.0.1
@@ -28462,7 +28465,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.12.11
+      '@types/node': 20.12.12
       merge-stream: 2.0.0
       supports-color: 8.1.1
 

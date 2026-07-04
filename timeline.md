@@ -547,11 +547,15 @@ pnpm --filter @medusajs/orchestration build
 # check build
 * test lỗi
 ```bash
-pnpm --filter @medusajs/utils build
+pnpm --filter @medusajs/modules-sdk build
 ```
-* test từ lỗi trở đi
+* test từ lỗi trở đi phụ thuộc sau
 ```bash
-pnpm exec turbo build --no-daemon --filter=@medusajs/utils...
+pnpm exec turbo build --no-daemon --filter=@medusajs/modules-sdk...
+```
+* test lại toàn bộ
+```bash
+pnpm exec turbo build --no-daemon
 ```
 ## done
 @medusajs/admin-shared
@@ -564,8 +568,9 @@ create-medusa-app
 @medusajs/icons
 @medusajs/admin-sdk
 @medusajs/admin-vite-plugin
-## fail
 @medusajs/utils
+## fail
+@medusajs/modules-sdk
 ## todo
 @medusajs/ui
 @medusajs/dashboard
@@ -579,4 +584,18 @@ pnpm --filter=@medusajs/utils why jest
 pnpm --filter=@medusajs/utils why @types/jest
 pnpm --filter=@medusajs/utils why @types/node
 pnpm --filter=@medusajs/utils why ts-jest
+```
+* chốt @types/jest và @types/node
+### @medusajs/modules-sdk
+* package.json
+```json
+"@types/jest": "29.5.12"
+```
+* tsconfig.json
+```json
+"compilerOptions": {
+  "types": [
+    "@types/jest"
+  ]
+}
 ```
