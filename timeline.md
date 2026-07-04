@@ -335,18 +335,8 @@ nếu test không phải một phần của build
 }
 ```
 nếu build cần compile test
-```bash
-pnpm add -D @types/jest
-```
-và
 ```json
-{
-  "compilerOptions": {
-    "types": [
-      "jest"
-    ]
-  }
-}
+"@types/jest": "^30.0.0",
 ```
 ### kiểm tra
 ```bash
@@ -381,4 +371,150 @@ không nên dùng `any`.
 ### kiểm tra
 ```bash
 pnpm --filter @medusajs/js-sdk build
+```
+## 11. `ts2582: cannot find name 'describe' / 'it' / 'test'` trong package `@medusajs/utils`
+### hiện tượng
+```text
+cannot find name 'describe'
+cannot find name 'it'
+cannot find name 'test'
+cannot find name 'expect'
+cannot find name 'jest'
+```
+### nguyên nhân
+TypeScript đang compile luôn các file test nhưng môi trường build không có type của Jest.
+thường xảy ra khi:
+* `tsconfig.build.json` include `**/*.spec.ts`
+* package thiếu `@types/jest`
+* cấu hình build thay đổi sau khi migrate.
+### xử lý
+nếu test không phải một phần của build
+```json
+{
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/__tests__/**"
+  ]
+}
+```
+nếu build cần compile test
+```json
+"@types/jest": "^30.0.0",
+```
+### kiểm tra
+```bash
+pnpm --filter @medusajs/utils build
+```
+## 12. `ts2339: property 'tobecalledtimes' does not exist` trong package `@medusajs/utils`
+### hiện tượng
+```text
+Property 'toBeCalledTimes' does not exist on type 'JestMatchers<...>'
+```
+### nguyên nhân
+đây **không phải** do thiếu `@types/jest`.
+`expect()` và `JestMatchers<>` đã được TypeScript nhận diện.
+nguyên nhân là version typings của Jest không còn hỗ trợ các alias cũ như:
+```ts
+toBeCalled()
+toBeCalledTimes()
+toBeCalledWith()
+toReturn()
+```
+thường xảy ra khi:
+- nâng version `@types/jest`
+- hoặc typings của Jest thay đổi.
+### xử lý
+đổi sang API chính thức:
+```ts
+expect(fn).toHaveBeenCalled()
+```
+* toBeCalledTimes(1) đổi sang toHaveBeenCalledTimes(1)
+```ts
+expect(fn).toHaveBeenCalledTimes(3)
+```
+```ts
+expect(fn).toHaveBeenCalledWith(...)
+```
+không nên tiếp tục sử dụng các alias cũ.
+### kiểm tra
+```bash
+pnpm --filter @medusajs/utils build
+```
+## 13. `ts2304: cannot find name 'expect' / 'jest'` trong package `@medusajs/utils`
+### hiện tượng
+```text
+Cannot find name 'expect'
+Cannot find name 'jest'
+Cannot find name 'describe'
+Cannot find name 'it'
+```
+### nguyên nhân
+TypeScript đang compile các file test nhưng chưa nạp type của Jest.
+thường xảy ra khi `tsconfig.json` không khai báo:
+```json
+{
+  "compilerOptions": {
+    "types": [
+      "@types/jest"
+    ]
+  }
+}
+```
+### xử lý
+bổ sung cấu hình:
+```json
+{
+  "extends": "../../../_tsconfig.base.json",
+  "compilerOptions": {
+    "types": [
+      "@types/jest"
+    ]
+  }
+}
+```
+(`"jest"` và `"@types/jest"` đều hoạt động, nhưng `"jest"` là cách được TypeScript sử dụng phổ biến hơn.)
+### kiểm tra
+```bash
+pnpm --filter @medusajs/utils exec tsc --showConfig
+```
+đảm bảo kết quả có:
+```json
+{
+  "compilerOptions": {
+    "types": [
+      "@types/jest"
+    ]
+  }
+}
+```
+## 14. `ts2749: 'bignumberjs' refers to a value, but is being used as a type` trong package `@medusajs/utils`
+### hiện tượng
+```text
+'BigNumberJS' refers to a value, but is being used as a type.
+Did you mean 'typeof BigNumberJS'?
+```
+### nguyên nhân
+sau khi cập nhật `bignumber.js`, `BigNumberJS` không còn được dùng trực tiếp như một type.
+ví dụ:
+```ts
+import BigNumberJS from "bignumber.js"
+private value: BigNumberJS
+```
+TypeScript sẽ báo lỗi vì `BigNumberJS` là value, không phải type.
+### xử lý
+nếu package export type:
+```ts
+import BigNumberJS, { BigNumber } from "bignumber.js"
+private value: BigNumber
+```
+hoặc
+```ts
+import BigNumberJS from "bignumber.js"
+private value: InstanceType<typeof BigNumberJS>
+```
+chỉ sử dụng `typeof BigNumberJS` khi thực sự cần type của constructor.
+### kiểm tra
+```bash
+pnpm --filter @medusajs/utils build
 ```
