@@ -1,0 +1,4973 @@
+```bash
+(yarn -v && node -v && npm -v && corepack -v) > version.log
+```
+3.2.1
+v20.20.2
+10.8.2
+0.34.6
+➤ YN0000: .
+➤ YN0000: integration-tests/api
+➤ YN0000: integration-tests/http
+➤ YN0000: integration-tests/modules
+➤ YN0000: packages/admin/admin-bundler
+➤ YN0000: packages/admin/admin-sdk
+➤ YN0000: packages/admin/admin-shared
+➤ YN0000: packages/admin/admin-vite-plugin
+➤ YN0000: packages/admin/dashboard
+➤ YN0000: packages/cli/create-medusa-app
+➤ YN0000: packages/cli/medusa-cli
+➤ YN0000: packages/cli/medusa-dev-cli
+➤ YN0000: packages/cli/oas/medusa-oas-cli
+➤ YN0000: packages/cli/oas/oas-github-ci
+➤ YN0000: packages/core/core-flows
+➤ YN0000: packages/core/framework
+➤ YN0000: packages/core/js-sdk
+➤ YN0000: packages/core/modules-sdk
+➤ YN0000: packages/core/orchestration
+➤ YN0000: packages/core/types
+➤ YN0000: packages/core/utils
+➤ YN0000: packages/core/workflows-sdk
+➤ YN0000: packages/design-system/icons
+➤ YN0000: packages/design-system/toolbox
+➤ YN0000: packages/design-system/ui
+➤ YN0000: packages/design-system/ui-preset
+➤ YN0000: packages/medusa
+➤ YN0000: packages/medusa-telemetry
+➤ YN0000: packages/medusa-test-utils
+➤ YN0000: packages/modules/api-key
+➤ YN0000: packages/modules/auth
+➤ YN0000: packages/modules/cache-inmemory
+➤ YN0000: packages/modules/cache-redis
+➤ YN0000: packages/modules/cart
+➤ YN0000: packages/modules/currency
+➤ YN0000: packages/modules/customer
+➤ YN0000: packages/modules/event-bus-local
+➤ YN0000: packages/modules/event-bus-redis
+➤ YN0000: packages/modules/file
+➤ YN0000: packages/modules/fulfillment
+➤ YN0000: packages/modules/index
+➤ YN0000: packages/modules/inventory
+➤ YN0000: packages/modules/link-modules
+➤ YN0000: packages/modules/locking
+➤ YN0000: packages/modules/notification
+➤ YN0000: packages/modules/order
+➤ YN0000: packages/modules/payment
+➤ YN0000: packages/modules/pricing
+➤ YN0000: packages/modules/product
+➤ YN0000: packages/modules/promotion
+➤ YN0000: packages/modules/providers/auth-emailpass
+➤ YN0000: packages/modules/providers/auth-github
+➤ YN0000: packages/modules/providers/auth-google
+➤ YN0000: packages/modules/providers/file-local
+➤ YN0000: packages/modules/providers/file-s3
+➤ YN0000: packages/modules/providers/fulfillment-manual
+➤ YN0000: packages/modules/providers/locking-postgres
+➤ YN0000: packages/modules/providers/locking-redis
+➤ YN0000: packages/modules/providers/notification-local
+➤ YN0000: packages/modules/providers/notification-sendgrid
+➤ YN0000: packages/modules/providers/payment-stripe
+➤ YN0000: packages/modules/region
+➤ YN0000: packages/modules/sales-channel
+➤ YN0000: packages/modules/stock-location
+➤ YN0000: packages/modules/store
+➤ YN0000: packages/modules/tax
+➤ YN0000: packages/modules/user
+➤ YN0000: packages/modules/workflow-engine-inmemory
+➤ YN0000: packages/modules/workflow-engine-redis
+➤ YN0000: Done in 0s 6ms
+{
+  "name": "root",
+  "problems": [
+    "extraneous: @npmcli/agent@2.2.2 /workspaces/medusa-lab/node_modules/@npmcli/agent",
+    "extraneous: @npmcli/fs@3.1.0 /workspaces/medusa-lab/node_modules/@npmcli/fs",
+    "extraneous: abbrev@2.0.0 /workspaces/medusa-lab/node_modules/abbrev",
+    "extraneous: cacache@18.0.3 /workspaces/medusa-lab/node_modules/cacache",
+    "extraneous: chownr@2.0.0 /workspaces/medusa-lab/node_modules/chownr",
+    "extraneous: env-paths@2.2.1 /workspaces/medusa-lab/node_modules/env-paths",
+    "extraneous: err-code@2.0.3 /workspaces/medusa-lab/node_modules/err-code",
+    "extraneous: exponential-backoff@3.1.1 /workspaces/medusa-lab/node_modules/exponential-backoff",
+    "invalid: express@4.19.2 /workspaces/medusa-lab/node_modules/express",
+    "extraneous: fs-minipass@3.0.3 /workspaces/medusa-lab/node_modules/fs-minipass",
+    "extraneous: http-proxy-agent@7.0.2 /workspaces/medusa-lab/node_modules/http-proxy-agent",
+    "extraneous: https-proxy-agent@7.0.4 /workspaces/medusa-lab/node_modules/https-proxy-agent",
+    "extraneous: ip-address@9.0.5 /workspaces/medusa-lab/node_modules/ip-address",
+    "extraneous: is-lambda@1.0.1 /workspaces/medusa-lab/node_modules/is-lambda",
+    "extraneous: make-fetch-happen@13.0.1 /workspaces/medusa-lab/node_modules/make-fetch-happen",
+    "extraneous: minipass-collect@2.0.1 /workspaces/medusa-lab/node_modules/minipass-collect",
+    "extraneous: minipass-fetch@3.0.5 /workspaces/medusa-lab/node_modules/minipass-fetch",
+    "extraneous: minipass-flush@1.0.5 /workspaces/medusa-lab/node_modules/minipass-flush",
+    "extraneous: minipass-pipeline@1.2.4 /workspaces/medusa-lab/node_modules/minipass-pipeline",
+    "extraneous: minipass-sized@1.0.3 /workspaces/medusa-lab/node_modules/minipass-sized",
+    "extraneous: minizlib@2.1.2 /workspaces/medusa-lab/node_modules/minizlib",
+    "extraneous: node-gyp@10.1.0 /workspaces/medusa-lab/node_modules/node-gyp",
+    "extraneous: nopt@7.2.1 /workspaces/medusa-lab/node_modules/nopt",
+    "extraneous: proc-log@4.2.0 /workspaces/medusa-lab/node_modules/proc-log",
+    "extraneous: promise-retry@2.0.1 /workspaces/medusa-lab/node_modules/promise-retry",
+    "extraneous: retry@0.12.0 /workspaces/medusa-lab/node_modules/retry",
+    "extraneous: smart-buffer@4.2.0 /workspaces/medusa-lab/node_modules/smart-buffer",
+    "extraneous: socks-proxy-agent@8.0.3 /workspaces/medusa-lab/node_modules/socks-proxy-agent",
+    "extraneous: socks@2.8.3 /workspaces/medusa-lab/node_modules/socks",
+    "extraneous: ssri@10.0.6 /workspaces/medusa-lab/node_modules/ssri",
+    "extraneous: tar@6.2.1 /workspaces/medusa-lab/node_modules/tar",
+    "extraneous: unique-filename@3.0.0 /workspaces/medusa-lab/node_modules/unique-filename",
+    "extraneous: unique-slug@4.0.0 /workspaces/medusa-lab/node_modules/unique-slug",
+    "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg",
+    "invalid: @medusajs/api-key@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/api-key",
+    "invalid: @medusajs/auth@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/auth",
+    "invalid: @medusajs/cache-inmemory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/cache-inmemory",
+    "invalid: @medusajs/customer@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/customer",
+    "invalid: @medusajs/event-bus-local@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/event-bus-local",
+    "invalid: @medusajs/medusa@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/medusa",
+    "invalid: @medusajs/modules-sdk@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/modules-sdk",
+    "invalid: @medusajs/payment@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/payment",
+    "invalid: @medusajs/pricing@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/pricing",
+    "invalid: @medusajs/product@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/product",
+    "invalid: @medusajs/promotion@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/promotion",
+    "invalid: @medusajs/region@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/region",
+    "invalid: @medusajs/store@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/store",
+    "invalid: @medusajs/tax@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/tax",
+    "invalid: @medusajs/user@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/user",
+    "invalid: @medusajs/utils@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/utils",
+    "invalid: @medusajs/workflow-engine-inmemory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/workflow-engine-inmemory",
+    "invalid: @medusajs/core-flows@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/core-flows",
+    "invalid: @medusajs/fulfillment-manual@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/fulfillment-manual",
+    "invalid: @medusajs/fulfillment@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/fulfillment",
+    "invalid: @medusajs/inventory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/inventory",
+    "invalid: @medusajs/stock-location@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/stock-location",
+    "invalid: @medusajs/test-utils@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/test-utils",
+    "invalid: @medusajs/types@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/types",
+    "invalid: @medusajs/currency@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/currency",
+    "invalid: @medusajs/framework@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/framework",
+    "invalid: @medusajs/link-modules@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/link-modules"
+  ],
+  "dependencies": {
+    "@changesets/changelog-github": {
+      "version": "0.4.8",
+      "overridden": false
+    },
+    "@changesets/cli": {
+      "version": "2.27.1",
+      "overridden": false
+    },
+    "@medusajs/admin-bundler": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/admin/admin-bundler",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/admin-shared": {
+          "version": "2.0.7"
+        },
+        "@medusajs/admin-vite-plugin": {
+          "version": "2.0.7",
+          "resolved": "file:../../../admin-vite-plugin",
+          "overridden": false
+        },
+        "@medusajs/dashboard": {
+          "version": "2.0.7"
+        },
+        "@medusajs/types": {
+          "version": "2.0.7",
+          "resolved": "file:../../../../core/types",
+          "overridden": false
+        },
+        "@types/compression": {
+          "version": "1.7.5",
+          "overridden": false
+        },
+        "@vitejs/plugin-react": {
+          "version": "4.2.1",
+          "overridden": false
+        },
+        "autoprefixer": {
+          "version": "10.4.19",
+          "overridden": false
+        },
+        "compression": {
+          "version": "1.7.4",
+          "overridden": false
+        },
+        "copyfiles": {
+          "version": "2.4.1",
+          "overridden": false
+        },
+        "express": {
+          "version": "4.21.0",
+          "overridden": false
+        },
+        "postcss": {
+          "version": "8.4.38",
+          "overridden": false
+        },
+        "react-dom": {
+          "version": "18.3.1",
+          "overridden": false
+        },
+        "tailwindcss": {
+          "version": "3.4.3",
+          "overridden": false
+        },
+        "tsup": {
+          "version": "8.0.2",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.4.5",
+          "overridden": false
+        },
+        "vite": {
+          "version": "5.2.11",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/admin-sdk": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/admin/admin-sdk",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/admin-shared": {
+          "version": "2.0.7"
+        },
+        "@types/react": {
+          "version": "18.3.2",
+          "overridden": false
+        },
+        "tsup": {
+          "version": "8.0.2",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.4.5",
+          "overridden": false
+        },
+        "zod": {
+          "version": "3.23.8",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/admin-shared": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/admin/admin-shared",
+      "overridden": false,
+      "dependencies": {
+        "@types/react": {
+          "version": "18.3.2",
+          "overridden": false
+        },
+        "tsup": {
+          "version": "8.0.2",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.4.5",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/admin-vite-plugin": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/admin/admin-vite-plugin",
+      "overridden": false,
+      "dependencies": {
+        "@babel/parser": {
+          "version": "7.25.6",
+          "overridden": false
+        },
+        "@babel/traverse": {
+          "version": "7.25.6",
+          "overridden": false
+        },
+        "@babel/types": {
+          "version": "7.25.6",
+          "overridden": false
+        },
+        "@medusajs/admin-shared": {
+          "version": "2.0.7"
+        },
+        "@types/node": {
+          "version": "20.12.10",
+          "overridden": false
+        },
+        "chokidar": {
+          "version": "3.5.3",
+          "overridden": false
+        },
+        "fdir": {
+          "version": "6.1.1",
+          "overridden": false
+        },
+        "magic-string": {
+          "version": "0.30.5",
+          "overridden": false
+        },
+        "outdent": {
+          "version": "0.8.0",
+          "overridden": false
+        },
+        "picocolors": {
+          "version": "1.1.0",
+          "overridden": false
+        },
+        "tsup": {
+          "version": "8.0.1",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.3.3",
+          "overridden": false
+        },
+        "vite": {
+          "version": "5.2.11",
+          "overridden": false
+        },
+        "vitest": {
+          "version": "2.1.3",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/api-key": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/api-key",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7",
+          "overridden": false
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7",
+          "overridden": false
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7",
+          "overridden": false
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7",
+          "overridden": false
+        },
+        "@swc/core": {
+          "version": "1.7.28",
+          "overridden": false
+        },
+        "@swc/jest": {
+          "version": "0.2.36",
+          "overridden": false
+        },
+        "awilix": {
+          "version": "8.0.1",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.6.2",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/auth-emailpass": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/auth-emailpass",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5",
+          "overridden": false
+        },
+        "scrypt-kdf": {
+          "version": "2.0.1",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/auth-github": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/auth-github",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "msw": {
+          "version": "2.3.0",
+          "overridden": false
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/auth-google": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/auth-google",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "jsonwebtoken": {
+          "version": "9.0.2",
+          "overridden": false
+        },
+        "msw": {
+          "version": "2.3.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/auth": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/auth",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/cache-inmemory": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/cache-inmemory",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/cache-redis": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/cache-redis",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "ioredis": {
+          "version": "5.4.1",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/cart": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/cart",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/cli": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/cli/medusa-cli",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/telemetry": {
+          "version": "2.0.7"
+        },
+        "@medusajs/utils": {
+          "version": "2.0.7",
+          "resolved": "file:../../../../core/utils",
+          "overridden": false
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/knex": {
+          "version": "5.9.7",
+          "overridden": false
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "@types/express": {
+          "version": "4.17.21",
+          "overridden": false
+        },
+        "@types/yargs": {
+          "version": "15.0.19",
+          "overridden": false
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "chalk": {
+          "version": "4.1.2",
+          "overridden": false
+        },
+        "configstore": {
+          "version": "5.0.1",
+          "overridden": false
+        },
+        "dotenv": {
+          "version": "16.4.5",
+          "overridden": false
+        },
+        "execa": {
+          "version": "5.1.1",
+          "overridden": false
+        },
+        "express": {
+          "version": "4.21.0",
+          "overridden": false
+        },
+        "fs-exists-cached": {
+          "version": "1.0.0",
+          "overridden": false
+        },
+        "fs-extra": {
+          "version": "10.1.0",
+          "overridden": false
+        },
+        "glob": {
+          "version": "7.2.3",
+          "overridden": false
+        },
+        "hosted-git-info": {
+          "version": "4.1.0",
+          "overridden": false
+        },
+        "inquirer": {
+          "version": "8.2.6",
+          "overridden": false
+        },
+        "is-valid-path": {
+          "version": "0.1.1",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "meant": {
+          "version": "1.0.3",
+          "overridden": false
+        },
+        "ora": {
+          "version": "5.4.1",
+          "overridden": false
+        },
+        "pg-god": {
+          "version": "1.0.12"
+        },
+        "pg": {
+          "version": "8.11.3",
+          "overridden": false,
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework, \"^8.13.0\" from packages/core/modules-sdk, \"^8.13.0\" from packages/core/orchestration, \"^8.13.0\" from packages/medusa-test-utils, \"^8.13.0\" from packages/core/utils, \"^8.13.0\" from packages/core/workflows-sdk",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "prompts": {
+          "version": "2.4.2",
+          "overridden": false
+        },
+        "resolve-cwd": {
+          "version": "3.0.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "stack-trace": {
+          "version": "0.0.10",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "ulid": {
+          "version": "2.3.0",
+          "overridden": false
+        },
+        "winston": {
+          "version": "3.13.0",
+          "overridden": false
+        },
+        "yargs": {
+          "version": "15.4.1",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/core-flows": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/core/core-flows",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/knex": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "expect-type": {
+          "version": "0.20.0",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "json-2-csv": {
+          "version": "5.5.4",
+          "overridden": false
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/currency": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/currency",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/customer": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/customer",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/dashboard": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/admin/dashboard",
+      "overridden": false,
+      "dependencies": {
+        "@ariakit/react": {
+          "version": "0.4.6",
+          "overridden": false
+        },
+        "@dnd-kit/core": {
+          "version": "6.1.0",
+          "overridden": false
+        },
+        "@dnd-kit/sortable": {
+          "version": "8.0.0",
+          "overridden": false
+        },
+        "@hookform/error-message": {
+          "version": "2.0.1",
+          "overridden": false
+        },
+        "@hookform/resolvers": {
+          "version": "3.4.2",
+          "overridden": false
+        },
+        "@medusajs/admin-shared": {
+          "version": "2.0.7"
+        },
+        "@medusajs/admin-vite-plugin": {
+          "version": "2.0.7",
+          "resolved": "file:../../../admin-vite-plugin",
+          "overridden": false
+        },
+        "@medusajs/icons": {
+          "version": "2.0.7"
+        },
+        "@medusajs/js-sdk": {
+          "version": "2.0.7"
+        },
+        "@medusajs/types": {
+          "version": "2.0.7",
+          "resolved": "file:../../../../core/types",
+          "overridden": false
+        },
+        "@medusajs/ui-preset": {
+          "version": "2.0.7"
+        },
+        "@medusajs/ui": {
+          "version": "4.0.1"
+        },
+        "@radix-ui/react-collapsible": {
+          "version": "1.1.0",
+          "overridden": false
+        },
+        "@tanstack/react-query": {
+          "version": "5.35.1",
+          "overridden": false
+        },
+        "@tanstack/react-table": {
+          "version": "8.20.5",
+          "overridden": false
+        },
+        "@tanstack/react-virtual": {
+          "version": "3.8.3",
+          "overridden": false
+        },
+        "@types/node": {
+          "version": "20.12.10"
+        },
+        "@types/react-dom": {
+          "version": "18.3.0",
+          "overridden": false
+        },
+        "@types/react": {
+          "version": "18.3.1",
+          "overridden": false
+        },
+        "@uiw/react-json-view": {
+          "version": "2.0.0-alpha.24",
+          "overridden": false
+        },
+        "@vitejs/plugin-react": {
+          "version": "4.2.1",
+          "overridden": false
+        },
+        "ajv": {
+          "version": "8.17.1",
+          "overridden": false
+        },
+        "autoprefixer": {
+          "version": "10.4.19"
+        },
+        "cmdk": {
+          "version": "0.2.1",
+          "overridden": false
+        },
+        "date-fns": {
+          "version": "3.6.0",
+          "overridden": false
+        },
+        "framer-motion": {
+          "version": "11.1.8",
+          "overridden": false
+        },
+        "i18next-browser-languagedetector": {
+          "version": "7.2.0",
+          "overridden": false
+        },
+        "i18next-http-backend": {
+          "version": "2.4.2",
+          "overridden": false
+        },
+        "i18next": {
+          "version": "23.7.11",
+          "overridden": false
+        },
+        "lodash": {
+          "version": "4.17.21",
+          "overridden": false
+        },
+        "match-sorter": {
+          "version": "6.3.4",
+          "overridden": false
+        },
+        "postcss": {
+          "version": "8.4.38"
+        },
+        "prettier": {
+          "version": "3.2.5",
+          "overridden": false
+        },
+        "qs": {
+          "version": "6.12.1",
+          "overridden": false
+        },
+        "react-country-flag": {
+          "version": "3.1.0",
+          "overridden": false
+        },
+        "react-currency-input-field": {
+          "version": "3.8.0",
+          "overridden": false
+        },
+        "react-dom": {
+          "version": "18.3.1"
+        },
+        "react-helmet-async": {
+          "version": "2.0.5",
+          "overridden": false
+        },
+        "react-hook-form": {
+          "version": "7.49.1",
+          "overridden": false
+        },
+        "react-i18next": {
+          "version": "13.5.0",
+          "overridden": false
+        },
+        "react-jwt": {
+          "version": "1.2.1",
+          "overridden": false
+        },
+        "react-router-dom": {
+          "version": "6.20.1",
+          "overridden": false
+        },
+        "react": {
+          "version": "18.3.1",
+          "overridden": false
+        },
+        "tailwindcss": {
+          "version": "3.4.3"
+        },
+        "tsup": {
+          "version": "8.0.2",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.2.2",
+          "overridden": false
+        },
+        "vite-plugin-inspect": {
+          "version": "0.8.7",
+          "overridden": false
+        },
+        "vite": {
+          "version": "5.2.11",
+          "overridden": false
+        },
+        "vitest": {
+          "version": "2.1.4",
+          "overridden": false
+        },
+        "zod": {
+          "version": "3.22.4",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/event-bus-local": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/event-bus-local",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "ulid": {
+          "version": "2.3.0"
+        }
+      }
+    },
+    "@medusajs/event-bus-redis": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/event-bus-redis",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "bullmq": {
+          "version": "5.13.0",
+          "overridden": false
+        },
+        "ioredis": {
+          "version": "5.4.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/file-local": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/file-local",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/file-s3": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/file-s3",
+      "overridden": false,
+      "dependencies": {
+        "@aws-sdk/client-s3": {
+          "version": "3.569.0",
+          "overridden": false
+        },
+        "@aws-sdk/s3-request-presigner": {
+          "version": "3.569.0",
+          "overridden": false
+        },
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "axios": {
+          "version": "1.6.8",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "ulid": {
+          "version": "2.3.0"
+        }
+      }
+    },
+    "@medusajs/file": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/file",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/framework": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/core/framework",
+      "overridden": false,
+      "dependencies": {
+        "@jercle/yargonaut": {
+          "version": "1.1.5",
+          "overridden": false
+        },
+        "@medusajs/cli": {
+          "version": "2.0.7"
+        },
+        "@medusajs/modules-sdk": {
+          "version": "2.0.7",
+          "resolved": "file:../../../modules-sdk",
+          "overridden": false
+        },
+        "@medusajs/orchestration": {
+          "version": "2.0.7",
+          "resolved": "file:../../../orchestration",
+          "overridden": false
+        },
+        "@medusajs/telemetry": {
+          "version": "2.0.7"
+        },
+        "@medusajs/types": {
+          "version": "2.0.7",
+          "resolved": "file:../../../types",
+          "overridden": false
+        },
+        "@medusajs/utils": {
+          "version": "2.0.7",
+          "resolved": "file:../../../utils",
+          "overridden": false
+        },
+        "@medusajs/workflows-sdk": {
+          "version": "2.0.7",
+          "resolved": "file:../../../workflows-sdk",
+          "overridden": false
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/knex": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@opentelemetry/api": {
+          "version": "1.9.0",
+          "overridden": false
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "@types/express": {
+          "version": "4.17.21"
+        },
+        "@types/jsonwebtoken": {
+          "version": "8.5.9",
+          "overridden": false
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "connect-redis": {
+          "version": "5.2.0",
+          "overridden": false
+        },
+        "cookie-parser": {
+          "version": "1.4.6",
+          "overridden": false
+        },
+        "cors": {
+          "version": "2.8.5",
+          "overridden": false
+        },
+        "express-session": {
+          "version": "1.18.0",
+          "overridden": false
+        },
+        "express": {
+          "version": "4.21.0",
+          "overridden": false
+        },
+        "ioredis": {
+          "version": "5.4.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "jsonwebtoken": {
+          "version": "9.0.2"
+        },
+        "morgan": {
+          "version": "1.10.0",
+          "overridden": false
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "supertest": {
+          "version": "4.0.2",
+          "overridden": false
+        },
+        "tsconfig-paths": {
+          "version": "4.2.0",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "vite": {
+          "version": "5.2.11",
+          "overridden": false
+        },
+        "zod": {
+          "version": "3.22.4"
+        }
+      }
+    },
+    "@medusajs/fulfillment-manual": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/fulfillment-manual",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/fulfillment": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/fulfillment",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/icons": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/design-system/icons",
+      "overridden": false,
+      "dependencies": {
+        "@atomico/rollup-plugin-sizes": {
+          "version": "1.1.4",
+          "overridden": false
+        },
+        "@medusajs/toolbox": {
+          "version": "2.0.7"
+        },
+        "@rollup/plugin-node-resolve": {
+          "version": "15.2.3",
+          "overridden": false
+        },
+        "@rollup/plugin-replace": {
+          "version": "5.0.5",
+          "overridden": false
+        },
+        "@testing-library/dom": {
+          "version": "9.3.4",
+          "overridden": false
+        },
+        "@testing-library/jest-dom": {
+          "version": "5.17.0",
+          "overridden": false
+        },
+        "@testing-library/react": {
+          "version": "14.3.1",
+          "overridden": false
+        },
+        "@types/jsdom": {
+          "version": "21.1.6",
+          "overridden": false
+        },
+        "@types/react-dom": {
+          "version": "18.3.0"
+        },
+        "@types/react": {
+          "version": "18.3.1"
+        },
+        "esbuild": {
+          "version": "0.18.20",
+          "overridden": false
+        },
+        "eslint": {
+          "version": "7.32.0",
+          "overridden": false
+        },
+        "jsdom": {
+          "version": "22.1.0",
+          "overridden": false
+        },
+        "react-dom": {
+          "version": "18.3.1"
+        },
+        "react": {
+          "version": "18.3.1"
+        },
+        "resize-observer-polyfill": {
+          "version": "1.5.1",
+          "overridden": false
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "rollup-plugin-esbuild": {
+          "version": "5.0.0",
+          "overridden": false
+        },
+        "rollup-plugin-license": {
+          "version": "3.3.1",
+          "overridden": false
+        },
+        "rollup-plugin-ts": {
+          "version": "3.4.5",
+          "overridden": false
+        },
+        "rollup-plugin-visualizer": {
+          "version": "5.12.0",
+          "overridden": false
+        },
+        "rollup": {
+          "version": "3.29.4",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.4.5",
+          "overridden": false
+        },
+        "vite": {
+          "version": "4.5.3",
+          "overridden": false
+        },
+        "vitest": {
+          "version": "0.32.4",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/index": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/index",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/knex": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/inventory": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/inventory",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/js-sdk": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/core/js-sdk",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/types": {
+          "version": "2.0.7"
+        },
+        "fetch-event-stream": {
+          "version": "0.1.5",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "msw": {
+          "version": "2.3.0"
+        },
+        "qs": {
+          "version": "6.12.1"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/link-modules": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/link-modules",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "cross-env": {
+          "version": "5.2.1",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/locking-postgres": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/locking-postgres",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/locking-redis": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/locking-redis",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "ioredis": {
+          "version": "5.4.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/locking": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/locking",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/medusa-oas-cli": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/cli/oas/medusa-oas-cli",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/medusa": {
+          "version": "2.0.7"
+        },
+        "@medusajs/types": {
+          "version": "2.0.7"
+        },
+        "@medusajs/utils": {
+          "version": "2.0.7"
+        },
+        "@readme/json-schema-ref-parser": {
+          "version": "1.2.1",
+          "overridden": false
+        },
+        "@readme/openapi-parser": {
+          "version": "2.6.0",
+          "overridden": false
+        },
+        "@redocly/cli": {
+          "version": "1.25.3",
+          "overridden": false
+        },
+        "@types/js-yaml": {
+          "version": "4.0.9",
+          "overridden": false
+        },
+        "@types/lodash": {
+          "version": "4.17.1",
+          "overridden": false
+        },
+        "commander": {
+          "version": "10.0.1",
+          "overridden": false
+        },
+        "execa": {
+          "version": "1.0.0",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "js-yaml": {
+          "version": "4.1.0",
+          "overridden": false
+        },
+        "lodash": {
+          "version": "4.17.21"
+        },
+        "openapi3-ts": {
+          "version": "3.2.0",
+          "overridden": false
+        },
+        "swagger-inline": {
+          "version": "6.1.1",
+          "overridden": false
+        },
+        "ts-jest": {
+          "version": "29.2.5",
+          "overridden": false
+        },
+        "ts-node": {
+          "version": "10.9.2",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "4.9.5",
+          "overridden": false
+        },
+        "uuid": {
+          "version": "9.0.1",
+          "overridden": false
+        },
+        "yargs": {
+          "version": "17.7.2",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/medusa": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/medusa",
+      "overridden": false,
+      "dependencies": {
+        "@inquirer/checkbox": {
+          "version": "2.3.11",
+          "overridden": false
+        },
+        "@inquirer/input": {
+          "version": "2.2.9",
+          "overridden": false
+        },
+        "@medusajs/admin-bundler": {
+          "version": "2.0.7",
+          "resolved": "file:../../../admin/admin-bundler",
+          "overridden": false
+        },
+        "@medusajs/api-key": {
+          "version": "2.0.7"
+        },
+        "@medusajs/auth-emailpass": {
+          "version": "2.0.7"
+        },
+        "@medusajs/auth-github": {
+          "version": "2.0.7"
+        },
+        "@medusajs/auth-google": {
+          "version": "2.0.7"
+        },
+        "@medusajs/auth": {
+          "version": "2.0.7"
+        },
+        "@medusajs/cache-inmemory": {
+          "version": "2.0.7"
+        },
+        "@medusajs/cache-redis": {
+          "version": "2.0.7"
+        },
+        "@medusajs/cart": {
+          "version": "2.0.7"
+        },
+        "@medusajs/core-flows": {
+          "version": "2.0.7"
+        },
+        "@medusajs/currency": {
+          "version": "2.0.7"
+        },
+        "@medusajs/customer": {
+          "version": "2.0.7"
+        },
+        "@medusajs/event-bus-local": {
+          "version": "2.0.7"
+        },
+        "@medusajs/event-bus-redis": {
+          "version": "2.0.7"
+        },
+        "@medusajs/file-local": {
+          "version": "2.0.7"
+        },
+        "@medusajs/file-s3": {
+          "version": "2.0.7"
+        },
+        "@medusajs/file": {
+          "version": "2.0.7"
+        },
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/fulfillment-manual": {
+          "version": "2.0.7"
+        },
+        "@medusajs/fulfillment": {
+          "version": "2.0.7"
+        },
+        "@medusajs/index": {
+          "version": "2.0.7"
+        },
+        "@medusajs/inventory": {
+          "version": "2.0.7"
+        },
+        "@medusajs/link-modules": {
+          "version": "2.0.7"
+        },
+        "@medusajs/locking-postgres": {
+          "version": "2.0.7"
+        },
+        "@medusajs/locking-redis": {
+          "version": "2.0.7"
+        },
+        "@medusajs/locking": {
+          "version": "2.0.7"
+        },
+        "@medusajs/notification-local": {
+          "version": "2.0.7"
+        },
+        "@medusajs/notification-sendgrid": {
+          "version": "2.0.7"
+        },
+        "@medusajs/notification": {
+          "version": "2.0.7"
+        },
+        "@medusajs/order": {
+          "version": "2.0.7"
+        },
+        "@medusajs/payment-stripe": {
+          "version": "2.0.7"
+        },
+        "@medusajs/payment": {
+          "version": "2.0.7"
+        },
+        "@medusajs/pricing": {
+          "version": "2.0.7"
+        },
+        "@medusajs/product": {
+          "version": "2.0.7"
+        },
+        "@medusajs/promotion": {
+          "version": "2.0.7"
+        },
+        "@medusajs/region": {
+          "version": "2.0.7"
+        },
+        "@medusajs/sales-channel": {
+          "version": "2.0.7"
+        },
+        "@medusajs/stock-location": {
+          "version": "2.0.7"
+        },
+        "@medusajs/store": {
+          "version": "2.0.7"
+        },
+        "@medusajs/tax": {
+          "version": "2.0.7"
+        },
+        "@medusajs/telemetry": {
+          "version": "2.0.7"
+        },
+        "@medusajs/user": {
+          "version": "2.0.7"
+        },
+        "@medusajs/workflow-engine-inmemory": {
+          "version": "2.0.7"
+        },
+        "@medusajs/workflow-engine-redis": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/knex": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@opentelemetry/api": {
+          "version": "1.9.0"
+        },
+        "@opentelemetry/instrumentation-pg": {
+          "version": "0.44.0",
+          "overridden": false
+        },
+        "@opentelemetry/instrumentation": {
+          "version": "0.53.0",
+          "overridden": false
+        },
+        "@opentelemetry/resources": {
+          "version": "1.26.0",
+          "overridden": false
+        },
+        "@opentelemetry/sdk-node": {
+          "version": "0.53.0",
+          "overridden": false
+        },
+        "@opentelemetry/sdk-trace-node": {
+          "version": "1.26.0",
+          "overridden": false
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/helpers": {
+          "version": "0.5.11",
+          "overridden": false
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "@types/express": {
+          "version": "4.17.21"
+        },
+        "@types/jsonwebtoken": {
+          "version": "8.5.9"
+        },
+        "@types/lodash": {
+          "version": "4.17.1"
+        },
+        "@types/multer": {
+          "version": "1.4.11",
+          "overridden": false
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "boxen": {
+          "version": "5.1.2",
+          "overridden": false
+        },
+        "chalk": {
+          "version": "4.1.2"
+        },
+        "chokidar": {
+          "version": "3.6.0",
+          "overridden": false
+        },
+        "compression": {
+          "version": "1.7.4"
+        },
+        "express": {
+          "version": "4.21.0",
+          "overridden": false
+        },
+        "fs-exists-cached": {
+          "version": "1.0.0"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "jsonwebtoken": {
+          "version": "9.0.2"
+        },
+        "lodash": {
+          "version": "4.17.21"
+        },
+        "multer": {
+          "version": "1.4.5-lts.1",
+          "overridden": false
+        },
+        "node-schedule": {
+          "version": "2.1.1",
+          "overridden": false
+        },
+        "qs": {
+          "version": "6.12.1"
+        },
+        "request-ip": {
+          "version": "3.3.0",
+          "overridden": false
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "slugify": {
+          "version": "1.6.6",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "uuid": {
+          "version": "9.0.1"
+        },
+        "zod": {
+          "version": "3.22.4"
+        }
+      }
+    },
+    "@medusajs/modules-sdk": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/core/modules-sdk",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/orchestration": {
+          "version": "2.0.7"
+        },
+        "@medusajs/types": {
+          "version": "2.0.7"
+        },
+        "@medusajs/utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/knex": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "cross-env": {
+          "version": "5.2.1",
+          "overridden": false
+        },
+        "express": {
+          "version": "4.19.2",
+          "invalid": "\"^4.21.0\" from packages/core/modules-sdk",
+          "problems": [
+            "invalid: express@4.19.2 /workspaces/medusa-lab/node_modules/express"
+          ]
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework, \"^8.13.0\" from packages/core/modules-sdk",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/notification-local": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/notification-local",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/notification-sendgrid": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/notification-sendgrid",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@sendgrid/mail": {
+          "version": "8.1.3",
+          "overridden": false
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/notification": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/notification",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/oas-github-ci": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/cli/oas/oas-github-ci",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/medusa-oas-cli": {
+          "version": "2.0.7"
+        },
+        "execa": {
+          "version": "5.1.1"
+        }
+      }
+    },
+    "@medusajs/orchestration": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/core/orchestration",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/types": {
+          "version": "2.0.7"
+        },
+        "@medusajs/utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/knex": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "express": {
+          "version": "4.19.2",
+          "invalid": "\"^4.21.0\" from packages/core/modules-sdk, \"^4.21.0\" from packages/core/orchestration",
+          "problems": [
+            "invalid: express@4.19.2 /workspaces/medusa-lab/node_modules/express"
+          ]
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework, \"^8.13.0\" from packages/core/modules-sdk, \"^8.13.0\" from packages/core/orchestration",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/order": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/order",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/payment-stripe": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/providers/payment-stripe",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "stripe": {
+          "version": "15.12.0",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/payment": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/payment",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/pricing": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/pricing",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/product": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/product",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "faker": {
+          "version": "5.5.3",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/promotion": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/promotion",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/region": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/region",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/sales-channel": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/sales-channel",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/stock-location": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/stock-location",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/store": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/store",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/tax": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/tax",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/telemetry": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/medusa-telemetry",
+      "overridden": false,
+      "dependencies": {
+        "@babel/runtime": {
+          "version": "7.24.5",
+          "overridden": false
+        },
+        "axios-retry": {
+          "version": "3.9.1",
+          "overridden": false
+        },
+        "axios": {
+          "version": "0.21.4"
+        },
+        "boxen": {
+          "version": "5.1.2"
+        },
+        "ci-info": {
+          "version": "3.9.0",
+          "overridden": false
+        },
+        "configstore": {
+          "version": "5.0.1"
+        },
+        "cross-env": {
+          "version": "5.2.1",
+          "overridden": false
+        },
+        "global": {
+          "version": "4.4.0"
+        },
+        "is-docker": {
+          "version": "2.2.1",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "nodemon": {
+          "version": "2.0.22",
+          "overridden": false
+        },
+        "remove-trailing-slash": {
+          "version": "0.1.1",
+          "overridden": false
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "uuid": {
+          "version": "8.3.2",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/test-utils": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/medusa-test-utils",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/medusa": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/knex": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@types/express": {
+          "version": "4.17.21"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "axios": {
+          "version": "0.21.4"
+        },
+        "express": {
+          "version": "4.21.0",
+          "overridden": false
+        },
+        "get-port": {
+          "version": "5.1.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "pg-god": {
+          "version": "1.0.12"
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework, \"^8.13.0\" from packages/core/modules-sdk, \"^8.13.0\" from packages/core/orchestration, \"^8.13.0\" from packages/medusa-test-utils",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "randomatic": {
+          "version": "3.1.1",
+          "overridden": false
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/toolbox": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/design-system/toolbox",
+      "overridden": false,
+      "dependencies": {
+        "@svgr/core": {
+          "version": "8.0.0",
+          "overridden": false
+        },
+        "@svgr/plugin-jsx": {
+          "version": "8.0.1",
+          "overridden": false
+        },
+        "@svgr/plugin-prettier": {
+          "version": "8.0.1",
+          "overridden": false
+        },
+        "@svgr/plugin-svgo": {
+          "version": "8.0.1",
+          "overridden": false
+        },
+        "@types/fs-extra": {
+          "version": "11.0.1",
+          "overridden": false
+        },
+        "@types/react": {
+          "version": "18.3.1"
+        },
+        "axios-retry": {
+          "version": "3.9.1"
+        },
+        "axios": {
+          "version": "0.24.0",
+          "overridden": false
+        },
+        "commander": {
+          "version": "11.0.0",
+          "overridden": false
+        },
+        "dotenv": {
+          "version": "16.4.5"
+        },
+        "eslint": {
+          "version": "7.32.0",
+          "overridden": false
+        },
+        "fs-extra": {
+          "version": "11.1.1",
+          "overridden": false
+        },
+        "picocolors": {
+          "version": "1.0.0",
+          "overridden": false
+        },
+        "react": {
+          "version": "18.3.1"
+        },
+        "ts-dedent": {
+          "version": "2.2.0",
+          "overridden": false
+        },
+        "tsup": {
+          "version": "7.1.0",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.1.6",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/types": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/core/types",
+      "overridden": false,
+      "dependencies": {
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "bignumber.js": {
+          "version": "9.1.2",
+          "overridden": false
+        },
+        "expect-type": {
+          "version": "0.20.0"
+        },
+        "ioredis": {
+          "version": "5.4.1"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "vite": {
+          "version": "5.2.11",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/ui-preset": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/design-system/ui-preset",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/toolbox": {
+          "version": "2.0.7"
+        },
+        "@tailwindcss/forms": {
+          "version": "0.5.7",
+          "overridden": false
+        },
+        "tailwindcss-animate": {
+          "version": "1.0.7",
+          "overridden": false
+        },
+        "tailwindcss": {
+          "version": "3.4.3"
+        },
+        "tsup": {
+          "version": "7.2.0",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.4.5",
+          "overridden": false
+        }
+      }
+    },
+    "@medusajs/ui": {
+      "version": "4.0.1",
+      "resolved": "file:../../packages/design-system/ui",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/icons": {
+          "version": "2.0.7"
+        },
+        "@medusajs/ui-preset": {
+          "version": "2.0.7"
+        },
+        "@radix-ui/react-accordion": {
+          "version": "1.2.0",
+          "overridden": false
+        },
+        "@radix-ui/react-alert-dialog": {
+          "version": "1.1.1",
+          "overridden": false
+        },
+        "@radix-ui/react-avatar": {
+          "version": "1.1.0",
+          "overridden": false
+        },
+        "@radix-ui/react-checkbox": {
+          "version": "1.1.1",
+          "overridden": false
+        },
+        "@radix-ui/react-dialog": {
+          "version": "1.1.1",
+          "overridden": false
+        },
+        "@radix-ui/react-dropdown-menu": {
+          "version": "2.1.1",
+          "overridden": false
+        },
+        "@radix-ui/react-label": {
+          "version": "2.1.0",
+          "overridden": false
+        },
+        "@radix-ui/react-popover": {
+          "version": "1.1.1",
+          "overridden": false
+        },
+        "@radix-ui/react-portal": {
+          "version": "1.1.1",
+          "overridden": false
+        },
+        "@radix-ui/react-radio-group": {
+          "version": "1.2.0",
+          "overridden": false
+        },
+        "@radix-ui/react-select": {
+          "version": "2.1.1",
+          "overridden": false
+        },
+        "@radix-ui/react-slot": {
+          "version": "1.1.0",
+          "overridden": false
+        },
+        "@radix-ui/react-switch": {
+          "version": "1.1.0",
+          "overridden": false
+        },
+        "@radix-ui/react-tabs": {
+          "version": "1.1.0",
+          "overridden": false
+        },
+        "@radix-ui/react-tooltip": {
+          "version": "1.1.2",
+          "overridden": false
+        },
+        "@storybook/addon-essentials": {
+          "version": "8.3.5",
+          "overridden": false
+        },
+        "@storybook/addon-interactions": {
+          "version": "8.3.5",
+          "overridden": false
+        },
+        "@storybook/addon-links": {
+          "version": "8.3.5",
+          "overridden": false
+        },
+        "@storybook/addon-styling": {
+          "version": "1.3.7",
+          "overridden": false
+        },
+        "@storybook/blocks": {
+          "version": "8.3.5",
+          "overridden": false
+        },
+        "@storybook/react-vite": {
+          "version": "8.3.5",
+          "overridden": false
+        },
+        "@storybook/react": {
+          "version": "8.3.5",
+          "overridden": false
+        },
+        "@storybook/testing-library": {
+          "version": "0.2.2",
+          "overridden": false
+        },
+        "@testing-library/dom": {
+          "version": "9.3.4"
+        },
+        "@testing-library/jest-dom": {
+          "version": "5.17.0"
+        },
+        "@testing-library/react": {
+          "version": "14.3.1"
+        },
+        "@testing-library/user-event": {
+          "version": "14.5.2",
+          "overridden": false
+        },
+        "@types/jsdom": {
+          "version": "21.1.6"
+        },
+        "@types/react-dom": {
+          "version": "18.3.0"
+        },
+        "@types/react": {
+          "version": "18.3.1"
+        },
+        "@vitejs/plugin-react": {
+          "version": "4.2.1",
+          "overridden": false
+        },
+        "@vitest/coverage-v8": {
+          "version": "0.32.4",
+          "overridden": false
+        },
+        "autoprefixer": {
+          "version": "10.4.19"
+        },
+        "chromatic": {
+          "version": "6.24.1",
+          "overridden": false
+        },
+        "clsx": {
+          "version": "1.2.1",
+          "overridden": false
+        },
+        "copy-to-clipboard": {
+          "version": "3.3.3",
+          "overridden": false
+        },
+        "cva": {
+          "version": "1.0.0-beta.1",
+          "overridden": false
+        },
+        "eslint-plugin-storybook": {
+          "version": "0.6.15",
+          "overridden": false
+        },
+        "eslint": {
+          "version": "7.32.0",
+          "overridden": false
+        },
+        "jsdom": {
+          "version": "22.1.0"
+        },
+        "postcss": {
+          "version": "8.4.38"
+        },
+        "prism-react-renderer": {
+          "version": "2.3.1",
+          "overridden": false
+        },
+        "prismjs": {
+          "version": "1.29.0",
+          "overridden": false
+        },
+        "prop-types": {
+          "version": "15.8.1",
+          "overridden": false
+        },
+        "react-aria": {
+          "version": "3.33.1",
+          "overridden": false
+        },
+        "react-currency-input-field": {
+          "version": "3.8.0"
+        },
+        "react-dom": {
+          "version": "18.3.1"
+        },
+        "react-stately": {
+          "version": "3.31.1",
+          "overridden": false
+        },
+        "react": {
+          "version": "18.3.1"
+        },
+        "resize-observer-polyfill": {
+          "version": "1.5.1"
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "sonner": {
+          "version": "1.5.0",
+          "overridden": false
+        },
+        "storybook": {
+          "version": "8.3.5",
+          "overridden": false
+        },
+        "tailwind-merge": {
+          "version": "2.3.0",
+          "overridden": false
+        },
+        "tailwindcss": {
+          "version": "3.4.3"
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.4.5",
+          "overridden": false
+        },
+        "vite-plugin-turbosnap": {
+          "version": "1.0.3",
+          "overridden": false
+        },
+        "vite": {
+          "version": "4.5.3"
+        },
+        "vitest": {
+          "version": "0.32.4"
+        }
+      }
+    },
+    "@medusajs/user": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/user",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "jsonwebtoken": {
+          "version": "9.0.2"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "@medusajs/utils": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/core/utils",
+      "overridden": false,
+      "dependencies": {
+        "@graphql-codegen/core": {
+          "version": "4.0.2",
+          "overridden": false
+        },
+        "@graphql-codegen/typescript": {
+          "version": "4.0.9",
+          "overridden": false
+        },
+        "@graphql-tools/merge": {
+          "version": "9.0.7",
+          "overridden": false
+        },
+        "@graphql-tools/schema": {
+          "version": "10.0.6",
+          "overridden": false
+        },
+        "@medusajs/types": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/knex": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "@types/express": {
+          "version": "4.17.21"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "bignumber.js": {
+          "version": "9.1.2"
+        },
+        "dotenv-expand": {
+          "version": "11.0.6",
+          "overridden": false
+        },
+        "dotenv": {
+          "version": "16.4.5"
+        },
+        "expect-type": {
+          "version": "0.20.0"
+        },
+        "express": {
+          "version": "4.21.0",
+          "overridden": false
+        },
+        "graphql": {
+          "version": "16.9.0",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "jsonwebtoken": {
+          "version": "9.0.2"
+        },
+        "pg-connection-string": {
+          "version": "2.7.0",
+          "overridden": false
+        },
+        "pg-god": {
+          "version": "1.0.12"
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework, \"^8.13.0\" from packages/core/modules-sdk, \"^8.13.0\" from packages/core/orchestration, \"^8.13.0\" from packages/medusa-test-utils, \"^8.13.0\" from packages/core/utils",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "pluralize": {
+          "version": "8.0.0",
+          "overridden": false
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "ulid": {
+          "version": "2.3.0"
+        }
+      }
+    },
+    "@medusajs/workflow-engine-inmemory": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/workflow-engine-inmemory",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "cron-parser": {
+          "version": "4.9.0",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "ulid": {
+          "version": "2.3.0"
+        }
+      }
+    },
+    "@medusajs/workflow-engine-redis": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/modules/workflow-engine-redis",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/framework": {
+          "version": "2.0.7"
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/cli": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "bullmq": {
+          "version": "5.13.0"
+        },
+        "ioredis": {
+          "version": "5.4.1"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "rimraf": {
+          "version": "3.0.2",
+          "overridden": false
+        },
+        "tsc-alias": {
+          "version": "1.8.8"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "ulid": {
+          "version": "2.3.0"
+        }
+      }
+    },
+    "@medusajs/workflows-sdk": {
+      "version": "2.0.7",
+      "resolved": "file:../../packages/core/workflows-sdk",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/modules-sdk": {
+          "version": "2.0.7"
+        },
+        "@medusajs/orchestration": {
+          "version": "2.0.7"
+        },
+        "@medusajs/types": {
+          "version": "2.0.7"
+        },
+        "@medusajs/utils": {
+          "version": "2.0.7"
+        },
+        "@mikro-orm/core": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/knex": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/migrations": {
+          "version": "5.9.7"
+        },
+        "@mikro-orm/postgresql": {
+          "version": "5.9.7"
+        },
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "awilix": {
+          "version": "8.0.1"
+        },
+        "express": {
+          "version": "4.19.2",
+          "invalid": "\"^4.21.0\" from packages/core/modules-sdk, \"^4.21.0\" from packages/core/orchestration, \"^4.21.0\" from packages/core/workflows-sdk",
+          "problems": [
+            "invalid: express@4.19.2 /workspaces/medusa-lab/node_modules/express"
+          ]
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework, \"^8.13.0\" from packages/core/modules-sdk, \"^8.13.0\" from packages/core/orchestration, \"^8.13.0\" from packages/medusa-test-utils, \"^8.13.0\" from packages/core/utils, \"^8.13.0\" from packages/core/workflows-sdk",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "rimraf": {
+          "version": "5.0.5"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "ulid": {
+          "version": "2.3.0"
+        }
+      }
+    },
+    "@npmcli/agent": {
+      "version": "2.2.2",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @npmcli/agent@2.2.2 /workspaces/medusa-lab/node_modules/@npmcli/agent"
+      ]
+    },
+    "@npmcli/fs": {
+      "version": "3.1.0",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @npmcli/fs@3.1.0 /workspaces/medusa-lab/node_modules/@npmcli/fs"
+      ]
+    },
+    "@typescript-eslint/eslint-plugin": {
+      "version": "6.21.0",
+      "overridden": false
+    },
+    "@typescript-eslint/parser": {
+      "version": "6.21.0",
+      "overridden": false
+    },
+    "abbrev": {
+      "version": "2.0.0",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: abbrev@2.0.0 /workspaces/medusa-lab/node_modules/abbrev"
+      ]
+    },
+    "axios-mock-adapter": {
+      "version": "1.22.0",
+      "overridden": false
+    },
+    "axios": {
+      "version": "0.21.4",
+      "overridden": false
+    },
+    "cacache": {
+      "version": "18.0.3",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: cacache@18.0.3 /workspaces/medusa-lab/node_modules/cacache"
+      ]
+    },
+    "chownr": {
+      "version": "2.0.0",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: chownr@2.0.0 /workspaces/medusa-lab/node_modules/chownr"
+      ]
+    },
+    "create-medusa-app": {
+      "version": "2.0.7",
+      "resolved": "file:../packages/cli/create-medusa-app",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/telemetry": {
+          "version": "2.0.7"
+        },
+        "@types/chalk": {
+          "version": "2.2.0",
+          "overridden": false
+        },
+        "@types/commander": {
+          "version": "2.12.2",
+          "overridden": false
+        },
+        "@types/configstore": {
+          "version": "6.0.2",
+          "overridden": false
+        },
+        "@types/inquirer": {
+          "version": "9.0.7",
+          "overridden": false
+        },
+        "@types/node-emoji": {
+          "version": "1.8.2",
+          "overridden": false
+        },
+        "@types/node": {
+          "version": "20.12.12",
+          "overridden": false
+        },
+        "@types/pg": {
+          "version": "8.11.10",
+          "overridden": false
+        },
+        "@types/uuid": {
+          "version": "9.0.8",
+          "overridden": false
+        },
+        "@types/validator": {
+          "version": "13.12.2",
+          "overridden": false
+        },
+        "@types/wait-on": {
+          "version": "5.3.4",
+          "overridden": false
+        },
+        "@typescript-eslint/eslint-plugin": {
+          "version": "6.21.0",
+          "overridden": false
+        },
+        "@typescript-eslint/parser": {
+          "version": "6.21.0",
+          "overridden": false
+        },
+        "boxen": {
+          "version": "5.1.2"
+        },
+        "chalk": {
+          "version": "5.3.0",
+          "overridden": false
+        },
+        "commander": {
+          "version": "10.0.1"
+        },
+        "configstore": {
+          "version": "6.0.0",
+          "overridden": false
+        },
+        "eslint-config-google": {
+          "version": "0.14.0",
+          "overridden": false
+        },
+        "eslint-config-prettier": {
+          "version": "8.10.0",
+          "overridden": false
+        },
+        "eslint-plugin-prettier": {
+          "version": "4.2.1",
+          "overridden": false
+        },
+        "eslint": {
+          "version": "8.57.1",
+          "overridden": false
+        },
+        "inquirer": {
+          "version": "9.3.6",
+          "overridden": false
+        },
+        "nanoid": {
+          "version": "4.0.2",
+          "overridden": false
+        },
+        "node-emoji": {
+          "version": "2.1.3",
+          "overridden": false
+        },
+        "node-fetch": {
+          "version": "3.3.2",
+          "overridden": false
+        },
+        "open": {
+          "version": "9.1.0",
+          "overridden": false
+        },
+        "ora": {
+          "version": "6.3.1",
+          "overridden": false
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework, \"^8.13.0\" from packages/core/modules-sdk, \"^8.13.0\" from packages/core/orchestration, \"^8.13.0\" from packages/medusa-test-utils, \"^8.13.0\" from packages/core/utils, \"^8.13.0\" from packages/core/workflows-sdk",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "prettier": {
+          "version": "2.8.8"
+        },
+        "slugify": {
+          "version": "1.6.6"
+        },
+        "ts-node": {
+          "version": "10.9.2",
+          "overridden": false
+        },
+        "typescript": {
+          "version": "5.6.2"
+        },
+        "uuid": {
+          "version": "9.0.1"
+        },
+        "validator": {
+          "version": "13.12.0",
+          "overridden": false
+        },
+        "wait-on": {
+          "version": "7.2.0",
+          "overridden": false
+        },
+        "winston": {
+          "version": "3.14.2",
+          "overridden": false
+        }
+      }
+    },
+    "cross-env": {
+      "version": "7.0.3",
+      "overridden": false
+    },
+    "env-paths": {
+      "version": "2.2.1",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: env-paths@2.2.1 /workspaces/medusa-lab/node_modules/env-paths"
+      ]
+    },
+    "err-code": {
+      "version": "2.0.3",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: err-code@2.0.3 /workspaces/medusa-lab/node_modules/err-code"
+      ]
+    },
+    "eslint-config-google": {
+      "version": "0.14.0",
+      "overridden": false
+    },
+    "eslint-config-prettier": {
+      "version": "8.10.0",
+      "overridden": false
+    },
+    "eslint-plugin-prettier": {
+      "version": "4.2.1",
+      "overridden": false
+    },
+    "eslint-plugin-react-hooks": {
+      "version": "4.6.2",
+      "overridden": false
+    },
+    "eslint-plugin-react-refresh": {
+      "version": "0.4.6",
+      "overridden": false
+    },
+    "eslint-plugin-react": {
+      "version": "7.34.1",
+      "overridden": false
+    },
+    "eslint-plugin-storybook": {
+      "version": "0.6.15",
+      "overridden": false
+    },
+    "eslint-plugin-unused-imports": {
+      "version": "2.0.0",
+      "overridden": false
+    },
+    "eslint": {
+      "version": "8.57.0",
+      "overridden": false
+    },
+    "exponential-backoff": {
+      "version": "3.1.1",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: exponential-backoff@3.1.1 /workspaces/medusa-lab/node_modules/exponential-backoff"
+      ]
+    },
+    "express": {
+      "version": "4.19.2",
+      "overridden": false,
+      "invalid": "\"^4.21.0\" from packages/core/modules-sdk, \"^4.21.0\" from packages/core/orchestration, \"^4.21.0\" from packages/core/workflows-sdk",
+      "problems": [
+        "invalid: express@4.19.2 /workspaces/medusa-lab/node_modules/express"
+      ]
+    },
+    "fs-minipass": {
+      "version": "3.0.3",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: fs-minipass@3.0.3 /workspaces/medusa-lab/node_modules/fs-minipass"
+      ]
+    },
+    "get-port": {
+      "version": "5.1.1",
+      "overridden": false
+    },
+    "glob": {
+      "version": "11.0.0",
+      "overridden": false
+    },
+    "global": {
+      "version": "4.4.0",
+      "overridden": false
+    },
+    "http-proxy-agent": {
+      "version": "7.0.2",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: http-proxy-agent@7.0.2 /workspaces/medusa-lab/node_modules/http-proxy-agent"
+      ]
+    },
+    "https-proxy-agent": {
+      "version": "7.0.4",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: https-proxy-agent@7.0.4 /workspaces/medusa-lab/node_modules/https-proxy-agent"
+      ]
+    },
+    "import-from": {
+      "version": "3.0.0",
+      "overridden": false
+    },
+    "integration-tests-api": {
+      "version": "1.0.0",
+      "resolved": "file:../integration-tests/api",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/api-key": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/api-key@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/api-key"
+          ]
+        },
+        "@medusajs/auth": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/auth@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/auth"
+          ]
+        },
+        "@medusajs/cache-inmemory": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/cache-inmemory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/cache-inmemory"
+          ]
+        },
+        "@medusajs/customer": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/customer@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/customer"
+          ]
+        },
+        "@medusajs/event-bus-local": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/event-bus-local@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/event-bus-local"
+          ]
+        },
+        "@medusajs/medusa": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/medusa@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/medusa"
+          ]
+        },
+        "@medusajs/modules-sdk": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/modules-sdk@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/modules-sdk"
+          ]
+        },
+        "@medusajs/payment": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/payment@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/payment"
+          ]
+        },
+        "@medusajs/pricing": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/pricing@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/pricing"
+          ]
+        },
+        "@medusajs/product": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/product@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/product"
+          ]
+        },
+        "@medusajs/promotion": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/promotion@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/promotion"
+          ]
+        },
+        "@medusajs/region": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/region@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/region"
+          ]
+        },
+        "@medusajs/store": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/store@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/store"
+          ]
+        },
+        "@medusajs/tax": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/tax@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/tax"
+          ]
+        },
+        "@medusajs/user": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/user@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/user"
+          ]
+        },
+        "@medusajs/utils": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/utils@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/utils"
+          ]
+        },
+        "@medusajs/workflow-engine-inmemory": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api",
+          "problems": [
+            "invalid: @medusajs/workflow-engine-inmemory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/workflow-engine-inmemory"
+          ]
+        },
+        "@swc/core": {
+          "version": "1.5.3",
+          "overridden": false
+        },
+        "@swc/jest": {
+          "version": "0.2.36",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework, \"^8.13.0\" from packages/core/modules-sdk, \"^8.13.0\" from packages/core/orchestration, \"^8.13.0\" from packages/medusa-test-utils, \"^8.13.0\" from packages/core/utils, \"^8.13.0\" from packages/core/workflows-sdk",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "integration-tests-http": {
+      "version": "1.0.4",
+      "resolved": "file:../integration-tests/http",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/api-key": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/api-key@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/api-key"
+          ]
+        },
+        "@medusajs/auth": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api, \"workspace:*\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/auth@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/auth"
+          ]
+        },
+        "@medusajs/cache-inmemory": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api, \"workspace:*\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/cache-inmemory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/cache-inmemory"
+          ]
+        },
+        "@medusajs/core-flows": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/core-flows@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/core-flows"
+          ]
+        },
+        "@medusajs/customer": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/customer@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/customer"
+          ]
+        },
+        "@medusajs/event-bus-local": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api, \"workspace:*\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/event-bus-local@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/event-bus-local"
+          ]
+        },
+        "@medusajs/fulfillment-manual": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/fulfillment-manual@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/fulfillment-manual"
+          ]
+        },
+        "@medusajs/fulfillment": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/fulfillment@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/fulfillment"
+          ]
+        },
+        "@medusajs/inventory": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/inventory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/inventory"
+          ]
+        },
+        "@medusajs/medusa": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api, \"workspace:*\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/medusa@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/medusa"
+          ]
+        },
+        "@medusajs/modules-sdk": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/modules-sdk@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/modules-sdk"
+          ]
+        },
+        "@medusajs/pricing": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/pricing@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/pricing"
+          ]
+        },
+        "@medusajs/product": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/product@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/product"
+          ]
+        },
+        "@medusajs/promotion": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/promotion@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/promotion"
+          ]
+        },
+        "@medusajs/region": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/region@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/region"
+          ]
+        },
+        "@medusajs/stock-location": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/stock-location@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/stock-location"
+          ]
+        },
+        "@medusajs/store": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/store@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/store"
+          ]
+        },
+        "@medusajs/tax": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/tax@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/tax"
+          ]
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/test-utils@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/test-utils"
+          ]
+        },
+        "@medusajs/types": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/types@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/types"
+          ]
+        },
+        "@medusajs/user": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/user@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/user"
+          ]
+        },
+        "@medusajs/utils": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/utils@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/utils"
+          ]
+        },
+        "@medusajs/workflow-engine-inmemory": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api, \"workspace:*\" from integration-tests/http",
+          "problems": [
+            "invalid: @medusajs/workflow-engine-inmemory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/workflow-engine-inmemory"
+          ]
+        },
+        "@swc/core": {
+          "version": "1.5.3",
+          "overridden": false
+        },
+        "@swc/jest": {
+          "version": "0.2.36",
+          "overridden": false
+        },
+        "form-data": {
+          "version": "4.0.0",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "jsonwebtoken": {
+          "version": "9.0.2"
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework, \"^8.13.0\" from packages/core/modules-sdk, \"^8.13.0\" from packages/core/orchestration, \"^8.13.0\" from packages/medusa-test-utils, \"^8.13.0\" from packages/core/utils, \"^8.13.0\" from packages/core/workflows-sdk",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "integration-tests-modules": {
+      "version": "1.0.0",
+      "resolved": "file:../integration-tests/modules",
+      "overridden": false,
+      "dependencies": {
+        "@medusajs/api-key": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/api-key@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/api-key"
+          ]
+        },
+        "@medusajs/auth": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api, \"workspace:*\" from integration-tests/http, \"workspace:*\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/auth@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/auth"
+          ]
+        },
+        "@medusajs/cache-inmemory": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api, \"workspace:*\" from integration-tests/http, \"workspace:*\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/cache-inmemory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/cache-inmemory"
+          ]
+        },
+        "@medusajs/core-flows": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/core-flows@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/core-flows"
+          ]
+        },
+        "@medusajs/currency": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/currency@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/currency"
+          ]
+        },
+        "@medusajs/customer": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/customer@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/customer"
+          ]
+        },
+        "@medusajs/event-bus-local": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api, \"workspace:*\" from integration-tests/http, \"workspace:*\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/event-bus-local@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/event-bus-local"
+          ]
+        },
+        "@medusajs/framework": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/framework@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/framework"
+          ]
+        },
+        "@medusajs/fulfillment-manual": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/fulfillment-manual@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/fulfillment-manual"
+          ]
+        },
+        "@medusajs/fulfillment": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/fulfillment@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/fulfillment"
+          ]
+        },
+        "@medusajs/inventory": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/inventory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/inventory"
+          ]
+        },
+        "@medusajs/link-modules": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/link-modules@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/link-modules"
+          ]
+        },
+        "@medusajs/medusa": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api, \"workspace:*\" from integration-tests/http, \"workspace:*\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/medusa@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/medusa"
+          ]
+        },
+        "@medusajs/modules-sdk": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/modules-sdk@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/modules-sdk"
+          ]
+        },
+        "@medusajs/payment": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/payment@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/payment"
+          ]
+        },
+        "@medusajs/pricing": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/pricing@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/pricing"
+          ]
+        },
+        "@medusajs/product": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/product@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/product"
+          ]
+        },
+        "@medusajs/promotion": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/promotion@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/promotion"
+          ]
+        },
+        "@medusajs/region": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/region@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/region"
+          ]
+        },
+        "@medusajs/stock-location": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/stock-location@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/stock-location"
+          ]
+        },
+        "@medusajs/store": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/store@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/store"
+          ]
+        },
+        "@medusajs/tax": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/tax@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/tax"
+          ]
+        },
+        "@medusajs/test-utils": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/http, \"workspace:*\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/test-utils@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/test-utils"
+          ]
+        },
+        "@medusajs/types": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/types@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/types"
+          ]
+        },
+        "@medusajs/user": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/user@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/user"
+          ]
+        },
+        "@medusajs/utils": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:^\" from integration-tests/api, \"workspace:^\" from integration-tests/http, \"workspace:^\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/utils@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/utils"
+          ]
+        },
+        "@medusajs/workflow-engine-inmemory": {
+          "version": "2.0.7",
+          "invalid": "\"workspace:*\" from integration-tests/api, \"workspace:*\" from integration-tests/http, \"workspace:*\" from integration-tests/modules",
+          "problems": [
+            "invalid: @medusajs/workflow-engine-inmemory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/workflow-engine-inmemory"
+          ]
+        },
+        "@swc/core": {
+          "version": "1.5.3",
+          "overridden": false
+        },
+        "@swc/jest": {
+          "version": "0.2.36",
+          "overridden": false
+        },
+        "faker": {
+          "version": "5.5.3"
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "jsonwebtoken": {
+          "version": "9.0.2"
+        },
+        "pg": {
+          "version": "8.11.3",
+          "invalid": "\"^8.13.0\" from packages/cli/medusa-cli, \"^8.13.0\" from packages/core/core-flows, \"^8.13.0\" from packages/core/framework, \"^8.13.0\" from packages/core/modules-sdk, \"^8.13.0\" from packages/core/orchestration, \"^8.13.0\" from packages/medusa-test-utils, \"^8.13.0\" from packages/core/utils, \"^8.13.0\" from packages/core/workflows-sdk",
+          "problems": [
+            "invalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg"
+          ]
+        },
+        "scrypt-kdf": {
+          "version": "2.0.1"
+        },
+        "typescript": {
+          "version": "5.6.2"
+        }
+      }
+    },
+    "ip-address": {
+      "version": "9.0.5",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: ip-address@9.0.5 /workspaces/medusa-lab/node_modules/ip-address"
+      ]
+    },
+    "is-lambda": {
+      "version": "1.0.1",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: is-lambda@1.0.1 /workspaces/medusa-lab/node_modules/is-lambda"
+      ]
+    },
+    "jest": {
+      "version": "29.7.0",
+      "overridden": false
+    },
+    "lint-staged": {
+      "version": "11.2.6",
+      "overridden": false
+    },
+    "make-fetch-happen": {
+      "version": "13.0.1",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: make-fetch-happen@13.0.1 /workspaces/medusa-lab/node_modules/make-fetch-happen"
+      ]
+    },
+    "medusa-dev-cli": {
+      "version": "2.0.7",
+      "resolved": "file:../packages/cli/medusa-dev-cli",
+      "overridden": false,
+      "dependencies": {
+        "@swc/core": {
+          "version": "1.7.28"
+        },
+        "@swc/jest": {
+          "version": "0.2.36"
+        },
+        "chokidar": {
+          "version": "3.6.0"
+        },
+        "configstore": {
+          "version": "5.0.1"
+        },
+        "del": {
+          "version": "6.1.1",
+          "overridden": false
+        },
+        "dotenv": {
+          "version": "16.4.5"
+        },
+        "execa": {
+          "version": "4.1.0",
+          "overridden": false
+        },
+        "find-yarn-workspace-root": {
+          "version": "2.0.0",
+          "overridden": false
+        },
+        "fs-extra": {
+          "version": "9.1.0",
+          "overridden": false
+        },
+        "glob": {
+          "version": "8.1.0",
+          "overridden": false
+        },
+        "got": {
+          "version": "11.8.6",
+          "overridden": false
+        },
+        "jest": {
+          "version": "29.7.0"
+        },
+        "lodash": {
+          "version": "4.17.21"
+        },
+        "signal-exit": {
+          "version": "3.0.7",
+          "overridden": false
+        },
+        "ts-node": {
+          "version": "10.9.2"
+        },
+        "tsconfig-paths": {
+          "version": "4.2.0"
+        },
+        "typescript": {
+          "version": "5.4.5",
+          "overridden": false
+        },
+        "verdaccio": {
+          "version": "4.13.2",
+          "overridden": false
+        },
+        "yargs": {
+          "version": "15.4.1",
+          "overridden": false
+        }
+      }
+    },
+    "microbundle": {
+      "version": "0.13.3",
+      "overridden": false
+    },
+    "minipass-collect": {
+      "version": "2.0.1",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: minipass-collect@2.0.1 /workspaces/medusa-lab/node_modules/minipass-collect"
+      ]
+    },
+    "minipass-fetch": {
+      "version": "3.0.5",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: minipass-fetch@3.0.5 /workspaces/medusa-lab/node_modules/minipass-fetch"
+      ]
+    },
+    "minipass-flush": {
+      "version": "1.0.5",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: minipass-flush@1.0.5 /workspaces/medusa-lab/node_modules/minipass-flush"
+      ]
+    },
+    "minipass-pipeline": {
+      "version": "1.2.4",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: minipass-pipeline@1.2.4 /workspaces/medusa-lab/node_modules/minipass-pipeline"
+      ]
+    },
+    "minipass-sized": {
+      "version": "1.0.3",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: minipass-sized@1.0.3 /workspaces/medusa-lab/node_modules/minipass-sized"
+      ]
+    },
+    "minizlib": {
+      "version": "2.1.2",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: minizlib@2.1.2 /workspaces/medusa-lab/node_modules/minizlib"
+      ]
+    },
+    "node-gyp": {
+      "version": "10.1.0",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: node-gyp@10.1.0 /workspaces/medusa-lab/node_modules/node-gyp"
+      ]
+    },
+    "nopt": {
+      "version": "7.2.1",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: nopt@7.2.1 /workspaces/medusa-lab/node_modules/nopt"
+      ]
+    },
+    "pg-god": {
+      "version": "1.0.12",
+      "overridden": false
+    },
+    "prettier-plugin-tailwindcss": {
+      "version": "0.2.8",
+      "overridden": false
+    },
+    "prettier": {
+      "version": "2.8.8",
+      "overridden": false
+    },
+    "proc-log": {
+      "version": "4.2.0",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: proc-log@4.2.0 /workspaces/medusa-lab/node_modules/proc-log"
+      ]
+    },
+    "promise-retry": {
+      "version": "2.0.1",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: promise-retry@2.0.1 /workspaces/medusa-lab/node_modules/promise-retry"
+      ]
+    },
+    "resolve-cwd": {
+      "version": "3.0.0",
+      "overridden": false
+    },
+    "retry": {
+      "version": "0.12.0",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: retry@0.12.0 /workspaces/medusa-lab/node_modules/retry"
+      ]
+    },
+    "smart-buffer": {
+      "version": "4.2.0",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: smart-buffer@4.2.0 /workspaces/medusa-lab/node_modules/smart-buffer"
+      ]
+    },
+    "socks-proxy-agent": {
+      "version": "8.0.3",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: socks-proxy-agent@8.0.3 /workspaces/medusa-lab/node_modules/socks-proxy-agent"
+      ]
+    },
+    "socks": {
+      "version": "2.8.3",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: socks@2.8.3 /workspaces/medusa-lab/node_modules/socks"
+      ]
+    },
+    "ssri": {
+      "version": "10.0.6",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: ssri@10.0.6 /workspaces/medusa-lab/node_modules/ssri"
+      ]
+    },
+    "tar": {
+      "version": "6.2.1",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: tar@6.2.1 /workspaces/medusa-lab/node_modules/tar"
+      ]
+    },
+    "ts-jest": {
+      "version": "29.1.2",
+      "overridden": false
+    },
+    "ts-node": {
+      "version": "10.9.2",
+      "overridden": false
+    },
+    "turbo": {
+      "version": "1.13.3",
+      "overridden": false
+    },
+    "unique-filename": {
+      "version": "3.0.0",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: unique-filename@3.0.0 /workspaces/medusa-lab/node_modules/unique-filename"
+      ]
+    },
+    "unique-slug": {
+      "version": "4.0.0",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: unique-slug@4.0.0 /workspaces/medusa-lab/node_modules/unique-slug"
+      ]
+    }
+  },
+  "error": {
+    "code": "ELSPROBLEMS",
+    "summary": "extraneous: @npmcli/agent@2.2.2 /workspaces/medusa-lab/node_modules/@npmcli/agent\nextraneous: @npmcli/fs@3.1.0 /workspaces/medusa-lab/node_modules/@npmcli/fs\nextraneous: abbrev@2.0.0 /workspaces/medusa-lab/node_modules/abbrev\nextraneous: cacache@18.0.3 /workspaces/medusa-lab/node_modules/cacache\nextraneous: chownr@2.0.0 /workspaces/medusa-lab/node_modules/chownr\nextraneous: env-paths@2.2.1 /workspaces/medusa-lab/node_modules/env-paths\nextraneous: err-code@2.0.3 /workspaces/medusa-lab/node_modules/err-code\nextraneous: exponential-backoff@3.1.1 /workspaces/medusa-lab/node_modules/exponential-backoff\ninvalid: express@4.19.2 /workspaces/medusa-lab/node_modules/express\nextraneous: fs-minipass@3.0.3 /workspaces/medusa-lab/node_modules/fs-minipass\nextraneous: http-proxy-agent@7.0.2 /workspaces/medusa-lab/node_modules/http-proxy-agent\nextraneous: https-proxy-agent@7.0.4 /workspaces/medusa-lab/node_modules/https-proxy-agent\nextraneous: ip-address@9.0.5 /workspaces/medusa-lab/node_modules/ip-address\nextraneous: is-lambda@1.0.1 /workspaces/medusa-lab/node_modules/is-lambda\nextraneous: make-fetch-happen@13.0.1 /workspaces/medusa-lab/node_modules/make-fetch-happen\nextraneous: minipass-collect@2.0.1 /workspaces/medusa-lab/node_modules/minipass-collect\nextraneous: minipass-fetch@3.0.5 /workspaces/medusa-lab/node_modules/minipass-fetch\nextraneous: minipass-flush@1.0.5 /workspaces/medusa-lab/node_modules/minipass-flush\nextraneous: minipass-pipeline@1.2.4 /workspaces/medusa-lab/node_modules/minipass-pipeline\nextraneous: minipass-sized@1.0.3 /workspaces/medusa-lab/node_modules/minipass-sized\nextraneous: minizlib@2.1.2 /workspaces/medusa-lab/node_modules/minizlib\nextraneous: node-gyp@10.1.0 /workspaces/medusa-lab/node_modules/node-gyp\nextraneous: nopt@7.2.1 /workspaces/medusa-lab/node_modules/nopt\nextraneous: proc-log@4.2.0 /workspaces/medusa-lab/node_modules/proc-log\nextraneous: promise-retry@2.0.1 /workspaces/medusa-lab/node_modules/promise-retry\nextraneous: retry@0.12.0 /workspaces/medusa-lab/node_modules/retry\nextraneous: smart-buffer@4.2.0 /workspaces/medusa-lab/node_modules/smart-buffer\nextraneous: socks-proxy-agent@8.0.3 /workspaces/medusa-lab/node_modules/socks-proxy-agent\nextraneous: socks@2.8.3 /workspaces/medusa-lab/node_modules/socks\nextraneous: ssri@10.0.6 /workspaces/medusa-lab/node_modules/ssri\nextraneous: tar@6.2.1 /workspaces/medusa-lab/node_modules/tar\nextraneous: unique-filename@3.0.0 /workspaces/medusa-lab/node_modules/unique-filename\nextraneous: unique-slug@4.0.0 /workspaces/medusa-lab/node_modules/unique-slug\ninvalid: pg@8.11.3 /workspaces/medusa-lab/node_modules/pg\ninvalid: @medusajs/api-key@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/api-key\ninvalid: @medusajs/auth@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/auth\ninvalid: @medusajs/cache-inmemory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/cache-inmemory\ninvalid: @medusajs/customer@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/customer\ninvalid: @medusajs/event-bus-local@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/event-bus-local\ninvalid: @medusajs/medusa@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/medusa\ninvalid: @medusajs/modules-sdk@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/modules-sdk\ninvalid: @medusajs/payment@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/payment\ninvalid: @medusajs/pricing@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/pricing\ninvalid: @medusajs/product@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/product\ninvalid: @medusajs/promotion@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/promotion\ninvalid: @medusajs/region@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/region\ninvalid: @medusajs/store@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/store\ninvalid: @medusajs/tax@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/tax\ninvalid: @medusajs/user@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/user\ninvalid: @medusajs/utils@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/utils\ninvalid: @medusajs/workflow-engine-inmemory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/workflow-engine-inmemory\ninvalid: @medusajs/core-flows@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/core-flows\ninvalid: @medusajs/fulfillment-manual@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/fulfillment-manual\ninvalid: @medusajs/fulfillment@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/fulfillment\ninvalid: @medusajs/inventory@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/inventory\ninvalid: @medusajs/stock-location@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/stock-location\ninvalid: @medusajs/test-utils@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/test-utils\ninvalid: @medusajs/types@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/types\ninvalid: @medusajs/currency@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/currency\ninvalid: @medusajs/framework@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/framework\ninvalid: @medusajs/link-modules@2.0.7 /workspaces/medusa-lab/node_modules/@medusajs/link-modules",
+    "detail": ""
+  }
+}

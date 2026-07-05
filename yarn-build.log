@@ -1,0 +1,1037 @@
+• Packages in scope: @medusajs/admin-bundler, @medusajs/admin-sdk, @medusajs/admin-shared, @medusajs/admin-vite-plugin, @medusajs/api-key, @medusajs/auth, @medusajs/auth-emailpass, @medusajs/auth-github, @medusajs/auth-google, @medusajs/cache-inmemory, @medusajs/cache-redis, @medusajs/cart, @medusajs/cli, @medusajs/core-flows, @medusajs/currency, @medusajs/customer, @medusajs/dashboard, @medusajs/event-bus-local, @medusajs/event-bus-redis, @medusajs/file, @medusajs/file-local, @medusajs/file-s3, @medusajs/framework, @medusajs/fulfillment, @medusajs/fulfillment-manual, @medusajs/icons, @medusajs/index, @medusajs/inventory, @medusajs/js-sdk, @medusajs/link-modules, @medusajs/locking, @medusajs/locking-postgres, @medusajs/locking-redis, @medusajs/medusa, @medusajs/medusa-oas-cli, @medusajs/modules-sdk, @medusajs/notification, @medusajs/notification-local, @medusajs/notification-sendgrid, @medusajs/oas-github-ci, @medusajs/orchestration, @medusajs/order, @medusajs/payment, @medusajs/payment-stripe, @medusajs/pricing, @medusajs/product, @medusajs/promotion, @medusajs/region, @medusajs/sales-channel, @medusajs/stock-location, @medusajs/store, @medusajs/tax, @medusajs/telemetry, @medusajs/test-utils, @medusajs/toolbox, @medusajs/types, @medusajs/ui, @medusajs/ui-preset, @medusajs/user, @medusajs/utils, @medusajs/workflow-engine-inmemory, @medusajs/workflow-engine-redis, @medusajs/workflows-sdk, create-medusa-app, integration-tests-api, integration-tests-http, integration-tests-modules, medusa-dev-cli
+• Running build in 68 packages
+• Remote caching disabled
+@medusajs/toolbox:build: cache hit, replaying logs d52280cf3e35db09
+@medusajs/toolbox:build: [34mCLI[39m Building entry: src/index.ts
+@medusajs/toolbox:build: [34mCLI[39m Using tsconfig: tsconfig.json
+@medusajs/toolbox:build: [34mCLI[39m tsup v7.1.0
+@medusajs/toolbox:build: [34mCLI[39m Using tsup config: /workspaces/medusa-lab/packages/design-system/toolbox/tsup.config.ts
+@medusajs/toolbox:build: [34mCLI[39m Target: node16
+@medusajs/toolbox:build: [34mCLI[39m Cleaning output folder
+@medusajs/toolbox:build: [34mESM[39m Build start
+@medusajs/toolbox:build: [34mCJS[39m Build start
+@medusajs/toolbox:build: [32mESM[39m [1mdist/index.mjs     [22m[32m27.84 KB[39m
+@medusajs/toolbox:build: [32mESM[39m [1mdist/index.mjs.map [22m[32m61.40 KB[39m
+@medusajs/toolbox:build: [32mESM[39m ⚡️ Build success in 99ms
+@medusajs/toolbox:build: [32mCJS[39m [1mdist/index.js     [22m[32m30.00 KB[39m
+@medusajs/toolbox:build: [32mCJS[39m [1mdist/index.js.map [22m[32m61.70 KB[39m
+@medusajs/toolbox:build: [32mCJS[39m ⚡️ Build success in 102ms
+@medusajs/toolbox:build: [34mDTS[39m Build start
+@medusajs/toolbox:build: [32mDTS[39m ⚡️ Build success in 4060ms
+@medusajs/toolbox:build: [32mDTS[39m [1mdist/index.d.mts [22m[32m12.00 B[39m
+@medusajs/toolbox:build: [32mDTS[39m [1mdist/index.d.ts  [22m[32m12.00 B[39m
+@medusajs/admin-shared:build: cache hit, replaying logs db39796b532ecbeb
+@medusajs/admin-shared:build: [34mCLI[39m Building entry: ./src/index.ts
+@medusajs/admin-shared:build: [34mCLI[39m Using tsconfig: tsconfig.json
+@medusajs/admin-shared:build: [34mCLI[39m tsup v8.0.2
+@medusajs/admin-shared:build: [34mCLI[39m Using tsup config: /workspaces/medusa-lab/packages/admin/admin-shared/tsup.config.cjs
+@medusajs/admin-shared:build: [34mCLI[39m Target: es2020
+@medusajs/admin-shared:build: [34mCLI[39m Cleaning output folder
+@medusajs/admin-shared:build: [34mCJS[39m Build start
+@medusajs/admin-shared:build: [34mESM[39m Build start
+@medusajs/admin-shared:build: [32mESM[39m [1mdist/index.mjs [22m[32m9.11 KB[39m
+@medusajs/admin-shared:build: [32mESM[39m ⚡️ Build success in 66ms
+@medusajs/admin-shared:build: [32mCJS[39m [1mdist/index.js [22m[32m11.74 KB[39m
+@medusajs/admin-shared:build: [32mCJS[39m ⚡️ Build success in 67ms
+@medusajs/admin-shared:build: [34mDTS[39m Build start
+@medusajs/admin-shared:build: [32mDTS[39m ⚡️ Build success in 3773ms
+@medusajs/admin-shared:build: [32mDTS[39m [1mdist/index.d.ts  [22m[32m7.86 KB[39m
+@medusajs/admin-shared:build: [32mDTS[39m [1mdist/index.d.mts [22m[32m7.86 KB[39m
+@medusajs/types:build: cache hit, replaying logs 927973dd2f77fa5d
+@medusajs/types:build: 
+@medusajs/telemetry:build: cache hit, replaying logs 1e61fdff7b52800a
+@medusajs/telemetry:build: 
+medusa-dev-cli:build: cache hit, replaying logs d965c731a5624d9a
+medusa-dev-cli:build: 
+@medusajs/ui-preset:build: cache hit, replaying logs b196a799959d3d2a
+@medusajs/ui-preset:build: [34mCLI[39m Building entry: src/index.ts
+@medusajs/ui-preset:build: [34mCLI[39m Using tsconfig: tsconfig.json
+@medusajs/ui-preset:build: [34mCLI[39m tsup v7.2.0
+@medusajs/ui-preset:build: [34mCLI[39m Using tsup config: /workspaces/medusa-lab/packages/design-system/ui-preset/tsup.config.ts
+@medusajs/ui-preset:build: [34mCLI[39m Target: node16
+@medusajs/ui-preset:build: [34mCLI[39m Cleaning output folder
+@medusajs/ui-preset:build: [34mCJS[39m Build start
+@medusajs/ui-preset:build: [34mESM[39m Build start
+@medusajs/ui-preset:build: [32mCJS[39m [1mdist/index.js [22m[32m39.89 KB[39m
+@medusajs/ui-preset:build: [32mCJS[39m ⚡️ Build success in 68ms
+@medusajs/ui-preset:build: [32mESM[39m [1mdist/index.mjs [22m[32m43.54 KB[39m
+@medusajs/ui-preset:build: [32mESM[39m ⚡️ Build success in 69ms
+@medusajs/ui-preset:build: [34mDTS[39m Build start
+@medusajs/ui-preset:build: [32mDTS[39m ⚡️ Build success in 3228ms
+@medusajs/ui-preset:build: [32mDTS[39m [1mdist/index.d.ts  [22m[32m12.00 B[39m
+@medusajs/ui-preset:build: [32mDTS[39m [1mdist/index.d.mts [22m[32m12.00 B[39m
+@medusajs/icons:build: cache hit, replaying logs e2e89cd126fc56de
+@medusajs/icons:build: [36m
+@medusajs/icons:build: [1msrc/components/index.ts[22m → [1mdist/umd/medusa-icons.min.js[22m...[39m
+@medusajs/icons:build: [0m
+@medusajs/icons:build: FILES                GZIP     BROTLI   
+@medusajs/icons:build: [32mmedusa-icons.min.js  70.66KB  50.16KB  
+@medusajs/icons:build: [32m                     70.66KB  50.16KB  
+@medusajs/icons:build: [0m
+@medusajs/icons:build: [32mcreated [1mdist/umd/medusa-icons.min.js[22m in [1m5.6s[22m[39m
+@medusajs/icons:build: [36m
+@medusajs/icons:build: [1msrc/components/index.ts[22m → [1mdist/cjs/medusa-icons.js[22m...[39m
+@medusajs/icons:build: [0m
+@medusajs/icons:build: FILES            GZIP     BROTLI   
+@medusajs/icons:build: [32mmedusa-icons.js  76.60KB  51.59KB  
+@medusajs/icons:build: [32m                 76.60KB  51.59KB  
+@medusajs/icons:build: [0m
+@medusajs/icons:build: [32mcreated [1mdist/cjs/medusa-icons.js[22m in [1m5.6s[22m[39m
+@medusajs/icons:build: [36m
+@medusajs/icons:build: [1msrc/components/index.ts[22m → [1mdist/esm[22m...[39m
+@medusajs/icons:build: [0m
+@medusajs/icons:build: FILES                               GZIP      BROTLI    
+@medusajs/icons:build: [32mindex.js                            3.08KB    2.76KB    
+@medusajs/icons:build: [32macademic-cap.js                     1.01KB    0.90KB    
+@medusajs/icons:build: [32macademic-cap-solid.js               1.12KB    0.97KB    
+@medusajs/icons:build: [32madjustments.js                      0.94KB    0.82KB    
+@medusajs/icons:build: [32madjustments-done.js                 1.10KB    0.97KB    
+@medusajs/icons:build: [32mai-assistent.js                     1.96KB    1.70KB    
+@medusajs/icons:build: [32mapple.js                            1.34KB    1.12KB    
+@medusajs/icons:build: [32marchive-box.js                      1.00KB    0.88KB    
+@medusajs/icons:build: [32marrow-down.js                       0.83KB    0.72KB    
+@medusajs/icons:build: [32marrow-down-circle.js                0.91KB    0.79KB    
+@medusajs/icons:build: [32marrow-down-left.js                  0.86KB    0.74KB    
+@medusajs/icons:build: [32marrow-down-left-mini.js             0.87KB    0.75KB    
+@medusajs/icons:build: [32marrow-down-mini.js                  0.83KB    0.72KB    
+@medusajs/icons:build: [32marrow-down-right-mini.js            0.87KB    0.75KB    
+@medusajs/icons:build: [32marrow-down-tray.js                  0.88KB    0.77KB    
+@medusajs/icons:build: [32marrow-left.js                       0.82KB    0.71KB    
+@medusajs/icons:build: [32marrow-left-mini.js                  0.83KB    0.72KB    
+@medusajs/icons:build: [32marrow-long-down.js                  0.83KB    0.72KB    
+@medusajs/icons:build: [32marrow-long-left.js                  0.83KB    0.72KB    
+@medusajs/icons:build: [32marrow-long-right.js                 0.83KB    0.71KB    
+@medusajs/icons:build: [32marrow-long-up.js                    0.83KB    0.72KB    
+@medusajs/icons:build: [32marrow-path.js                       0.96KB    0.84KB    
+@medusajs/icons:build: [32marrow-path-mini.js                  0.97KB    0.85KB    
+@medusajs/icons:build: [32marrow-right-mini.js                 0.83KB    0.71KB    
+@medusajs/icons:build: [32marrow-right-on-rectangle.js         0.89KB    0.78KB    
+@medusajs/icons:build: [32marrow-up-circle-solid.js            1.00KB    0.91KB    
+@medusajs/icons:build: [32marrow-up-down.js                    0.86KB    0.74KB    
+@medusajs/icons:build: [32marrow-up-mini.js                    0.83KB    0.71KB    
+@medusajs/icons:build: [32marrow-up-right-micro.js             0.84KB    0.73KB    
+@medusajs/icons:build: [32marrow-up-right-mini.js              0.84KB    0.72KB    
+@medusajs/icons:build: [32marrow-up-right-on-box.js            0.90KB    0.80KB    
+@medusajs/icons:build: [32marrow-up-tray.js                    0.88KB    0.77KB    
+@medusajs/icons:build: [32marrow-uturn-left.js                 0.93KB    0.82KB    
+@medusajs/icons:build: [32marrows-pointing-out.js              0.84KB    0.72KB    
+@medusajs/icons:build: [32marrows-pointing-out-mini.js         0.84KB    0.73KB    
+@medusajs/icons:build: [32marrrow-right.js                     0.82KB    0.71KB    
+@medusajs/icons:build: [32mat-symbol.js                        1.05KB    0.91KB    
+@medusajs/icons:build: [32mbackward-solid.js                   0.95KB    0.83KB    
+@medusajs/icons:build: [32mbars-arrow-down.js                  0.86KB    0.75KB    
+@medusajs/icons:build: [32mbars-three.js                       0.92KB    0.80KB    
+@medusajs/icons:build: [32mbeaker.js                           0.87KB    0.76KB    
+@medusajs/icons:build: [32mbell-alert.js                       0.99KB    0.86KB    
+@medusajs/icons:build: [32mbell-alert-done.js                  1.34KB    1.15KB    
+@medusajs/icons:build: [32mbell-alert-solid.js                 0.94KB    0.81KB    
+@medusajs/icons:build: [32mbolt.js                             0.90KB    0.77KB    
+@medusajs/icons:build: [32mbolt-solid.js                       0.93KB    0.80KB    
+@medusajs/icons:build: [32mbook.js                             0.91KB    0.79KB    
+@medusajs/icons:build: [32mbook-open.js                        1.05KB    0.93KB    
+@medusajs/icons:build: [32mbookmarks.js                        0.90KB    0.78KB    
+@medusajs/icons:build: [32mbottom-to-top.js                    0.94KB    0.82KB    
+@medusajs/icons:build: [32mbug.js                              1.03KB    0.91KB    
+@medusajs/icons:build: [32mbug-ant-solid.js                    1.15KB    1.02KB    
+@medusajs/icons:build: [32mbuilding-storefront.js              1.06KB    0.92KB    
+@medusajs/icons:build: [32mbuilding-tax.js                     1.36KB    1.19KB    
+@medusajs/icons:build: [32mbuildings.js                        1.00KB    0.86KB    
+@medusajs/icons:build: [32mbuildings-mini.js                   1.01KB    0.88KB    
+@medusajs/icons:build: [32mbuildings-solid.js                  1.11KB    0.95KB    
+@medusajs/icons:build: [32mcalendar.js                         1.09KB    0.96KB    
+@medusajs/icons:build: [32mcalendar-mini.js                    1.09KB    0.96KB    
+@medusajs/icons:build: [32mcalendar-solid.js                   1.03KB    0.91KB    
+@medusajs/icons:build: [32mcamera.js                           1.17KB    1.03KB    
+@medusajs/icons:build: [32mcash.js                             1.12KB    0.98KB    
+@medusajs/icons:build: [32mcash-solid.js                       1.27KB    1.08KB    
+@medusajs/icons:build: [32mchannels.js                         0.97KB    0.86KB    
+@medusajs/icons:build: [32mchannels-solid.js                   0.99KB    0.87KB    
+@medusajs/icons:build: [32mchart-bar.js                        1.04KB    0.91KB    
+@medusajs/icons:build: [32mchart-pie.js                        0.92KB    0.81KB    
+@medusajs/icons:build: [32mchat-bubble.js                      1.10KB    0.97KB    
+@medusajs/icons:build: [32mchat-bubble-left-right.js           1.05KB    0.92KB    
+@medusajs/icons:build: [32mchat-bubble-left-right-solid.js     1.17KB    1.01KB    
+@medusajs/icons:build: [32mcheck.js                            0.81KB    0.70KB    
+@medusajs/icons:build: [32mcheck-circle.js                     0.85KB    0.74KB    
+@medusajs/icons:build: [32mcheck-circle-mini-solid.js          1.00KB    0.87KB    
+@medusajs/icons:build: [32mcheck-circle-solid.js               0.99KB    0.86KB    
+@medusajs/icons:build: [32mcheck-mini.js                       0.82KB    0.70KB    
+@medusajs/icons:build: [32mchevron-double-left.js              0.84KB    0.73KB    
+@medusajs/icons:build: [32mchevron-double-left-mini-solid.js   0.85KB    0.74KB    
+@medusajs/icons:build: [32mchevron-double-right.js             0.84KB    0.73KB    
+@medusajs/icons:build: [32mchevron-double-right-mini-solid.js  0.85KB    0.74KB    
+@medusajs/icons:build: [32mchevron-down.js                     0.82KB    0.71KB    
+@medusajs/icons:build: [32mchevron-down-mini.js                0.93KB    0.81KB    
+@medusajs/icons:build: [32mchevron-left.js                     0.92KB    0.81KB    
+@medusajs/icons:build: [32mchevron-left-mini.js                0.83KB    0.71KB    
+@medusajs/icons:build: [32mchevron-right.js                    0.82KB    0.71KB    
+@medusajs/icons:build: [32mchevron-right-mini.js               0.82KB    0.72KB    
+@medusajs/icons:build: [32mchevron-up-down.js                  1.00KB    0.87KB    
+@medusajs/icons:build: [32mchevron-up-mini.js                  0.82KB    0.71KB    
+@medusajs/icons:build: [32mcircle-arrow-up.js                  0.87KB    0.76KB    
+@medusajs/icons:build: [32mcircle-dotted-line.js               1.03KB    0.90KB    
+@medusajs/icons:build: [32mcircle-filled-solid.js              0.89KB    0.78KB    
+@medusajs/icons:build: [32mcircle-half-solid.js                0.90KB    0.79KB    
+@medusajs/icons:build: [32mcircle-mini-filled-solid.js         0.90KB    0.79KB    
+@medusajs/icons:build: [32mcircle-mini-solid.js                0.92KB    0.81KB    
+@medusajs/icons:build: [32mcircle-quarter-solid.js             0.91KB    0.79KB    
+@medusajs/icons:build: [32mcircle-solid.js                     0.91KB    0.80KB    
+@medusajs/icons:build: [32mcircle-stack.js                     0.89KB    0.78KB    
+@medusajs/icons:build: [32mcircle-stack-solid.js               0.98KB    0.84KB    
+@medusajs/icons:build: [32mcircle-three-quarters-solid.js      0.98KB    0.86KB    
+@medusajs/icons:build: [32mclock.js                            0.96KB    0.84KB    
+@medusajs/icons:build: [32mclock-changed-solid-mini.js         1.12KB    0.97KB    
+@medusajs/icons:build: [32mclock-solid.js                      1.10KB    0.96KB    
+@medusajs/icons:build: [32mclock-solid-mini.js                 1.11KB    0.97KB    
+@medusajs/icons:build: [32mcloud-arrow-down.js                 1.04KB    0.91KB    
+@medusajs/icons:build: [32mcloud-arrow-up.js                   1.00KB    0.90KB    
+@medusajs/icons:build: [32mcog-six-tooth.js                    1.22KB    1.05KB    
+@medusajs/icons:build: [32mcog-six-tooth-solid.js              1.23KB    1.07KB    
+@medusajs/icons:build: [32mcommand-line.js                     0.97KB    0.85KB    
+@medusajs/icons:build: [32mcommand-line-solid.js               0.93KB    0.81KB    
+@medusajs/icons:build: [32mcomponent.js                        0.93KB    0.81KB    
+@medusajs/icons:build: [32mcomponent-solid.js                  1.00KB    0.88KB    
+@medusajs/icons:build: [32mcomputer-desktop.js                 0.99KB    0.88KB    
+@medusajs/icons:build: [32mcomputer-desktop-solid.js           1.06KB    0.92KB    
+@medusajs/icons:build: [32mcredit-card.js                      0.98KB    0.86KB    
+@medusajs/icons:build: [32mcredit-card-solid.js                0.96KB    0.84KB    
+@medusajs/icons:build: [32mcube-solid.js                       1.07KB    0.92KB    
+@medusajs/icons:build: [32mcurrency-dollar.js                  1.04KB    0.90KB    
+@medusajs/icons:build: [32mcurrency-dollar-solid.js            1.23KB    1.04KB    
+@medusajs/icons:build: [32mcursor-arrow-rays.js                1.04KB    0.92KB    
+@medusajs/icons:build: [32mdescending-sorting.js               0.86KB    0.74KB    
+@medusajs/icons:build: [32mdiscord.js                          1.04KB    0.91KB    
+@medusajs/icons:build: [32mdocument-series.js                  0.98KB    0.85KB    
+@medusajs/icons:build: [32mdocument-text.js                    0.97KB    0.84KB    
+@medusajs/icons:build: [32mdocument-text-solid.js              0.98KB    0.84KB    
+@medusajs/icons:build: [32mdots-six.js                         0.84KB    0.73KB    
+@medusajs/icons:build: [32mellipse-blue-solid.js               1.25KB    1.12KB    
+@medusajs/icons:build: [32mellipse-green-solid.js              1.25KB    1.12KB    
+@medusajs/icons:build: [32mellipse-grey-solid.js               1.25KB    1.11KB    
+@medusajs/icons:build: [32mellipse-mini-solid.js               0.77KB    0.66KB    
+@medusajs/icons:build: [32mellipse-orange-solid.js             1.25KB    1.12KB    
+@medusajs/icons:build: [32mellipse-purple-solid.js             1.25KB    1.12KB    
+@medusajs/icons:build: [32mellipse-red-solid.js                1.25KB    1.12KB    
+@medusajs/icons:build: [32mellipse-solid.js                    0.87KB    0.76KB    
+@medusajs/icons:build: [32mellipsis-horizontal.js              0.84KB    0.72KB    
+@medusajs/icons:build: [32mellipsis-vertical.js                0.84KB    0.72KB    
+@medusajs/icons:build: [32menvelope.js                         0.98KB    0.86KB    
+@medusajs/icons:build: [32menvelope-solid.js                   0.95KB    0.87KB    
+@medusajs/icons:build: [32mexclamation-circle.js               0.95KB    0.85KB    
+@medusajs/icons:build: [32mexclamation-circle-solid.js         0.95KB    0.85KB    
+@medusajs/icons:build: [32meye.js                              1.02KB    0.88KB    
+@medusajs/icons:build: [32meye-mini.js                         0.99KB    0.89KB    
+@medusajs/icons:build: [32meye-slash.js                        1.22KB    1.05KB    
+@medusajs/icons:build: [32meye-slash-mini.js                   1.09KB    0.95KB    
+@medusajs/icons:build: [32mface-smile.js                       0.98KB    0.86KB    
+@medusajs/icons:build: [32mfacebook.js                         0.96KB    0.84KB    
+@medusajs/icons:build: [32mfigma.js                            0.85KB    0.77KB    
+@medusajs/icons:build: [32mflag-mini.js                        1.04KB    0.89KB    
+@medusajs/icons:build: [32mflying-box.js                       0.95KB    0.84KB    
+@medusajs/icons:build: [32mfolder.js                           0.94KB    0.81KB    
+@medusajs/icons:build: [32mfolder-illustration.js              1.58KB    1.40KB    
+@medusajs/icons:build: [32mfolder-open.js                      1.03KB    0.90KB    
+@medusajs/icons:build: [32mfolder-open-illustration.js         1.69KB    1.51KB    
+@medusajs/icons:build: [32mforward-solid.js                    1.00KB    0.86KB    
+@medusajs/icons:build: [32mfunnel.js                           0.83KB    0.71KB    
+@medusajs/icons:build: [32mgatsby.js                           0.95KB    0.83KB    
+@medusajs/icons:build: [32mgatsby-ex.js                        1.09KB    0.96KB    
+@medusajs/icons:build: [32mgift.js                             1.06KB    0.93KB    
+@medusajs/icons:build: [32mgift-solid.js                       1.11KB    0.96KB    
+@medusajs/icons:build: [32mgithub.js                           1.02KB    0.88KB    
+@medusajs/icons:build: [32mglasses.js                          0.92KB    0.79KB    
+@medusajs/icons:build: [32mglobe-europe.js                     1.18KB    1.01KB    
+@medusajs/icons:build: [32mglobe-europe-solid.js               1.36KB    1.15KB    
+@medusajs/icons:build: [32mgoogle.js                           0.93KB    0.82KB    
+@medusajs/icons:build: [32mgrid-list.js                        0.92KB    0.79KB    
+@medusajs/icons:build: [32mhand-truck.js                       1.28KB    1.08KB    
+@medusajs/icons:build: [32mhashtag.js                          0.84KB    0.73KB    
+@medusajs/icons:build: [32mheart.js                            0.97KB    0.85KB    
+@medusajs/icons:build: [32mheart-broken.js                     1.04KB    0.88KB    
+@medusajs/icons:build: [32mhistory.js                          0.86KB    0.74KB    
+@medusajs/icons:build: [32minbox-solid.js                      1.12KB    0.98KB    
+@medusajs/icons:build: [32minformation-circle.js               0.97KB    0.85KB    
+@medusajs/icons:build: [32minformation-circle-solid.js         1.01KB    0.89KB    
+@medusajs/icons:build: [32mjavascript.js                       0.97KB    0.84KB    
+@medusajs/icons:build: [32mjavascript-ex.js                    1.14KB    0.98KB    
+@medusajs/icons:build: [32mkey.js                              1.00KB    0.87KB    
+@medusajs/icons:build: [32mkey-solid.js                        1.03KB    0.93KB    
+@medusajs/icons:build: [32mkeyboard.js                         1.31KB    1.13KB    
+@medusajs/icons:build: [32mklarna.js                           0.78KB    0.68KB    
+@medusajs/icons:build: [32mklarna-ex.js                        0.93KB    0.81KB    
+@medusajs/icons:build: [32mklaviyo.js                          0.79KB    0.70KB    
+@medusajs/icons:build: [32mlifebuoy.js                         1.25KB    1.12KB    
+@medusajs/icons:build: [32mlight-bulb.js                       0.95KB    0.84KB    
+@medusajs/icons:build: [32mlight-bulb-solid.js                 1.05KB    0.91KB    
+@medusajs/icons:build: [32mlink.js                             0.92KB    0.81KB    
+@medusajs/icons:build: [32mlinkedin.js                         0.82KB    0.73KB    
+@medusajs/icons:build: [32mlist-bullet.js                      0.86KB    0.75KB    
+@medusajs/icons:build: [32mlist-checkbox.js                    0.91KB    0.78KB    
+@medusajs/icons:build: [32mlist-tree.js                        0.93KB    0.81KB    
+@medusajs/icons:build: [32mloader.js                           0.98KB    0.85KB    
+@medusajs/icons:build: [32mlock-closed-solid.js                0.94KB    0.83KB    
+@medusajs/icons:build: [32mlock-closed-solid-mini.js           0.95KB    0.83KB    
+@medusajs/icons:build: [32mlock-open-solid.js                  1.00KB    0.88KB    
+@medusajs/icons:build: [32mmagnifier-alert.js                  1.06KB    0.94KB    
+@medusajs/icons:build: [32mmagnifying-glass.js                 0.84KB    0.73KB    
+@medusajs/icons:build: [32mmagnifying-glass-mini.js            0.85KB    0.73KB    
+@medusajs/icons:build: [32mmap.js                              1.04KB    0.93KB    
+@medusajs/icons:build: [32mmap-pin.js                          0.91KB    0.79KB    
+@medusajs/icons:build: [32mmastercard.js                       0.83KB    0.73KB    
+@medusajs/icons:build: [32mmedusa.js                           0.81KB    0.70KB    
+@medusajs/icons:build: [32mmeta.js                             1.30KB    1.12KB    
+@medusajs/icons:build: [32mminus.js                            0.79KB    0.68KB    
+@medusajs/icons:build: [32mminus-mini.js                       0.79KB    0.68KB    
+@medusajs/icons:build: [32mmoon.js                             0.96KB    0.83KB    
+@medusajs/icons:build: [32mmoon-solid.js                       0.97KB    0.84KB    
+@medusajs/icons:build: [32mnewspaper.js                        1.03KB    0.90KB    
+@medusajs/icons:build: [32mnext-js.js                          1.29KB    1.12KB    
+@medusajs/icons:build: [32mopen-rect-arrow-out.js              0.89KB    0.78KB    
+@medusajs/icons:build: [32mpaper-clip.js                       0.87KB    0.75KB    
+@medusajs/icons:build: [32mpause-solid.js                      0.84KB    0.73KB    
+@medusajs/icons:build: [32mpen-plus.js                         0.90KB    0.78KB    
+@medusajs/icons:build: [32mpencil.js                           0.93KB    0.80KB    
+@medusajs/icons:build: [32mpencil-square.js                    0.96KB    0.84KB    
+@medusajs/icons:build: [32mpencil-square-solid.js              1.01KB    0.87KB    
+@medusajs/icons:build: [32mphone.js                            0.89KB    0.78KB    
+@medusajs/icons:build: [32mphoto.js                            1.17KB    1.03KB    
+@medusajs/icons:build: [32mphoto-solid.js                      1.05KB    0.92KB    
+@medusajs/icons:build: [32mplay-mini-solid.js                  0.91KB    0.79KB    
+@medusajs/icons:build: [32mplay-solid.js                       0.91KB    0.78KB    
+@medusajs/icons:build: [32mplus.js                             0.80KB    0.68KB    
+@medusajs/icons:build: [32mplus-mini.js                        0.80KB    0.69KB    
+@medusajs/icons:build: [32mpuzzle.js                           1.00KB    0.88KB    
+@medusajs/icons:build: [32mpuzzle-solid.js                     1.06KB    0.93KB    
+@medusajs/icons:build: [32mquestion-mark.js                    1.18KB    1.00KB    
+@medusajs/icons:build: [32mquestion-mark-circle.js             1.18KB    1.02KB    
+@medusajs/icons:build: [32mqueue-list.js                       0.88KB    0.76KB    
+@medusajs/icons:build: [32mreact-js.js                         0.94KB    0.81KB    
+@medusajs/icons:build: [32mreact-js-ex.js                      2.02KB    1.70KB    
+@medusajs/icons:build: [32mreceipt.js                          0.94KB    0.83KB    
+@medusajs/icons:build: [32mreceipt-percent.js                  1.24KB    1.09KB    
+@medusajs/icons:build: [32mreplay-solid.js                     0.92KB    0.80KB    
+@medusajs/icons:build: [32mresize.js                           0.82KB    0.71KB    
+@medusajs/icons:build: [32mrocket-launch.js                    1.16KB    1.02KB    
+@medusajs/icons:build: [32mrocket-launch-solid.js              1.32KB    1.15KB    
+@medusajs/icons:build: [32mrss.js                              0.86KB    0.74KB    
+@medusajs/icons:build: [32msanity.js                           0.99KB    0.85KB    
+@medusajs/icons:build: [32mserver.js                           1.00KB    0.89KB    
+@medusajs/icons:build: [32mserver-solid.js                     1.02KB    0.89KB    
+@medusajs/icons:build: [32mserver-stack.js                     1.15KB    1.01KB    
+@medusajs/icons:build: [32mserver-stack-solid.js               0.96KB    0.86KB    
+@medusajs/icons:build: [32mshare.js                            0.85KB    0.74KB    
+@medusajs/icons:build: [32mshopping.js                         1.08KB    0.97KB    
+@medusajs/icons:build: [32mshopping-bag.js                     0.90KB    0.78KB    
+@medusajs/icons:build: [32mshopping-cart.js                    1.15KB    0.99KB    
+@medusajs/icons:build: [32mshopping-cart-solid.js              1.00KB    0.86KB    
+@medusajs/icons:build: [32msidebar-left.js                     0.96KB    0.83KB    
+@medusajs/icons:build: [32msidebar-right.js                    0.96KB    0.84KB    
+@medusajs/icons:build: [32mslack.js                            0.89KB    0.80KB    
+@medusajs/icons:build: [32msnooze.js                           0.94KB    0.82KB    
+@medusajs/icons:build: [32msparkles.js                         0.96KB    0.83KB    
+@medusajs/icons:build: [32msparkles-mini.js                    0.97KB    0.84KB    
+@medusajs/icons:build: [32msparkles-mini-solid.js              1.05KB    0.90KB    
+@medusajs/icons:build: [32msparkles-solid.js                   1.02KB    0.88KB    
+@medusajs/icons:build: [32mspinner.js                          0.99KB    0.88KB    
+@medusajs/icons:build: [32msquare-blue-solid.js                0.84KB    0.73KB    
+@medusajs/icons:build: [32msquare-green-solid.js               0.84KB    0.73KB    
+@medusajs/icons:build: [32msquare-grey-solid.js                0.84KB    0.72KB    
+@medusajs/icons:build: [32msquare-orange-solid.js              0.84KB    0.73KB    
+@medusajs/icons:build: [32msquare-purple-solid.js              0.84KB    0.73KB    
+@medusajs/icons:build: [32msquare-red-solid.js                 0.83KB    0.73KB    
+@medusajs/icons:build: [32msquare-two-stack.js                 1.00KB    0.88KB    
+@medusajs/icons:build: [32msquare-two-stack-mini.js            1.01KB    0.89KB    
+@medusajs/icons:build: [32msquare-two-stack-solid.js           0.88KB    0.77KB    
+@medusajs/icons:build: [32msquares-plus.js                     0.95KB    0.82KB    
+@medusajs/icons:build: [32msquares-plus-solid.js               0.93KB    0.81KB    
+@medusajs/icons:build: [32mstack-perspective.js                0.98KB    0.84KB    
+@medusajs/icons:build: [32mstar.js                             0.93KB    0.81KB    
+@medusajs/icons:build: [32mstar-solid.js                       1.01KB    0.88KB    
+@medusajs/icons:build: [32mstopwatch.js                        0.87KB    0.76KB    
+@medusajs/icons:build: [32mstripe.js                           0.82KB    0.71KB    
+@medusajs/icons:build: [32msun.js                              0.95KB    0.85KB    
+@medusajs/icons:build: [32msun-solid.js                        1.12KB    0.97KB    
+@medusajs/icons:build: [32mswatch.js                           1.07KB    0.97KB    
+@medusajs/icons:build: [32mswatch-solid.js                     0.98KB    0.86KB    
+@medusajs/icons:build: [32mtag.js                              1.06KB    0.93KB    
+@medusajs/icons:build: [32mtag-solid.js                        0.95KB    0.83KB    
+@medusajs/icons:build: [32mtailwind.js                         0.88KB    0.77KB    
+@medusajs/icons:build: [32mtext.js                             1.00KB    0.86KB    
+@medusajs/icons:build: [32mthumb-down.js                       1.05KB    0.91KB    
+@medusajs/icons:build: [32mthumb-up.js                         1.04KB    0.95KB    
+@medusajs/icons:build: [32mthumbnail-badge.js                  1.71KB    1.51KB    
+@medusajs/icons:build: [32mtimeline-vertical.js                1.01KB    0.89KB    
+@medusajs/icons:build: [32mtools.js                            1.02KB    0.90KB    
+@medusajs/icons:build: [32mtools-solid.js                      1.15KB    0.99KB    
+@medusajs/icons:build: [32mtop-to-bottom.js                    0.94KB    0.84KB    
+@medusajs/icons:build: [32mtrash.js                            0.90KB    0.79KB    
+@medusajs/icons:build: [32mtriangle-down-mini.js               0.92KB    0.79KB    
+@medusajs/icons:build: [32mtriangle-left-mini.js               0.91KB    0.79KB    
+@medusajs/icons:build: [32mtriangle-right-mini.js              0.91KB    0.79KB    
+@medusajs/icons:build: [32mtriangle-right-mini-hover.js        0.92KB    0.79KB    
+@medusajs/icons:build: [32mtriangle-up-mini.js                 0.92KB    0.79KB    
+@medusajs/icons:build: [32mtriangles-mini.js                   1.00KB    0.87KB    
+@medusajs/icons:build: [32mtrophy.js                           0.95KB    0.82KB    
+@medusajs/icons:build: [32mtruck-fast.js                       1.06KB    0.92KB    
+@medusajs/icons:build: [32mtypescript.js                       1.10KB    0.96KB    
+@medusajs/icons:build: [32mtypescript-ex.js                    1.24KB    1.06KB    
+@medusajs/icons:build: [32muser.js                             0.91KB    0.79KB    
+@medusajs/icons:build: [32muser-group.js                       1.10KB    0.95KB    
+@medusajs/icons:build: [32muser-mini.js                        0.92KB    0.79KB    
+@medusajs/icons:build: [32musers.js                            1.02KB    0.89KB    
+@medusajs/icons:build: [32musers-solid.js                      1.08KB    0.94KB    
+@medusajs/icons:build: [32mvercel.js                           0.90KB    0.79KB    
+@medusajs/icons:build: [32mverified-badge.js                   1.78KB    1.57KB    
+@medusajs/icons:build: [32mvisa.js                             1.10KB    0.93KB    
+@medusajs/icons:build: [32mwand-sparkle.js                     1.15KB    1.02KB    
+@medusajs/icons:build: [32mwindow.js                           1.16KB    1.02KB    
+@medusajs/icons:build: [32mx.js                                0.74KB    0.64KB    
+@medusajs/icons:build: [32mx-circle.js                         0.92KB    0.83KB    
+@medusajs/icons:build: [32mx-circle-solid.js                   0.99KB    0.86KB    
+@medusajs/icons:build: [32mx-mark.js                           0.80KB    0.69KB    
+@medusajs/icons:build: [32mx-mark-mini.js                      0.81KB    0.69KB    
+@medusajs/icons:build: [32m                                    308.99KB  269.43KB  
+@medusajs/icons:build: [0m
+@medusajs/icons:build: [32mcreated [1mdist/esm[22m in [1m5.9s[22m[39m
+@medusajs/admin-sdk:build: cache hit, replaying logs 350126fbfc8c97ec
+@medusajs/admin-sdk:build: [34mCLI[39m Building entry: src/index.ts
+@medusajs/admin-sdk:build: [34mCLI[39m Using tsconfig: tsconfig.json
+@medusajs/admin-sdk:build: [34mCLI[39m tsup v8.0.2
+@medusajs/admin-sdk:build: [34mCLI[39m Using tsup config: /workspaces/medusa-lab/packages/admin/admin-sdk/tsup.config.cjs
+@medusajs/admin-sdk:build: [34mCLI[39m Target: es2020
+@medusajs/admin-sdk:build: [34mCLI[39m Cleaning output folder
+@medusajs/admin-sdk:build: [34mCJS[39m Build start
+@medusajs/admin-sdk:build: [34mESM[39m Build start
+@medusajs/admin-sdk:build: [32mCJS[39m [1mdist/index.js [22m[32m1.71 KB[39m
+@medusajs/admin-sdk:build: [32mCJS[39m ⚡️ Build success in 28ms
+@medusajs/admin-sdk:build: [32mESM[39m [1mdist/index.mjs [22m[32m655.00 B[39m
+@medusajs/admin-sdk:build: [32mESM[39m ⚡️ Build success in 29ms
+@medusajs/admin-sdk:build: [34mDTS[39m Build start
+@medusajs/admin-sdk:build: [32mDTS[39m ⚡️ Build success in 4705ms
+@medusajs/admin-sdk:build: [32mDTS[39m [1mdist/index.d.ts  [22m[32m1.06 KB[39m
+@medusajs/admin-sdk:build: [32mDTS[39m [1mdist/index.d.mts [22m[32m1.06 KB[39m
+@medusajs/admin-vite-plugin:build: cache hit, replaying logs 4da468d6682b2ae8
+@medusajs/admin-vite-plugin:build: [34mCLI[39m Building entry: ./src/index.ts
+@medusajs/admin-vite-plugin:build: [34mCLI[39m Using tsconfig: tsconfig.build.json
+@medusajs/admin-vite-plugin:build: [34mCLI[39m tsup v8.0.1
+@medusajs/admin-vite-plugin:build: [34mCLI[39m Using tsup config: /workspaces/medusa-lab/packages/admin/admin-vite-plugin/tsup.config.ts
+@medusajs/admin-vite-plugin:build: [34mCLI[39m Target: es2020
+@medusajs/admin-vite-plugin:build: [34mCLI[39m Cleaning output folder
+@medusajs/admin-vite-plugin:build: [34mCJS[39m Build start
+@medusajs/admin-vite-plugin:build: [34mESM[39m Build start
+@medusajs/admin-vite-plugin:build: [32mCJS[39m [1mdist/index.js [22m[32m57.41 KB[39m
+@medusajs/admin-vite-plugin:build: [32mCJS[39m ⚡️ Build success in 147ms
+@medusajs/admin-vite-plugin:build: [32mESM[39m [1mdist/index.mjs [22m[32m53.06 KB[39m
+@medusajs/admin-vite-plugin:build: [32mESM[39m ⚡️ Build success in 145ms
+@medusajs/admin-vite-plugin:build: [34mDTS[39m Build start
+@medusajs/admin-vite-plugin:build: [32mDTS[39m ⚡️ Build success in 4100ms
+@medusajs/admin-vite-plugin:build: [32mDTS[39m [1mdist/index.d.ts  [22m[32m283.00 B[39m
+@medusajs/admin-vite-plugin:build: [32mDTS[39m [1mdist/index.d.mts [22m[32m283.00 B[39m
+@medusajs/js-sdk:build: cache hit, replaying logs 6c162015c02b1180
+@medusajs/js-sdk:build: 
+@medusajs/utils:build: cache hit, replaying logs f67d5f99c80d5d57
+@medusajs/utils:build: 
+create-medusa-app:build: cache hit, replaying logs 4163c912a0402dd6
+create-medusa-app:build: 
+@medusajs/ui:build: cache hit, replaying logs b3c1ec59803edb7f
+@medusajs/ui:build: 
+@medusajs/cli:build: cache hit, replaying logs 38ffa026ae8e1025
+@medusajs/cli:build: 
+@medusajs/orchestration:build: cache hit, replaying logs 87faa01686445373
+@medusajs/orchestration:build: 
+@medusajs/dashboard:build: cache hit, replaying logs b394f2e4ffb93f01
+@medusajs/dashboard:build: [34mCLI[39m Building entry: ./src/app.tsx
+@medusajs/dashboard:build: [34mCLI[39m Using tsconfig: tsconfig.build.json
+@medusajs/dashboard:build: [34mCLI[39m tsup v8.0.2
+@medusajs/dashboard:build: [34mCLI[39m Using tsup config: /workspaces/medusa-lab/packages/admin/dashboard/tsup.config.cjs
+@medusajs/dashboard:build: [34mCLI[39m Target: es2020
+@medusajs/dashboard:build: [34mCLI[39m Cleaning output folder
+@medusajs/dashboard:build: [34mCJS[39m Build start
+@medusajs/dashboard:build: [34mESM[39m Build start
+@medusajs/dashboard:build: Browserslist: caniuse-lite is outdated. Please run:
+@medusajs/dashboard:build:   npx update-browserslist-db@latest
+@medusajs/dashboard:build:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+@medusajs/dashboard:build: [32mCJS[39m [1mdist/Inter-Regular-CKBOXRQ3.ttf      [22m[32m302.98 KB[39m
+@medusajs/dashboard:build: [32mCJS[39m [1mdist/app.css                         [22m[32m111.06 KB[39m
+@medusajs/dashboard:build: [32mCJS[39m [1mdist/RobotoMono-Regular-27MA6W2G.ttf [22m[32m85.19 KB[39m
+@medusajs/dashboard:build: [32mCJS[39m [1mdist/RobotoMono-Medium-LUNBMOOH.ttf  [22m[32m85.13 KB[39m
+@medusajs/dashboard:build: [32mCJS[39m [1mdist/Inter-Medium-RUQTUVA3.ttf       [22m[32m307.75 KB[39m
+@medusajs/dashboard:build: [32mCJS[39m [1mdist/app.js                          [22m[32m4.76 MB[39m
+@medusajs/dashboard:build: [32mCJS[39m ⚡️ Build success in 5887ms
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-XRTVFYCW.mjs                                         [22m[32m0 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-4GQOUCX6.mjs                                         [22m[32m0 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-YOYOJU5D.mjs                                         [22m[32m0 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-LQTHYS2Z.mjs                                         [22m[32m0 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-IUCDCPJU.mjs                                         [22m[32m0 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/Inter-Regular-CKBOXRQ3.ttf                                 [22m[32m302.98 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/Inter-Medium-RUQTUVA3.ttf                                  [22m[32m307.75 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/RobotoMono-Regular-27MA6W2G.ttf                            [22m[32m85.19 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/RobotoMono-Medium-LUNBMOOH.ttf                             [22m[32m85.13 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/return-reason-create-QDWJ2FLC.mjs                          [22m[32m6.21 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/return-reason-edit-LFO5DNVZ.mjs                            [22m[32m6.05 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/login-ISUWYIO6.mjs                                         [22m[32m6.93 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/reset-password-DDQULKME.mjs                                [22m[32m14.45 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/invite-FP7K6MIA.mjs                                        [22m[32m12.06 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-ZSTDLFYU.mjs                                         [22m[32m4.79 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/no-match-YRNHGOT3.mjs                                      [22m[32m1.47 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/tax-region-create-WMFX7H4E.mjs                             [22m[32m8.90 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/tax-region-detail-5FAPLTTD.mjs                             [22m[32m9.82 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/tax-region-province-create-L7PTIF3R.mjs                    [22m[32m12.45 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/tax-region-tax-override-create-VWQIXNTY.mjs                [22m[32m25.61 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/tax-region-tax-override-edit-O63C3KGE.mjs                  [22m[32m28.07 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-OAAPX6JV.mjs                                         [22m[32m20.11 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/tax-region-tax-rate-create-FITQUMNR.mjs                    [22m[32m6.82 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/tax-region-tax-rate-edit-LOTBJTCB.mjs                      [22m[32m6.67 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/tax-region-province-detail-ZDLUX6FK.mjs                    [22m[32m6.80 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-YODBXWMR.mjs                                         [22m[32m18.12 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-V3MOBCDF.mjs                                         [22m[32m353.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-type-detail-52A76U2V.mjs                           [22m[32m7.17 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-type-edit-RDVSYIJ2.mjs                             [22m[32m3.85 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/api-key-management-list-XH6GYZV5.mjs                       [22m[32m11.47 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/api-key-management-create-XLB535PF.mjs                     [22m[32m7.74 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/api-key-management-detail-TYTIUBO2.mjs                     [22m[32m18.62 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-G22WWLPG.mjs                                         [22m[32m1.01 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/api-key-management-edit-WKO66IR6.mjs                       [22m[32m4.00 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/api-key-management-sales-channels-75I3AJQM.mjs             [22m[32m9.02 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/tax-region-list-KK5YDKUQ.mjs                               [22m[32m2.66 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-LSZCZFOD.mjs                                         [22m[32m5.00 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-GRPXWOB3.mjs                                         [22m[32m8.41 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-THZJC662.mjs                                         [22m[32m31.99 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-tag-list-CFJNUSJV.mjs                              [22m[32m7.63 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-tag-create-JTXTZMDW.mjs                            [22m[32m4.74 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-tag-detail-AZ5UY236.mjs                            [22m[32m8.53 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-XDYKDVLS.mjs                                         [22m[32m1.24 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-D2UCOBBT.mjs                                         [22m[32m2.81 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-tag-edit-GDUVTMZT.mjs                              [22m[32m4.77 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/workflow-execution-list-DRTPH4BP.mjs                       [22m[32m5.73 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/workflow-execution-detail-SLRZC7KB.mjs                     [22m[32m32.03 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-RPAL6FHW.mjs                                         [22m[32m1.98 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-type-list-IEAZZV5E.mjs                             [22m[32m5.36 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-QVW35SMO.mjs                                         [22m[32m961.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-YYGNAECV.mjs                                         [22m[32m1.13 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-type-create-OK3USQMT.mjs                           [22m[32m3.87 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-sales-channels-I4JSGNXZ.mjs                       [22m[32m6.74 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-fulfillment-providers-HQFZPKNO.mjs                [22m[32m9.01 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-service-zone-create-WSZYNJF3.mjs                  [22m[32m6.32 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-service-zone-edit-UZGB5OY6.mjs                    [22m[32m4.74 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-service-zone-manage-areas-2KAUZZBO.mjs            [22m[32m5.48 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-UX3ZDI7D.mjs                                         [22m[32m7.99 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-service-zone-shipping-option-create-PYRYEL73.mjs  [22m[32m19.00 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-service-zone-shipping-option-edit-UBZZE5VX.mjs    [22m[32m10.95 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-service-zone-shipping-option-pricing-LQJ5T4BZ.mjs [22m[32m7.24 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-AH23RLTS.mjs                                         [22m[32m1.18 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/sales-channel-metadata-SKL4HIGN.mjs                        [22m[32m2.01 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-list-VAXNGKWH.mjs                                 [22m[32m11.50 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-create-OBFXHNSN.mjs                               [22m[32m9.49 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/shipping-profiles-list-VDOHKTJU.mjs                        [22m[32m7.75 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/shipping-profile-create-KOAGUXMG.mjs                       [22m[32m4.80 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/shipping-profile-detail-SY2LAOIP.mjs                       [22m[32m4.95 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-detail-Z53KC5BE.mjs                               [22m[32m26.97 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-R2O6QX4D.mjs                                         [22m[32m446.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/return-reason-list-CGLIN74T.mjs                            [22m[32m7.09 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-EQTBJSBZ.mjs                                         [22m[32m879.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-T4W4USY7.mjs                                         [22m[32m411.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/user-detail-XGMR5AY2.mjs                                   [22m[32m4.80 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/user-edit-XEBRFEO7.mjs                                     [22m[32m4.06 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/location-edit-BG5ZUA2C.mjs                                 [22m[32m9.52 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/user-metadata-6F7FLSBL.mjs                                 [22m[32m1.89 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/sales-channel-create-WU4WWLMC.mjs                          [22m[32m5.86 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/sales-channel-detail-XMURLU4B.mjs                          [22m[32m12.94 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/sales-channel-list-RJDZVJRD.mjs                            [22m[32m6.82 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/sales-channel-edit-N6V32K6Z.mjs                            [22m[32m5.79 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/region-edit-Z6N6V47S.mjs                                   [22m[32m10.04 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/sales-channel-add-products-LLNZ5X2S.mjs                    [22m[32m8.47 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/region-add-countries-JAXFWXSH.mjs                          [22m[32m6.36 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/store-add-currencies-BVVEK7XQ.mjs                          [22m[32m9.42 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/store-detail-EADWFS5U.mjs                                  [22m[32m14.65 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/user-list-KJJITZ4J.mjs                                     [22m[32m5.40 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/manage-locations-RQELO5QG.mjs                              [22m[32m8.70 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/adjust-inventory-4GCEJV43.mjs                              [22m[32m6.64 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/user-invite-YKRQOPLP.mjs                                   [22m[32m10.57 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/settings-FQUPXMWF.mjs                                      [22m[32m547.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/profile-edit-52CUABJQ.mjs                                  [22m[32m6.12 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/region-list-YCDIXIHW.mjs                                   [22m[32m5.67 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-FYN6YJ5C.mjs                                         [22m[32m3.65 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/region-create-EOMGHDQI.mjs                                 [22m[32m18.83 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/profile-detail-PBUO3M75.mjs                                [22m[32m3.53 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/region-detail-QVHIOQWT.mjs                                 [22m[32m13.32 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-NOAFLTPV.mjs                                         [22m[32m2.47 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/reservation-metadata-RIZALRXM.mjs                          [22m[32m1.98 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/inventory-list-GREADQJ6.mjs                                [22m[32m10.14 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/inventory-create-VPHOMMMT.mjs                              [22m[32m23.96 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/inventory-detail-SXBFXICF.mjs                              [22m[32m25.01 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/edit-inventory-item-2PQG5AYH.mjs                           [22m[32m4.45 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/edit-inventory-item-attributes-SKTWPPMK.mjs                [22m[32m10.20 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/inventory-metadata-PX7IOT6J.mjs                            [22m[32m1.97 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-group-create-QFIE2ACC.mjs                         [22m[32m4.03 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/store-edit-QLKVJIHJ.mjs                                    [22m[32m6.10 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-NEZX6265.mjs                                         [22m[32m1.39 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-group-add-customers-4QI4D2UZ.mjs                  [22m[32m7.58 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-group-metadata-XCWROGHP.mjs                       [22m[32m1.10 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/reservation-list-YDQSD4GF.mjs                              [22m[32m9.58 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/reservation-create-ITKZZUQS.mjs                            [22m[32m11.24 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/reservation-detail-IPSRI2E2.mjs                            [22m[32m6.83 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-KPB6YITA.mjs                                         [22m[32m2.21 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/price-list-prices-edit-OPBPAYM2.mjs                        [22m[32m9.83 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-list-SMAIFLG2.mjs                                 [22m[32m4.61 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-DJPQV344.mjs                                         [22m[32m4.31 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-create-JGM3AXKV.mjs                               [22m[32m6.85 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-detail-RBAJA4M5.mjs                               [22m[32m17.44 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-metadata-IGDJ63OL.mjs                             [22m[32m1.04 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customers-add-customer-group-2DZN6KQQ.mjs                  [22m[32m8.51 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-group-list-5VGFS5YV.mjs                           [22m[32m5.57 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/collection-edit-ZYQN6BW4.mjs                               [22m[32m4.62 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/collection-add-products-72S3XCQG.mjs                       [22m[32m8.35 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/price-list-create-6SW5SD64.mjs                             [22m[32m31.27 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/price-list-list-5CII4C35.mjs                               [22m[32m7.09 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/price-list-detail-V7MIOA3P.mjs                             [22m[32m16.68 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-QR72ESDG.mjs                                         [22m[32m1.16 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-I3VB6NM2.mjs                                         [22m[32m1.36 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/price-list-edit-RNWHF7US.mjs                               [22m[32m7.82 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-4D7SDNOS.mjs                                         [22m[32m4.85 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-ZJRFL6ZN.mjs                                         [22m[32m1.02 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/price-list-prices-add-VC6Z4A5B.mjs                         [22m[32m17.62 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/price-list-configuration-X2QHFBFI.mjs                      [22m[32m14.80 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-7ARZSQOZ.mjs                                         [22m[32m5.27 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-XUQVQCAO.mjs                                         [22m[32m478.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-G2J2T2QU.mjs                                         [22m[32m2.61 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/campaign-detail-CIGPZEIP.mjs                               [22m[32m21.38 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/campaign-configuration-KMDCSL3P.mjs                        [22m[32m5.21 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/campaign-budget-edit-X2RQNQOK.mjs                          [22m[32m4.90 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/campaign-edit-QDJ2C35H.mjs                                 [22m[32m7.04 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/add-campaign-promotions-3KFPL6E3.mjs                       [22m[32m8.62 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-XWO5BP42.mjs                                         [22m[32m1.07 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/collection-create-7PFY7YP6.mjs                             [22m[32m4.45 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/collection-list-OCMKGSXX.mjs                               [22m[32m7.30 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/collection-detail-CGBVFZHR.mjs                             [22m[32m12.55 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-6KEI7WC2.mjs                                         [22m[32m3.39 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/promotion-list-S6COEJHU.mjs                                [22m[32m5.97 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/promotion-create-DQCUFAXG.mjs                              [22m[32m36.67 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-3WXBLS2P.mjs                                         [22m[32m335.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-BKJC5BGQ.mjs                                         [22m[32m1.47 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-JWQZ23TW.mjs                                         [22m[32m2.07 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-KDXAFTVE.mjs                                         [22m[32m606.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/promotion-edit-details-6WGPIGH2.mjs                        [22m[32m11.88 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/promotion-detail-MRSUMGB4.mjs                              [22m[32m15.61 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-YRY2CZ6I.mjs                                         [22m[32m2.50 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-TJ3XW5AO.mjs                                         [22m[32m11.94 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/promotion-add-campaign-FPAU7ZT2.mjs                        [22m[32m1.71 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/edit-rules-XUKEFT4I.mjs                                    [22m[32m7.41 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-group-detail-A4ITWHP5.mjs                         [22m[32m12.86 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/campaign-list-5KTSIUS7.mjs                                 [22m[32m5.29 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-group-edit-TUERMF5K.mjs                           [22m[32m3.80 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/campaign-create-RRHUZ2IS.mjs                               [22m[32m773.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-IBOUGGPG.mjs                                         [22m[32m3.98 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-F6ZOHZVB.mjs                                         [22m[32m253.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-RX6DOG6Q.mjs                                         [22m[32m10.77 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-allocate-items-IXH3KEPK.mjs                          [22m[32m23.44 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-create-shipment-QAG6SQSF.mjs                         [22m[32m7.63 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-create-return-7AOIWHYE.mjs                           [22m[32m46.28 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-create-claim-TPCJQPJA.mjs                            [22m[32m73.92 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-QJ6SBVJ2.mjs                                         [22m[32m517.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-create-exchange-6DKTZKQY.mjs                         [22m[32m72.31 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-P3DRE4IY.mjs                                         [22m[32m1.72 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-create-edit-ZCTHUCPY.mjs                             [22m[32m27.16 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-UDMIPTZG.mjs                                         [22m[32m16.10 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-create-refund-6ILTHFTG.mjs                           [22m[32m9.81 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-request-transfer-3OFN6HFE.mjs                        [22m[32m20.35 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/category-edit-SYFVVVFN.mjs                                 [22m[32m7.95 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/category-detail-65DKADAC.mjs                               [22m[32m18.49 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/category-products-CUNKZXVM.mjs                             [22m[32m8.22 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/categories-metadata-LFLCW5BA.mjs                           [22m[32m1.98 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-list-B7PX74VW.mjs                                    [22m[32m3.97 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-B4FQDBC3.mjs                                         [22m[32m1.34 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-LHJ6JQGA.mjs                                         [22m[32m966.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-NLR7MGM2.mjs                                         [22m[32m8.70 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-IR5DHEKS.mjs                                         [22m[32m265.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-LGJR4ATC.mjs                                         [22m[32m9.81 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-detail-APYZ3TSZ.mjs                                  [22m[32m109.30 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-V3BVURIM.mjs                                         [22m[32m9.11 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-PXZ7QYKX.mjs                                         [22m[32m354.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-X65WR3E6.mjs                                         [22m[32m11.50 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-DZDFQRG2.mjs                                         [22m[32m4.83 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-K7S5TX6I.mjs                                         [22m[32m4.63 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-AMJSV3NG.mjs                                         [22m[32m1.31 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-XFSJ7YIN.mjs                                         [22m[32m1.93 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-create-fulfillment-F74P5RMX.mjs                      [22m[32m16.71 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-WKOPGFW5.mjs                                         [22m[32m164.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/order-receive-return-WJABF7ZO.mjs                          [22m[32m20.80 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-D7DBXIK6.mjs                                         [22m[32m12.41 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-OV5NMSY6.mjs                                         [22m[32m232.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-metadata-PA7IBLPH.mjs                              [22m[32m1.83 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-create-variant-65MKEDEN.mjs                        [22m[32m28.18 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-variant-detail-FE7B7JRI.mjs                        [22m[32m17.14 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-6WKBBTKM.mjs                                         [22m[32m715.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-FSMQADBD.mjs                                         [22m[32m1.07 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-variant-manage-inventory-items-6VXZUBB7.mjs        [22m[32m11.81 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-variant-metadata-7EPPYF4F.mjs                      [22m[32m1.94 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-ZKELVOBI.mjs                                         [22m[32m13.01 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/category-list-N4ETEJHP.mjs                                 [22m[32m9.70 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-EUTK2A3J.mjs                                         [22m[32m275.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/category-create-ADFR7KA4.mjs                               [22m[32m14.81 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-Q4WL2IOD.mjs                                         [22m[32m1.21 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-54IEHX46.mjs                                         [22m[32m3.04 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-ZCYHMOTT.mjs                                         [22m[32m22.65 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-variant-edit-JAMVS42E.mjs                          [22m[32m20.02 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/category-organize-BNU6JZPL.mjs                             [22m[32m3.40 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-attributes-QZWZQ774.mjs                            [22m[32m10.05 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-sales-channels-TCXPINYQ.mjs                        [22m[32m6.35 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-organization-UHWOYS4G.mjs                          [22m[32m8.33 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-MW4K5NNY.mjs                                         [22m[32m2.54 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-create-option-P2L6Y24M.mjs                         [22m[32m4.96 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-edit-option-AFFD3FT7.mjs                           [22m[32m5.09 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-prices-ODUCCZAG.mjs                                [22m[32m7.39 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-media-IXZ4IBQZ.mjs                                 [22m[32m23.51 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/edit-reservation-6DTEAMAY.mjs                              [22m[32m8.59 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-PUMOOUZF.mjs                                         [22m[32m1.12 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-JGYJERUT.mjs                                         [22m[32m2.42 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/home-KSB2J7CS.mjs                                          [22m[32m395.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/customer-edit-QHKIPGDE.mjs                                 [22m[32m6.59 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-RERSP5B2.mjs                                         [22m[32m921.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-TOMHEGT5.mjs                                         [22m[32m769.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-create-72DKPRPI.mjs                                [22m[32m75.94 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/store-metadata-2IVZDXTN.mjs                                [22m[32m1.83 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-X5VECN6S.mjs                                         [22m[32m2.64 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-GA34GXNI.mjs                                         [22m[32m1.58 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-MSDRGCRR.mjs                                         [22m[32m1.38 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-WDXRULTM.mjs                                         [22m[32m14.89 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-AYHIOYW5.mjs                                         [22m[32m2.10 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-6CNRNROJ.mjs                                         [22m[32m2.35 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-BNH57GBH.mjs                                         [22m[32m13.10 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-2AFE5VQV.mjs                                         [22m[32m9.25 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-ACBS6KFT.mjs                                         [22m[32m1.18 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-ZQRKUG6J.mjs                                         [22m[32m1.59 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-TWS5C22H.mjs                                         [22m[32m94.06 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-MWVM4TYO.mjs                                         [22m[32m13.23 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-OEMJBX6M.mjs                                         [22m[32m4.99 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-NQ53YZ7K.mjs                                         [22m[32m12.01 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-ADOCJB6L.mjs                                         [22m[32m1.19 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-import-D3T7MVO2.mjs                                [22m[32m11.40 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-DLK3KGP5.mjs                                         [22m[32m5.19 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-TYTNUPXB.mjs                                         [22m[32m3.20 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-7XWP2AR2.mjs                                         [22m[32m1.01 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-export-U75VFDWT.mjs                                [22m[32m4.82 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-5R4UGQUP.mjs                                         [22m[32m1.90 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-I5HYE2RW.mjs                                         [22m[32m683.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-RIV7FKGN.mjs                                         [22m[32m689.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-TDK3JDOB.mjs                                         [22m[32m695.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-IRV425DP.mjs                                         [22m[32m715.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-CBSCX7RE.mjs                                         [22m[32m278.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-FHSC5X62.mjs                                         [22m[32m692.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-XR4GEMGR.mjs                                         [22m[32m679.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-LT4MVCA7.mjs                                         [22m[32m483.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-WRSGHGAT.mjs                                         [22m[32m875.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-JKG6LNAN.mjs                                         [22m[32m1.39 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-W7625H47.mjs                                         [22m[32m445.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-MOSRJHJ3.mjs                                         [22m[32m716.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-DLZWPHHO.mjs                                         [22m[32m531.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-LSEYENCI.mjs                                         [22m[32m405.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-OMC5JCQH.mjs                                         [22m[32m685.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-XMAWMECC.mjs                                         [22m[32m1.11 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-PKBZNOGD.mjs                                         [22m[32m3.50 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-4M3ZY7KA.mjs                                         [22m[32m1.29 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-24OILC3G.mjs                                         [22m[32m2.84 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-GSM3OOMB.mjs                                         [22m[32m811.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-VELNOPU6.mjs                                         [22m[32m470.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-detail-SWJBEHKN.mjs                                [22m[32m37.12 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-OIAPXGI2.mjs                                         [22m[32m1.75 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-LFLGEXIG.mjs                                         [22m[32m1.03 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-VDBOSWVE.mjs                                         [22m[32m30.01 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-2RQLKDBF.mjs                                         [22m[32m14.78 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-P3UUX2T6.mjs                                         [22m[32m362.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-HMRXSHOP.mjs                                         [22m[32m16.54 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-YEDAFXMB.mjs                                         [22m[32m1.29 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-AOFGTNG6.mjs                                         [22m[32m3.68 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-WX2SMNCD.mjs                                         [22m[32m2.63 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-LPEUYMRK.mjs                                         [22m[32m5.80 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-RBEBIPW6.mjs                                         [22m[32m2.83 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-OC7BQLYI.mjs                                         [22m[32m378.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-C76H5USB.mjs                                         [22m[32m403.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-JU27BRLN.mjs                                         [22m[32m57.57 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-M3VFKDXJ.mjs                                         [22m[32m1.85 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-N65KPW3C.mjs                                         [22m[32m943.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-KHOKHZC6.mjs                                         [22m[32m77.23 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-HLCPKUCW.mjs                                         [22m[32m894.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-LJQNRGKD.mjs                                         [22m[32m58.54 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-UMNS46LA.mjs                                         [22m[32m4.85 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-4YM46CJI.mjs                                         [22m[32m1.55 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-MVS2MLD5.mjs                                         [22m[32m3.64 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-6YTJEFSJ.mjs                                         [22m[32m2.38 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-ZT6F5MCR.mjs                                         [22m[32m1.77 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-list-U4TD2F7A.mjs                                  [22m[32m7.53 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-F2FX7KCH.mjs                                         [22m[32m2.20 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-RVOQ4QHC.mjs                                         [22m[32m3.10 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-XTMZKMOZ.mjs                                         [22m[32m1.86 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-BQN4VGEZ.mjs                                         [22m[32m558.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-6GGI4OZ2.mjs                                         [22m[32m2.23 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-PH5TFBJO.mjs                                         [22m[32m2.05 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-GHJM3KWM.mjs                                         [22m[32m1.64 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-6IW74BRC.mjs                                         [22m[32m3.39 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-6FTYBCYU.mjs                                         [22m[32m6.21 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-C7J3KXU4.mjs                                         [22m[32m2.84 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-STLKFKTM.mjs                                         [22m[32m2.48 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-7IYWGNFM.mjs                                         [22m[32m4.50 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-FQ3W3CD6.mjs                                         [22m[32m5.76 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-M7TK4QZI.mjs                                         [22m[32m3.04 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-D5QHHX42.mjs                                         [22m[32m3.93 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-JEH3SANT.mjs                                         [22m[32m2.98 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-CSL6R7SM.mjs                                         [22m[32m1.54 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-RJSD5KRU.mjs                                         [22m[32m5.69 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-JFVS6F3P.mjs                                         [22m[32m667.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-OFR32LXC.mjs                                         [22m[32m2.51 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/product-edit-6FHTZ5L5.mjs                                  [22m[32m9.87 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-JLD5AXG6.mjs                                         [22m[32m1.20 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-6GU6IDUA.mjs                                         [22m[32m167.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-6HTZNHPT.mjs                                         [22m[32m845.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-KL22UNUW.mjs                                         [22m[32m11.84 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-PV6FYEYE.mjs                                         [22m[32m234.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-3ISBJK7K.mjs                                         [22m[32m1.16 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-MYZNNCXD.mjs                                         [22m[32m16.46 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-53IEL2PE.mjs                                         [22m[32m1.38 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-GVVSRVWO.mjs                                         [22m[32m8.52 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-VZXSXNQY.mjs                                         [22m[32m4.82 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-ONB3JEHR.mjs                                         [22m[32m177.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-FXYH54JP.mjs                                         [22m[32m313.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-TEV2YX75.mjs                                         [22m[32m7.92 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-GH77ZQI2.mjs                                         [22m[32m1.63 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-Z6RNBRJT.mjs                                         [22m[32m1.42 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/app.mjs                                                    [22m[32m150.38 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/app.css                                                    [22m[32m111.06 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-7OYLCEKK.mjs                                         [22m[32m782.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-22SBRBNJ.mjs                                         [22m[32m7.15 KB[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-774WSTCC.mjs                                         [22m[32m525.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-JODJECSK.mjs                                         [22m[32m949.00 B[39m
+@medusajs/dashboard:build: [32mESM[39m [1mdist/chunk-PB5LUOHK.mjs                                         [22m[32m1.04 MB[39m
+@medusajs/dashboard:build: [32mESM[39m ⚡️ Build success in 6121ms
+@medusajs/dashboard:build: File created at /workspaces/medusa-lab/packages/admin/dashboard/dist/index.d.ts
+@medusajs/modules-sdk:build: cache hit, replaying logs 959c50a16ad494ba
+@medusajs/modules-sdk:build: 
+@medusajs/admin-bundler:build: cache hit, replaying logs 9f71120ae68224ff
+@medusajs/admin-bundler:build: [34mCLI[39m Building entry: src/index.ts
+@medusajs/admin-bundler:build: [34mCLI[39m Using tsconfig: tsconfig.json
+@medusajs/admin-bundler:build: [34mCLI[39m tsup v8.0.2
+@medusajs/admin-bundler:build: [34mCLI[39m Using tsup config: /workspaces/medusa-lab/packages/admin/admin-bundler/tsup.config.cjs
+@medusajs/admin-bundler:build: [34mCLI[39m Target: es2020
+@medusajs/admin-bundler:build: [34mCLI[39m Cleaning output folder
+@medusajs/admin-bundler:build: [34mCJS[39m Build start
+@medusajs/admin-bundler:build: [32mCJS[39m [1mdist/index.js [22m[32m60.16 KB[39m
+@medusajs/admin-bundler:build: [32mCJS[39m ⚡️ Build success in 48ms
+@medusajs/admin-bundler:build: [34mDTS[39m Build start
+@medusajs/admin-bundler:build: [32mDTS[39m ⚡️ Build success in 6011ms
+@medusajs/admin-bundler:build: [32mDTS[39m [1mdist/index.d.ts [22m[32m645.00 B[39m
+@medusajs/workflows-sdk:build: cache hit, replaying logs 2635b4c4f24a2496
+@medusajs/workflows-sdk:build: 
+@medusajs/framework:build: cache hit, replaying logs a59d05208d87d16b
+@medusajs/framework:build: 
+@medusajs/notification-sendgrid:build: cache hit, replaying logs 3d705ca58e6639a2
+@medusajs/notification-sendgrid:build: 
+@medusajs/cache-inmemory:build: cache hit, replaying logs 358c99c64fe29a80
+@medusajs/cache-inmemory:build: 
+@medusajs/fulfillment-manual:build: cache hit, replaying logs 395448b5e74ba6f4
+@medusajs/fulfillment-manual:build: 
+@medusajs/cache-redis:build: cache hit, replaying logs 303481d688dc5a28
+@medusajs/cache-redis:build: 
+@medusajs/auth-github:build: cache hit, replaying logs b29f9512728def22
+@medusajs/auth-github:build: 
+@medusajs/event-bus-local:build: cache hit, replaying logs 06eabe22fd944934
+@medusajs/event-bus-local:build: 
+@medusajs/locking-postgres:build: cache hit, replaying logs 6d5351ff72d77d69
+@medusajs/locking-postgres:build: 
+@medusajs/locking-postgres:build: > @medusajs/locking-postgres@2.0.7 resolve:aliases
+@medusajs/locking-postgres:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/locking-postgres:build: 
+@medusajs/locking-postgres:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/file-local:build: cache hit, replaying logs ecd54aabdc6aa393
+@medusajs/file-local:build: 
+@medusajs/core-flows:build: cache hit, replaying logs fc06504b5a676c9a
+@medusajs/core-flows:build: 
+@medusajs/file-s3:build: cache hit, replaying logs eb502265ffe04fb8
+@medusajs/file-s3:build: 
+@medusajs/notification-local:build: cache hit, replaying logs d54726f639cf385f
+@medusajs/notification-local:build: 
+@medusajs/event-bus-redis:build: cache hit, replaying logs 004f3b7a545e77fa
+@medusajs/event-bus-redis:build: 
+@medusajs/auth-emailpass:build: cache hit, replaying logs ddafd3afab9f523b
+@medusajs/auth-emailpass:build: 
+@medusajs/locking-redis:build: cache hit, replaying logs efef880a80000d4a
+@medusajs/locking-redis:build: [1G[0K⠙[1G[0K⠹[1G[0K
+@medusajs/locking-redis:build: > @medusajs/locking-redis@2.0.7 resolve:aliases
+@medusajs/locking-redis:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/locking-redis:build: 
+@medusajs/locking-redis:build: [1G[0K⠹[1G[0K[1G[0K⠙[1G[0K[1mnpm[22m [96mnotice[39m
+@medusajs/locking-redis:build: [1mnpm[22m [96mnotice[39m New [31mmajor[39m version of npm available! [31m10.8.2[39m -> [34m11.18.0[39m
+@medusajs/locking-redis:build: [1mnpm[22m [96mnotice[39m Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.18.0[39m
+@medusajs/locking-redis:build: [1mnpm[22m [96mnotice[39m To update run: [4mnpm install -g npm@11.18.0[24m
+@medusajs/locking-redis:build: [1mnpm[22m [96mnotice[39m
+@medusajs/locking-redis:build: [1G[0K⠙[1G[0K
+@medusajs/payment-stripe:build: cache hit, replaying logs ea52fe24e62bcaa2
+@medusajs/payment-stripe:build: 
+@medusajs/auth-google:build: cache hit, replaying logs 636b2f28998177e3
+@medusajs/auth-google:build: 
+@medusajs/test-utils:build: cache hit, replaying logs 0394f94892df30db
+@medusajs/test-utils:build: 
+@medusajs/customer:build: cache hit, replaying logs 7961595afb73fdb8
+@medusajs/customer:build: [1G[0K⠙[1G[0K
+@medusajs/customer:build: > @medusajs/customer@2.0.7 resolve:aliases
+@medusajs/customer:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/customer:build: 
+@medusajs/customer:build: [1G[0K⠙[1G[0K[1G[0K⠙[1G[0K
+@medusajs/workflow-engine-redis:build: cache hit, replaying logs ca60c8c1730ce710
+@medusajs/workflow-engine-redis:build: 
+@medusajs/workflow-engine-redis:build: > @medusajs/workflow-engine-redis@2.0.7 resolve:aliases
+@medusajs/workflow-engine-redis:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/workflow-engine-redis:build: 
+@medusajs/workflow-engine-redis:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/locking:build: cache hit, replaying logs 0e8bc21b0fd36013
+@medusajs/locking:build: 
+@medusajs/locking:build: > @medusajs/locking@2.0.7 resolve:aliases
+@medusajs/locking:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/locking:build: 
+@medusajs/locking:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/sales-channel:build: cache hit, replaying logs e032b64bef5da70b
+@medusajs/sales-channel:build: 
+@medusajs/sales-channel:build: > @medusajs/sales-channel@2.0.7 resolve:aliases
+@medusajs/sales-channel:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/sales-channel:build: 
+@medusajs/sales-channel:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/order:build: cache hit, replaying logs a628e6a1c35f51af
+@medusajs/order:build: 
+@medusajs/order:build: > @medusajs/order@2.0.7 resolve:aliases
+@medusajs/order:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/order:build: 
+@medusajs/order:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/currency:build: cache hit, replaying logs 870d98ecb0b4092e
+@medusajs/currency:build: 
+@medusajs/currency:build: > @medusajs/currency@2.0.7 resolve:aliases
+@medusajs/currency:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/currency:build: 
+@medusajs/currency:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/link-modules:build: cache hit, replaying logs 8dde14cc0b04657a
+@medusajs/link-modules:build: 
+@medusajs/link-modules:build: > @medusajs/link-modules@2.0.7 resolve:aliases
+@medusajs/link-modules:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/link-modules:build: 
+@medusajs/link-modules:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/stock-location:build: cache hit, replaying logs b46bc9f09982f03b
+@medusajs/stock-location:build: 
+@medusajs/stock-location:build: > @medusajs/stock-location@2.0.7 resolve:aliases
+@medusajs/stock-location:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/stock-location:build: 
+@medusajs/stock-location:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/file:build: cache hit, replaying logs 9bf96c35ef9debd9
+@medusajs/file:build: 
+@medusajs/file:build: > @medusajs/file@2.0.7 resolve:aliases
+@medusajs/file:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/file:build: 
+@medusajs/file:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/cart:build: cache hit, replaying logs eb4fa72cf0f33516
+@medusajs/cart:build: 
+@medusajs/cart:build: > @medusajs/cart@2.0.7 resolve:aliases
+@medusajs/cart:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/cart:build: 
+@medusajs/cart:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/fulfillment:build: cache hit, replaying logs 0a77db710250da75
+@medusajs/fulfillment:build: 
+@medusajs/fulfillment:build: > @medusajs/fulfillment@2.0.7 resolve:aliases
+@medusajs/fulfillment:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/fulfillment:build: 
+@medusajs/fulfillment:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/notification:build: cache hit, replaying logs 186b2c66fe37b28a
+@medusajs/notification:build: 
+@medusajs/notification:build: > @medusajs/notification@2.0.7 resolve:aliases
+@medusajs/notification:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/notification:build: 
+@medusajs/notification:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/inventory:build: cache hit, replaying logs 193df2bf28ce86c7
+@medusajs/inventory:build: 
+@medusajs/inventory:build: > @medusajs/inventory@2.0.7 resolve:aliases
+@medusajs/inventory:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/inventory:build: 
+@medusajs/inventory:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/tax:build: cache hit, replaying logs 63f4e3746f7474f5
+@medusajs/tax:build: 
+@medusajs/tax:build: > @medusajs/tax@2.0.7 resolve:aliases
+@medusajs/tax:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/tax:build: 
+@medusajs/tax:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/api-key:build: cache hit, replaying logs adf71a76d3eada8b
+@medusajs/api-key:build: 
+@medusajs/api-key:build: > @medusajs/api-key@2.0.7 resolve:aliases
+@medusajs/api-key:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/api-key:build: 
+@medusajs/api-key:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/workflow-engine-inmemory:build: cache hit, replaying logs d06f08ad82deb141
+@medusajs/workflow-engine-inmemory:build: [1G[0K⠙[1G[0K
+@medusajs/workflow-engine-inmemory:build: > @medusajs/workflow-engine-inmemory@2.0.7 resolve:aliases
+@medusajs/workflow-engine-inmemory:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/workflow-engine-inmemory:build: 
+@medusajs/workflow-engine-inmemory:build: [1G[0K⠙[1G[0K[1G[0K⠙[1G[0K
+@medusajs/store:build: cache hit, replaying logs 7948c23ccdb442fa
+@medusajs/store:build: [1G[0K⠙[1G[0K
+@medusajs/store:build: > @medusajs/store@2.0.7 resolve:aliases
+@medusajs/store:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/store:build: 
+@medusajs/store:build: [1G[0K⠙[1G[0K[1G[0K⠙[1G[0K
+@medusajs/promotion:build: cache hit, replaying logs 534c0aff8477d698
+@medusajs/promotion:build: 
+@medusajs/promotion:build: > @medusajs/promotion@2.0.7 resolve:aliases
+@medusajs/promotion:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/promotion:build: 
+@medusajs/promotion:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/pricing:build: cache hit, replaying logs 1a23eecf6c5c4d91
+@medusajs/pricing:build: 
+@medusajs/pricing:build: > @medusajs/pricing@2.0.7 resolve:aliases
+@medusajs/pricing:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/pricing:build: 
+@medusajs/pricing:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/payment:build: cache hit, replaying logs 8aeba51d82962926
+@medusajs/payment:build: 
+@medusajs/payment:build: > @medusajs/payment@2.0.7 resolve:aliases
+@medusajs/payment:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/payment:build: 
+@medusajs/payment:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/product:build: cache hit, replaying logs 426642a9a7afe2c7
+@medusajs/product:build: 
+@medusajs/product:build: > @medusajs/product@2.0.7 resolve:aliases
+@medusajs/product:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/product:build: 
+@medusajs/product:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/auth:build: cache hit, replaying logs 7c91a21922efe65c
+@medusajs/auth:build: 
+@medusajs/auth:build: > @medusajs/auth@2.0.7 resolve:aliases
+@medusajs/auth:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/auth:build: 
+@medusajs/auth:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/region:build: cache hit, replaying logs 5859686ff6cc0ccd
+@medusajs/region:build: 
+@medusajs/region:build: > @medusajs/region@2.0.7 resolve:aliases
+@medusajs/region:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/region:build: 
+@medusajs/region:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/user:build: cache hit, replaying logs a6b81b1e84c6cb15
+@medusajs/user:build: 
+@medusajs/user:build: > @medusajs/user@2.0.7 resolve:aliases
+@medusajs/user:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/user:build: 
+@medusajs/user:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/index:build: cache hit, replaying logs 07bce6d6f1f4e4e5
+@medusajs/index:build: 
+@medusajs/index:build: > @medusajs/index@2.0.7 resolve:aliases
+@medusajs/index:build: > tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+@medusajs/index:build: 
+@medusajs/index:build: [1G[0K[1G[0K⠙[1G[0K
+@medusajs/medusa:build: cache hit, replaying logs 8fc20955a5cd3e0e
+@medusajs/medusa:build: 
+@medusajs/medusa-oas-cli:build: cache hit, replaying logs 5c668b0d78ba3b15
+@medusajs/medusa-oas-cli:build: 
+integration-tests-modules:build: cache hit, replaying logs 67fac62500e87261
+integration-tests-modules:build: 
+integration-tests-api:build: cache hit, replaying logs a148eeaaf4ec17da
+integration-tests-api:build: 
+integration-tests-http:build: cache hit, replaying logs 64c3ad88f14fe2ee
+integration-tests-http:build: 
+
+ Tasks:    67 successful, 67 total
+Cached:    67 cached, 67 total
+  Time:    19.288s >>> FULL TURBO
+
