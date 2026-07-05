@@ -547,7 +547,7 @@ pnpm --filter @medusajs/orchestration build
 # check build
 * test lỗi
 ```bash
-pnpm --filter @medusajs/workflows-sdk build
+pnpm --filter @medusajs/ui build
 ```
 * test từ lỗi trở đi phụ thuộc sau
 ```bash
@@ -571,9 +571,8 @@ create-medusa-app
 @medusajs/utils
 @medusajs/modules-sdk
 ## fail
-@medusajs/workflows-sdk
-## todo
 @medusajs/ui
+## todo
 @medusajs/dashboard
 @medusajs/admin-bundler
 
@@ -603,4 +602,24 @@ pnpm --filter=@medusajs/utils why ts-jest
 * lọc và sửa toàn bộ package nào chứa `"jest": "29.7.0"` và có `tsconfig.json` mở rộng dùng chung với `root`
 ```json
 "@types/jest": "29.5.12"
+```
+### @medusajs/ui + @medusajs/icons
+* lộn xộn phiên bản @types/react dùng @medusajs/ui và @medusajs/icons
+```bash
+pnpm why @types/react
+pnpm list @types/react -r
+pnpm --filter @medusajs/ui why @types/react
+
+pnpm why @medusajs/ui
+pnpm list @medusajs/ui -r
+```
+* cập nhật dựa trên yarn.lock vì có cách resolution giống nhau
+```json
+"@types/react": "18.3.1",
+"@types/react-dom": "18.3.0",
+```
+* kiểm tra
+```bash
+pnpm why @internationalized/date@3.12.2
+pnpm --filter @medusajs/ui build
 ```
