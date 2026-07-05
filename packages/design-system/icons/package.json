@@ -19,7 +19,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "yarn build:bundles && yarn build:types",
+    "build": "pnpm run build:bundles && pnpm run build:types",
     "build:bundles": "rollup -c ./rollup.config.mjs",
     "build:types": "tsc --emitDeclarationOnly",
     "test": "vitest --run",
@@ -57,7 +57,7 @@
   "peerDependencies": {
     "react": "^16.x || ^17.x || ^18.x"
   },
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "pnpm@10.15.0",
   "publishConfig": {
     "access": "public"
   }
