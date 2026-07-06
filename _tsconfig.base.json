@@ -20,8 +20,7 @@
     "noImplicitThis": true,
     "allowJs": true,
     "skipLibCheck": true,
-    "incremental": false,
-    "types": ["@types/jest"]
+    "incremental": false
   },
   "include": ["${configDir}/src"],
   "exclude": ["${configDir}/dist", "${configDir}/node_modules"]

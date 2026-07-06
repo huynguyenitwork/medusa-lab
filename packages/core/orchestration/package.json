@@ -36,7 +36,7 @@
     "jest": "^29.7.0",
     "pg": "^8.13.0",
     "rimraf": "^5.0.1",
-    "typescript": "^5.6.2"
+    "typescript": "5.6.2"
   },
   "dependencies": {
     "@medusajs/types": "workspace:^",
