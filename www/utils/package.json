@@ -27,5 +27,5 @@
     "docs-generator/eslint": "8.56.0",
     "docs-generator/@types/eslint": "8.56.0"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "pnpm@9.15.9"
 }

@@ -85,5 +85,5 @@
     "@medusajs/types": "2.13.6",
     "@medusajs/ui-preset": "2.13.6"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "pnpm@9.15.9"
 }

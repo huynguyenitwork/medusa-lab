@@ -18,5 +18,5 @@
   "scripts": {
     "build": "yarn run -T tsup"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "pnpm@9.15.9"
 }
