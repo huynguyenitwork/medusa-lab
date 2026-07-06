@@ -34,8 +34,8 @@
     "typedoc"
   ],
   "dependencies": {
-    "@medusajs/core-flows": "link:../../../../packages/core/core-flows",
-    "@medusajs/workflows-sdk": "link:../../../../packages/core/workflows-sdk",
+    "@medusajs/core-flows": "workspace:^",
+    "@medusajs/workflows-sdk": "workspace:^",
     "eslint": "^8.53.0",
     "glob": "^10.3.10",
     "utils": "*",

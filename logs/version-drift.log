@@ -1,0 +1,3037 @@
+
+@actions/core
+  ^1.10.1
+    dependencies  www\utils\packages\scripts\package.json
+
+@ariakit/react
+  ^0.4.1
+    dependencies  packages\admin\dashboard\package.json
+
+@atomico/rollup-plugin-sizes
+  ^1.1.4
+    devDependencies  packages\design-system\icons\package.json
+
+@aws-sdk/client-s3
+  ^3.556.0
+    dependencies  packages\modules\providers\file-s3\package.json
+
+@aws-sdk/s3-request-presigner
+  ^3.556.0
+    dependencies  packages\modules\providers\file-s3\package.json
+
+@babel/core
+  ^7.23.0
+    dependencies  www\utils\package.json
+
+@babel/eslint-parser
+  ^7.22.15
+    dependencies  www\utils\package.json
+  ^7.25.9
+    devDependencies  www\package.json
+
+@babel/parser
+  7.25.6
+    dependencies  packages\admin\admin-vite-plugin\package.json
+
+@babel/runtime
+  ^7.22.10
+    dependencies  packages\medusa-telemetry\package.json
+
+@babel/traverse
+  7.25.6
+    dependencies  packages\admin\admin-vite-plugin\package.json
+
+@babel/types
+  7.25.6
+    dependencies  packages\admin\admin-vite-plugin\package.json
+
+@changesets/changelog-github
+  ^0.4.8
+    dependencies  package.json
+
+@changesets/cli
+  ^2.26.0
+    dependencies  package.json
+
+@cloudinary/url-gen
+  ^1.17.0
+    dependencies  www\packages\remark-rehype-plugins\package.json
+
+@dnd-kit/core
+  ^6.1.0
+    dependencies  packages\admin\dashboard\package.json
+
+@dnd-kit/sortable
+  ^8.0.0
+    dependencies  packages\admin\dashboard\package.json
+
+@emotion/is-prop-valid
+  ^1.3.1
+    dependencies  www\packages\docs-ui\package.json
+
+@eslint/js
+  9.13.0
+    devDependencies  www\package.json
+
+@faker-js/faker
+  ^8.0.2
+    dependencies  www\apps\ui\package.json
+  ^8.4.0
+    dependencies  www\utils\packages\docs-generator\package.json
+
+@graphql-codegen/core
+  ^4.0.2
+    dependencies  packages\core\utils\package.json
+
+@graphql-codegen/typescript
+  ^4.0.9
+    dependencies  packages\core\utils\package.json
+
+@graphql-tools/merge
+  ^9.0.7
+    dependencies  packages\core\utils\package.json
+
+@graphql-tools/schema
+  ^10.0.6
+    dependencies  packages\core\utils\package.json
+
+@hookform/error-message
+  ^2.0.1
+    dependencies  packages\admin\dashboard\package.json
+
+@hookform/resolvers
+  3.4.2
+    dependencies  packages\admin\dashboard\package.json
+
+@inquirer/checkbox
+  ^2.3.11
+    dependencies  packages\medusa\package.json
+
+@inquirer/input
+  ^2.2.9
+    dependencies  packages\medusa\package.json
+
+@jercle/yargonaut
+  ^1.1.5
+    dependencies  packages\core\framework\package.json
+
+@linear/sdk
+  ^1.22.0
+    dependencies  www\utils\packages\scripts\package.json
+
+@mdx-js/loader
+  ^3.1.0
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\user-guide\package.json
+
+@mdx-js/react
+  ^3.1.0
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\ui\package.json
+    dependencies  www\apps\user-guide\package.json
+
+@medusajs/admin-bundler
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/admin-shared
+  workspace:^
+    dependencies  packages\admin\admin-bundler\package.json
+    dependencies  packages\admin\admin-sdk\package.json
+    dependencies  packages\admin\admin-vite-plugin\package.json
+    dependencies  packages\admin\dashboard\package.json
+    devDependencies  packages\admin\dashboard\package.json
+
+@medusajs/admin-vite-plugin
+  workspace:^
+    dependencies  packages\admin\admin-bundler\package.json
+    devDependencies  packages\admin\dashboard\package.json
+
+@medusajs/api-key
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/auth
+  workspace:*
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/auth-emailpass
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/auth-github
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/auth-google
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/cache-inmemory
+  workspace:*
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/cache-redis
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/cart
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/cli
+  workspace:^
+    devDependencies  packages\core\framework\package.json
+    peerDependencies  packages\core\framework\package.json
+
+@medusajs/core-flows
+  workspace:*
+    dependencies  integration-tests\http\package.json
+  workspace:^
+    dependencies  integration-tests\modules\package.json
+    dependencies  integration-tests\package.json
+    dependencies  packages\medusa\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+    dependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+
+@medusajs/currency
+  workspace:^
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/customer
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/dashboard
+  workspace:^
+    dependencies  packages\admin\admin-bundler\package.json
+
+@medusajs/event-bus-local
+  workspace:*
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/event-bus-redis
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/file
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/file-local
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/file-s3
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/framework
+  workspace:^
+    dependencies  integration-tests\modules\package.json
+    dependencies  integration-tests\package.json
+    devDependencies  packages\core\core-flows\package.json
+    peerDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\medusa\package.json
+    peerDependencies  packages\medusa\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+    peerDependencies  packages\medusa-test-utils\package.json
+    devDependencies  packages\modules\api-key\package.json
+    peerDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    peerDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cache-inmemory\package.json
+    peerDependencies  packages\modules\cache-inmemory\package.json
+    devDependencies  packages\modules\cache-redis\package.json
+    peerDependencies  packages\modules\cache-redis\package.json
+    devDependencies  packages\modules\cart\package.json
+    peerDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    peerDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    peerDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\event-bus-local\package.json
+    peerDependencies  packages\modules\event-bus-local\package.json
+    devDependencies  packages\modules\event-bus-redis\package.json
+    peerDependencies  packages\modules\event-bus-redis\package.json
+    devDependencies  packages\modules\file\package.json
+    peerDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    peerDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    peerDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    peerDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    peerDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\locking\package.json
+    peerDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    peerDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    peerDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    peerDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    peerDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    peerDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    peerDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\providers\auth-emailpass\package.json
+    peerDependencies  packages\modules\providers\auth-emailpass\package.json
+    devDependencies  packages\modules\providers\auth-github\package.json
+    peerDependencies  packages\modules\providers\auth-github\package.json
+    devDependencies  packages\modules\providers\auth-google\package.json
+    peerDependencies  packages\modules\providers\auth-google\package.json
+    devDependencies  packages\modules\providers\file-local\package.json
+    peerDependencies  packages\modules\providers\file-local\package.json
+    devDependencies  packages\modules\providers\file-s3\package.json
+    peerDependencies  packages\modules\providers\file-s3\package.json
+    devDependencies  packages\modules\providers\fulfillment-manual\package.json
+    peerDependencies  packages\modules\providers\fulfillment-manual\package.json
+    devDependencies  packages\modules\providers\locking-postgres\package.json
+    peerDependencies  packages\modules\providers\locking-postgres\package.json
+    devDependencies  packages\modules\providers\locking-redis\package.json
+    peerDependencies  packages\modules\providers\locking-redis\package.json
+    devDependencies  packages\modules\providers\notification-local\package.json
+    peerDependencies  packages\modules\providers\notification-local\package.json
+    devDependencies  packages\modules\providers\notification-sendgrid\package.json
+    peerDependencies  packages\modules\providers\notification-sendgrid\package.json
+    devDependencies  packages\modules\providers\payment-stripe\package.json
+    peerDependencies  packages\modules\providers\payment-stripe\package.json
+    devDependencies  packages\modules\region\package.json
+    peerDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    peerDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    peerDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    peerDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    peerDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    peerDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    peerDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+    peerDependencies  packages\modules\workflow-engine-redis\package.json
+
+@medusajs/fulfillment
+  workspace:^
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/fulfillment-manual
+  workspace:^
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/icons
+  ^2.0.0
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\ui\package.json
+    dependencies  www\apps\user-guide\package.json
+    dependencies  www\packages\docs-ui\package.json
+    dependencies  www\packages\types\package.json
+  workspace:^
+    dependencies  packages\admin\dashboard\package.json
+    dependencies  packages\design-system\ui\package.json
+
+@medusajs/index
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/inventory
+  workspace:^
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/js-sdk
+  workspace:^
+    dependencies  packages\admin\dashboard\package.json
+
+@medusajs/link-modules
+  workspace:^
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/locking
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/locking-postgres
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/locking-redis
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/medusa
+  workspace:*
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+  workspace:^
+    dependencies  integration-tests\package.json
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+    peerDependencies  packages\medusa-test-utils\package.json
+
+@medusajs/medusa-oas-cli
+  workspace:^
+    dependencies  packages\cli\oas\oas-github-ci\package.json
+
+@medusajs/modules-sdk
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\core\framework\package.json
+    dependencies  packages\core\workflows-sdk\package.json
+
+@medusajs/notification
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/notification-local
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/notification-sendgrid
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/orchestration
+  workspace:^
+    dependencies  packages\core\framework\package.json
+    dependencies  packages\core\modules-sdk\package.json
+    dependencies  packages\core\workflows-sdk\package.json
+
+@medusajs/order
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/payment
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/payment-stripe
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/pricing
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/product
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/promotion
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/region
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/sales-channel
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/stock-location
+  workspace:^
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/store
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/tax
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/telemetry
+  workspace:^
+    dependencies  packages\cli\create-medusa-app\package.json
+    dependencies  packages\cli\medusa-cli\package.json
+    dependencies  packages\core\framework\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/test-utils
+  workspace:*
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+  workspace:^
+    devDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+
+@medusajs/toolbox
+  workspace:^
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui-preset\package.json
+
+@medusajs/types
+  workspace:^
+    devDependencies  integration-tests\http\package.json
+    devDependencies  integration-tests\modules\package.json
+    devDependencies  packages\admin\admin-bundler\package.json
+    devDependencies  packages\admin\dashboard\package.json
+    devDependencies  packages\cli\oas\medusa-oas-cli\package.json
+    dependencies  packages\core\framework\package.json
+    dependencies  packages\core\js-sdk\package.json
+    dependencies  packages\core\modules-sdk\package.json
+    dependencies  packages\core\orchestration\package.json
+    dependencies  packages\core\utils\package.json
+    dependencies  packages\core\workflows-sdk\package.json
+
+@medusajs/ui
+  ^3.0.0
+    dependencies  www\apps\api-reference\package.json
+  ^4.0.0
+    dependencies  www\apps\ui\package.json
+    dependencies  www\packages\docs-ui\package.json
+  workspace:^
+    dependencies  packages\admin\dashboard\package.json
+
+@medusajs/ui-preset
+  ^1.1.2
+    dependencies  www\packages\tailwind\package.json
+  ^1.1.3
+    dependencies  www\apps\ui\package.json
+  workspace:^
+    devDependencies  packages\admin\dashboard\package.json
+    devDependencies  packages\design-system\ui\package.json
+
+@medusajs/user
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\medusa\package.json
+
+@medusajs/utils
+  workspace:^
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\cli\medusa-cli\package.json
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+    dependencies  packages\core\framework\package.json
+    dependencies  packages\core\modules-sdk\package.json
+    dependencies  packages\core\orchestration\package.json
+    dependencies  packages\core\workflows-sdk\package.json
+
+@medusajs/workflow-engine-inmemory
+  workspace:*
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/workflow-engine-redis
+  workspace:^
+    dependencies  packages\medusa\package.json
+
+@medusajs/workflows-sdk
+  workspace:^
+    dependencies  packages\core\framework\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+    dependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+    dependencies  www\utils\packages\workflows-diagrams-generator\package.json
+
+@mermaid-js/mermaid-cli
+  ^10.6.1
+    dependencies  www\utils\packages\workflows-diagrams-generator\package.json
+
+@mikro-orm/cli
+  5.9.7
+    peerDependencies  packages\core\framework\package.json
+    devDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\providers\locking-postgres\package.json
+    devDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+
+@mikro-orm/core
+  5.9.7
+    dependencies  integration-tests\package.json
+    devDependencies  packages\cli\medusa-cli\package.json
+    peerDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\framework\package.json
+    peerDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    peerDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    peerDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\utils\package.json
+    peerDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\medusa\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+    peerDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    peerDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cart\package.json
+    peerDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    peerDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    peerDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    peerDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    peerDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    peerDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    peerDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\locking\package.json
+    peerDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    peerDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    peerDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    peerDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    peerDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    peerDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    peerDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\providers\locking-postgres\package.json
+    devDependencies  packages\modules\region\package.json
+    peerDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    peerDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    peerDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    peerDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    peerDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    peerDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    peerDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+    peerDependencies  packages\modules\workflow-engine-redis\package.json
+
+@mikro-orm/knex
+  5.9.7
+    dependencies  integration-tests\package.json
+    devDependencies  packages\cli\medusa-cli\package.json
+    peerDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\framework\package.json
+    peerDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    peerDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    peerDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\utils\package.json
+    peerDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\medusa\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+    devDependencies  packages\modules\index\package.json
+    peerDependencies  packages\modules\index\package.json
+
+@mikro-orm/migrations
+  5.9.7
+    dependencies  integration-tests\package.json
+    devDependencies  packages\cli\medusa-cli\package.json
+    peerDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\framework\package.json
+    peerDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    peerDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    peerDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\utils\package.json
+    peerDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\medusa\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+    peerDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    peerDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cart\package.json
+    peerDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    peerDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    peerDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    peerDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    peerDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    peerDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    peerDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\locking\package.json
+    peerDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    peerDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    peerDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    peerDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    peerDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    peerDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    peerDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\providers\locking-postgres\package.json
+    devDependencies  packages\modules\region\package.json
+    peerDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    peerDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    peerDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    peerDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    peerDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    peerDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    peerDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+    peerDependencies  packages\modules\workflow-engine-redis\package.json
+
+@mikro-orm/postgresql
+  5.9.7
+    dependencies  integration-tests\package.json
+    devDependencies  packages\cli\medusa-cli\package.json
+    peerDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\framework\package.json
+    peerDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    peerDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    peerDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\utils\package.json
+    peerDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\medusa\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+    peerDependencies  packages\medusa-test-utils\package.json
+    peerDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    peerDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cart\package.json
+    peerDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    peerDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    peerDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    peerDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    peerDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    peerDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    peerDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\locking\package.json
+    peerDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    peerDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    peerDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    peerDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    peerDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    peerDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    peerDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\providers\locking-postgres\package.json
+    devDependencies  packages\modules\region\package.json
+    peerDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    peerDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    peerDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    peerDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    peerDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    peerDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    peerDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+    peerDependencies  packages\modules\workflow-engine-redis\package.json
+
+@next/bundle-analyzer
+  15.0.1
+    devDependencies  www\apps\api-reference\package.json
+
+@next/mdx
+  15.0.1
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\user-guide\package.json
+
+@octokit/core
+  ^4.0.5
+    dependencies  www\utils\packages\scripts\package.json
+  ^5.0.2
+    dependencies  www\utils\packages\docs-generator\package.json
+
+@octokit/request
+  ^8.1.1
+    dependencies  www\packages\docs-ui\package.json
+
+@opentelemetry/api
+  ^1.9.0
+    dependencies  packages\core\framework\package.json
+    devDependencies  packages\medusa\package.json
+
+@opentelemetry/instrumentation
+  ^0.53.0
+    devDependencies  packages\medusa\package.json
+
+@opentelemetry/instrumentation-pg
+  ^0.44.0
+    devDependencies  packages\medusa\package.json
+
+@opentelemetry/resources
+  ^1.26.0
+    devDependencies  packages\medusa\package.json
+
+@opentelemetry/sdk-node
+  ^0.53.0
+    devDependencies  packages\medusa\package.json
+
+@opentelemetry/sdk-trace-node
+  ^1.26.0
+    devDependencies  packages\medusa\package.json
+
+@radix-ui/react-accordion
+  1.2.0
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-alert-dialog
+  1.1.1
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-avatar
+  1.1.0
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-checkbox
+  1.1.1
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-collapsible
+  1.1.0
+    dependencies  packages\admin\dashboard\package.json
+
+@radix-ui/react-dialog
+  1.1.1
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-dropdown-menu
+  2.1.1
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-label
+  2.1.0
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-popover
+  1.1.1
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-portal
+  1.1.1
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-radio-group
+  1.2.0
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-select
+  2.1.1
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-slot
+  1.1.0
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-switch
+  1.1.0
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-tabs
+  1.1.0
+    dependencies  packages\design-system\ui\package.json
+
+@radix-ui/react-tooltip
+  1.1.2
+    dependencies  packages\design-system\ui\package.json
+
+@react-hook/resize-observer
+  ^1.2.6
+    dependencies  www\packages\docs-ui\package.json
+  ^2.0.2
+    dependencies  www\apps\api-reference\package.json
+
+@readme/json-schema-ref-parser
+  ^1.2.0
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+
+@readme/openapi-parser
+  ^2.4.0
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+  ^2.5.0
+    dependencies  www\apps\api-reference\package.json
+
+@redocly/cli
+  ^1.7.0
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+
+@rollup/plugin-node-resolve
+  ^15.1.0
+    devDependencies  packages\design-system\icons\package.json
+
+@rollup/plugin-replace
+  ^5.0.2
+    devDependencies  packages\design-system\icons\package.json
+
+@segment/analytics-next
+  ^1.75.0
+    dependencies  www\packages\docs-ui\package.json
+
+@sendgrid/mail
+  ^8.1.3
+    dependencies  packages\modules\providers\notification-sendgrid\package.json
+
+@storybook/addon-essentials
+  ^8.3.5
+    devDependencies  packages\design-system\ui\package.json
+
+@storybook/addon-interactions
+  ^8.3.5
+    devDependencies  packages\design-system\ui\package.json
+
+@storybook/addon-links
+  ^8.3.5
+    devDependencies  packages\design-system\ui\package.json
+
+@storybook/addon-styling
+  ^1.3.7
+    devDependencies  packages\design-system\ui\package.json
+
+@storybook/blocks
+  ^8.3.5
+    devDependencies  packages\design-system\ui\package.json
+
+@storybook/react
+  ^8.3.5
+    devDependencies  packages\design-system\ui\package.json
+
+@storybook/react-vite
+  ^8.3.5
+    devDependencies  packages\design-system\ui\package.json
+
+@storybook/testing-library
+  ^0.2.2
+    devDependencies  packages\design-system\ui\package.json
+
+@svgr/core
+  8.0.0
+    dependencies  packages\design-system\toolbox\package.json
+
+@svgr/plugin-jsx
+  8.0.1
+    dependencies  packages\design-system\toolbox\package.json
+
+@svgr/plugin-prettier
+  8.0.1
+    dependencies  packages\design-system\toolbox\package.json
+
+@svgr/plugin-svgo
+  8.0.1
+    dependencies  packages\design-system\toolbox\package.json
+
+@swc/core
+  ^1.4.8
+    devDependencies  integration-tests\api\package.json
+    devDependencies  integration-tests\http\package.json
+    devDependencies  integration-tests\modules\package.json
+  ^1.7.28
+    devDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\cli\medusa-dev-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    devDependencies  packages\medusa\package.json
+    devDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cache-inmemory\package.json
+    devDependencies  packages\modules\cache-redis\package.json
+    devDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\event-bus-local\package.json
+    devDependencies  packages\modules\event-bus-redis\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\providers\auth-emailpass\package.json
+    devDependencies  packages\modules\providers\auth-github\package.json
+    devDependencies  packages\modules\providers\auth-google\package.json
+    devDependencies  packages\modules\providers\file-local\package.json
+    devDependencies  packages\modules\providers\file-s3\package.json
+    devDependencies  packages\modules\providers\fulfillment-manual\package.json
+    devDependencies  packages\modules\providers\locking-postgres\package.json
+    devDependencies  packages\modules\providers\locking-redis\package.json
+    devDependencies  packages\modules\providers\notification-local\package.json
+    devDependencies  packages\modules\providers\notification-sendgrid\package.json
+    devDependencies  packages\modules\providers\payment-stripe\package.json
+    devDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+  1.5.7
+    dependencies  packages\medusa\package.json
+
+@swc/helpers
+  ^0.5.11
+    dependencies  packages\medusa\package.json
+
+@swc/jest
+  ^0.2.36
+    devDependencies  integration-tests\api\package.json
+    devDependencies  integration-tests\http\package.json
+    devDependencies  integration-tests\modules\package.json
+    devDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\cli\medusa-dev-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    devDependencies  packages\medusa\package.json
+    devDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cache-inmemory\package.json
+    devDependencies  packages\modules\cache-redis\package.json
+    devDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\event-bus-local\package.json
+    devDependencies  packages\modules\event-bus-redis\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\providers\auth-emailpass\package.json
+    devDependencies  packages\modules\providers\auth-github\package.json
+    devDependencies  packages\modules\providers\auth-google\package.json
+    devDependencies  packages\modules\providers\file-local\package.json
+    devDependencies  packages\modules\providers\file-s3\package.json
+    devDependencies  packages\modules\providers\fulfillment-manual\package.json
+    devDependencies  packages\modules\providers\locking-postgres\package.json
+    devDependencies  packages\modules\providers\locking-redis\package.json
+    devDependencies  packages\modules\providers\notification-local\package.json
+    devDependencies  packages\modules\providers\notification-sendgrid\package.json
+    devDependencies  packages\modules\providers\payment-stripe\package.json
+    devDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+
+@tailwindcss/forms
+  ^0.5.3
+    dependencies  packages\design-system\ui-preset\package.json
+
+@tanstack/react-query
+  ^5.28.14
+    dependencies  packages\admin\dashboard\package.json
+
+@tanstack/react-table
+  8.20.5
+    dependencies  packages\admin\dashboard\package.json
+
+@tanstack/react-virtual
+  ^3.8.3
+    dependencies  packages\admin\dashboard\package.json
+
+@testing-library/dom
+  ^9.3.1
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+
+@testing-library/jest-dom
+  ^5.16.5
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+
+@testing-library/react
+  ^14.0.0
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+
+@testing-library/user-event
+  ^14.4.3
+    devDependencies  packages\design-system\ui\package.json
+
+@types/chalk
+  ^2.2.0
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@types/commander
+  ^2.12.2
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@types/compression
+  ^1.7.5
+    devDependencies  packages\admin\admin-bundler\package.json
+
+@types/configstore
+  ^6.0.0
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@types/eslint
+  ^8.56.6
+    devDependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+  ^9.6.1
+    devDependencies  www\utils\packages\typedoc-plugin-custom\package.json
+  8.56.6
+    devDependencies  www\utils\packages\docs-generator\package.json
+
+@types/eslint__js
+  8.42.3
+    devDependencies  www\package.json
+
+@types/express
+  ^4.17.17
+    dependencies  packages\cli\medusa-cli\package.json
+    dependencies  packages\core\framework\package.json
+    dependencies  packages\medusa\package.json
+    dependencies  packages\medusa-test-utils\package.json
+  ^4.17.21
+    devDependencies  packages\core\utils\package.json
+
+@types/fs-extra
+  11.0.1
+    devDependencies  packages\design-system\toolbox\package.json
+
+@types/inquirer
+  ^9.0.3
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@types/js-yaml
+  ^4.0.9
+    devDependencies  packages\cli\oas\medusa-oas-cli\package.json
+
+@types/jsdom
+  ^21.1.1
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+    devDependencies  www\apps\api-reference\package.json
+
+@types/jsonwebtoken
+  ^8.5.9
+    devDependencies  packages\core\framework\package.json
+    devDependencies  packages\medusa\package.json
+
+@types/lodash
+  ^4.14.191
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+    devDependencies  packages\medusa\package.json
+
+@types/mapbox__rehype-prism
+  ^0.8.0
+    devDependencies  www\apps\api-reference\package.json
+
+@types/mdx
+  ^2.0.13
+    devDependencies  www\apps\api-reference\package.json
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\user-guide\package.json
+
+@types/multer
+  ^1.4.7
+    devDependencies  packages\medusa\package.json
+
+@types/node
+  ^20
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\user-guide\package.json
+  ^20.10.4
+    devDependencies  packages\admin\admin-vite-plugin\package.json
+  ^20.11.15
+    devDependencies  packages\admin\dashboard\package.json
+  ^20.11.20
+    devDependencies  www\packages\build-scripts\package.json
+    devDependencies  www\packages\remark-rehype-plugins\package.json
+    devDependencies  www\packages\types\package.json
+  ^20.12.10
+    devDependencies  www\utils\packages\docs-generator\package.json
+    devDependencies  www\utils\packages\react-docs-generator\package.json
+    devDependencies  www\utils\packages\scripts\package.json
+    devDependencies  www\utils\packages\typedoc-generate-references\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-custom\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-markdown-medusa\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+    devDependencies  www\utils\packages\utils\package.json
+    devDependencies  www\utils\packages\workflows-diagrams-generator\package.json
+  ^20.12.11
+    devDependencies  packages\cli\create-medusa-app\package.json
+  20.4.5
+    devDependencies  www\apps\api-reference\package.json
+  20.4.9
+    devDependencies  www\apps\ui\package.json
+
+@types/node-emoji
+  ^1.8.2
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@types/pg
+  ^8.6.6
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@types/pluralize
+  ^0.0.33
+    devDependencies  www\apps\api-reference\package.json
+    devDependencies  www\utils\packages\docs-generator\package.json
+    devDependencies  www\utils\packages\typedoc-generate-references\package.json
+
+@types/randomcolor
+  ^0.5.8
+    devDependencies  www\utils\packages\scripts\package.json
+
+@types/react
+  *
+    peerDependencies  www\packages\docs-ui\package.json
+  ^18.2.0
+    devDependencies  packages\design-system\ui\package.json
+  ^18.2.14
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\toolbox\package.json
+  ^18.2.79
+    devDependencies  packages\admin\dashboard\package.json
+  ^18.3.2
+    devDependencies  packages\admin\admin-sdk\package.json
+    devDependencies  packages\admin\admin-shared\package.json
+  npm:types-react@rc
+    devDependencies  www\apps\api-reference\package.json
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\ui\package.json
+    devDependencies  www\apps\user-guide\package.json
+    devDependencies  www\packages\docs-ui\package.json
+
+@types/react-dom
+  *
+    peerDependencies  www\packages\docs-ui\package.json
+  ^18.2.0
+    devDependencies  packages\design-system\ui\package.json
+  ^18.2.6
+    devDependencies  packages\design-system\icons\package.json
+  ^18.2.25
+    devDependencies  packages\admin\dashboard\package.json
+  npm:types-react@rc
+    devDependencies  www\apps\api-reference\package.json
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\ui\package.json
+    devDependencies  www\apps\user-guide\package.json
+    devDependencies  www\packages\docs-ui\package.json
+
+@types/uuid
+  ^9.0.1
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@types/validator
+  ^13.7.17
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@types/wait-on
+  ^5.3.1
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@types/yargs
+  ^15.0.15
+    devDependencies  packages\cli\medusa-cli\package.json
+
+@typescript-eslint/eslint-plugin
+  ^6.7.4
+    dependencies  www\utils\package.json
+  ^6.19.0
+    devDependencies  package.json
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@typescript-eslint/parser
+  ^6.7.4
+    dependencies  www\utils\package.json
+  ^6.19.0
+    devDependencies  package.json
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+@uidotdev/usehooks
+  ^2.4.1
+    dependencies  www\packages\docs-ui\package.json
+
+@uiw/react-json-view
+  ^2.0.0-alpha.17
+    dependencies  packages\admin\dashboard\package.json
+
+@vitejs/plugin-react
+  ^4.0.1
+    devDependencies  packages\design-system\ui\package.json
+  ^4.2.1
+    dependencies  packages\admin\admin-bundler\package.json
+  4.2.1
+    devDependencies  packages\admin\dashboard\package.json
+
+@vitest/coverage-v8
+  ^0.32.2
+    devDependencies  packages\design-system\ui\package.json
+
+ajv
+  ^8.17.1
+    devDependencies  packages\admin\dashboard\package.json
+
+algoliasearch
+  ^5.2.1
+    dependencies  www\packages\docs-ui\package.json
+  4
+    dependencies  www\apps\api-reference\package.json
+
+autoprefixer
+  ^10.0.1
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\user-guide\package.json
+  ^10.4.16
+    dependencies  packages\admin\admin-bundler\package.json
+  ^10.4.17
+    devDependencies  packages\admin\dashboard\package.json
+  ^10.4.19
+    devDependencies  packages\design-system\ui\package.json
+  10.4.14
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\ui\package.json
+    dependencies  www\package.json
+
+awilix
+  ^8.0.1
+    dependencies  integration-tests\package.json
+    devDependencies  packages\cli\medusa-cli\package.json
+    peerDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    peerDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\framework\package.json
+    peerDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    peerDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    peerDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\types\package.json
+    peerDependencies  packages\core\types\package.json
+    devDependencies  packages\core\utils\package.json
+    peerDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\medusa\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+    peerDependencies  packages\medusa-test-utils\package.json
+    peerDependencies  packages\modules\api-key\package.json
+    peerDependencies  packages\modules\auth\package.json
+    peerDependencies  packages\modules\cache-redis\package.json
+    peerDependencies  packages\modules\cart\package.json
+    peerDependencies  packages\modules\currency\package.json
+    peerDependencies  packages\modules\customer\package.json
+    peerDependencies  packages\modules\event-bus-redis\package.json
+    peerDependencies  packages\modules\file\package.json
+    peerDependencies  packages\modules\fulfillment\package.json
+    peerDependencies  packages\modules\index\package.json
+    peerDependencies  packages\modules\inventory\package.json
+    peerDependencies  packages\modules\link-modules\package.json
+    peerDependencies  packages\modules\locking\package.json
+    peerDependencies  packages\modules\notification\package.json
+    peerDependencies  packages\modules\order\package.json
+    peerDependencies  packages\modules\payment\package.json
+    peerDependencies  packages\modules\pricing\package.json
+    peerDependencies  packages\modules\product\package.json
+    peerDependencies  packages\modules\promotion\package.json
+    peerDependencies  packages\modules\providers\payment-stripe\package.json
+    peerDependencies  packages\modules\region\package.json
+    peerDependencies  packages\modules\sales-channel\package.json
+    peerDependencies  packages\modules\stock-location\package.json
+    peerDependencies  packages\modules\store\package.json
+    peerDependencies  packages\modules\tax\package.json
+    peerDependencies  packages\modules\user\package.json
+    peerDependencies  packages\modules\workflow-engine-inmemory\package.json
+    peerDependencies  packages\modules\workflow-engine-redis\package.json
+
+axios
+  ^0.21.4
+    devDependencies  package.json
+    dependencies  packages\medusa-telemetry\package.json
+    dependencies  packages\medusa-test-utils\package.json
+  ^0.24.0
+    dependencies  packages\design-system\toolbox\package.json
+  ^1.6.8
+    devDependencies  packages\modules\providers\file-s3\package.json
+  ^1.7.7
+    dependencies  integration-tests\package.json
+
+axios-mock-adapter
+  ^1.19.0
+    devDependencies  package.json
+
+axios-retry
+  ^3.1.9
+    dependencies  packages\design-system\toolbox\package.json
+    dependencies  packages\medusa-telemetry\package.json
+
+bignumber.js
+  ^9.1.2
+    dependencies  packages\core\types\package.json
+    dependencies  packages\core\utils\package.json
+
+boxen
+  ^5
+    dependencies  packages\cli\create-medusa-app\package.json
+  ^5.0.1
+    dependencies  packages\medusa\package.json
+    dependencies  packages\medusa-telemetry\package.json
+
+build-scripts
+  *
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\user-guide\package.json
+
+bullmq
+  5.13.0
+    dependencies  packages\modules\event-bus-redis\package.json
+    dependencies  packages\modules\workflow-engine-redis\package.json
+
+chalk
+  ^4.0.0
+    dependencies  packages\cli\medusa-cli\package.json
+    dependencies  packages\medusa\package.json
+  ^5.2.0
+    dependencies  packages\cli\create-medusa-app\package.json
+  ^5.3.0
+    dependencies  www\utils\packages\react-docs-generator\package.json
+    dependencies  www\utils\packages\scripts\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+
+chokidar
+  ^3.4.2
+    dependencies  packages\medusa\package.json
+  ^3.5.3
+    dependencies  packages\cli\medusa-dev-cli\package.json
+  3.5.3
+    dependencies  packages\admin\admin-vite-plugin\package.json
+
+chromatic
+  ^6.20.0
+    devDependencies  packages\design-system\ui\package.json
+
+ci-info
+  ^3.2.0
+    dependencies  packages\medusa-telemetry\package.json
+
+clsx
+  ^1.2.1
+    dependencies  packages\design-system\ui\package.json
+  ^2.0.0
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\ui\package.json
+    devDependencies  www\packages\docs-ui\package.json
+  ^2.1.0
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\user-guide\package.json
+
+cmdk
+  ^0.2.0
+    dependencies  packages\admin\dashboard\package.json
+
+commander
+  ^10.0.0
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+  ^10.0.1
+    dependencies  packages\cli\create-medusa-app\package.json
+  ^11.1.0
+    dependencies  www\utils\packages\docs-generator\package.json
+    dependencies  www\utils\packages\react-docs-generator\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+    dependencies  www\utils\packages\workflows-diagrams-generator\package.json
+  11.0.0
+    dependencies  packages\design-system\toolbox\package.json
+
+compression
+  ^1.7.4
+    dependencies  packages\admin\admin-bundler\package.json
+    dependencies  packages\medusa\package.json
+
+configstore
+  ^5.0.1
+    dependencies  packages\cli\medusa-dev-cli\package.json
+  ^6.0.0
+    devDependencies  packages\cli\create-medusa-app\package.json
+  5.0.1
+    dependencies  packages\cli\medusa-cli\package.json
+    dependencies  packages\medusa-telemetry\package.json
+
+connect-redis
+  5.2.0
+    dependencies  packages\core\framework\package.json
+
+contentlayer
+  ^0.3.4
+    dependencies  www\apps\ui\package.json
+
+cookie-parser
+  ^1.4.6
+    dependencies  packages\core\framework\package.json
+
+copy-to-clipboard
+  ^3.3.3
+    dependencies  packages\design-system\ui\package.json
+
+copyfiles
+  ^2.4.1
+    devDependencies  packages\admin\admin-bundler\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-markdown-medusa\package.json
+
+cors
+  ^2.8.5
+    dependencies  packages\core\framework\package.json
+
+cpy-cli
+  ^5.0.0
+    devDependencies  www\packages\docs-ui\package.json
+
+cron-parser
+  ^4.9.0
+    dependencies  packages\modules\workflow-engine-inmemory\package.json
+
+cross-env
+  ^5.2.1
+    devDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\medusa-telemetry\package.json
+    devDependencies  packages\modules\link-modules\package.json
+  ^7.0.3
+    devDependencies  package.json
+    devDependencies  www\utils\packages\typedoc-generate-references\package.json
+
+cva
+  1.0.0-beta.1
+    dependencies  packages\design-system\ui\package.json
+
+date-fns
+  ^3.3.1
+    dependencies  www\apps\ui\package.json
+  ^3.6.0
+    dependencies  packages\admin\dashboard\package.json
+
+del
+  ^6.0.0
+    dependencies  packages\cli\medusa-dev-cli\package.json
+
+docs-ui
+  *
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\ui\package.json
+    dependencies  www\apps\user-guide\package.json
+    devDependencies  www\packages\remark-rehype-plugins\package.json
+    peerDependencies  www\packages\tailwind\package.json
+
+dotenv
+  ^10.0.0
+    devDependencies  integration-tests\package.json
+  ^16.3.1
+    dependencies  www\utils\packages\docs-generator\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+  ^16.4.5
+    dependencies  packages\cli\medusa-cli\package.json
+    dependencies  packages\cli\medusa-dev-cli\package.json
+    dependencies  packages\core\utils\package.json
+    dependencies  packages\design-system\toolbox\package.json
+
+dotenv-expand
+  ^11.0.6
+    dependencies  packages\core\utils\package.json
+
+esbuild
+  ^0.18.11
+    devDependencies  packages\design-system\icons\package.json
+
+eslint
+  ^7.32.0
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+  ^8.23.0
+    devDependencies  package.json
+  ^8.40.0
+    devDependencies  packages\cli\create-medusa-app\package.json
+  ^8.53.0
+    dependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+  ^9.13.0
+    devDependencies  www\apps\api-reference\package.json
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\ui\package.json
+    devDependencies  www\apps\user-guide\package.json
+    dependencies  www\package.json
+    devDependencies  www\packages\docs-ui\package.json
+    dependencies  www\utils\packages\typedoc-plugin-custom\package.json
+  7.32.0
+    devDependencies  packages\design-system\toolbox\package.json
+  8.36.0
+    dependencies  www\utils\package.json
+  8.56.0
+    dependencies  www\utils\packages\docs-generator\package.json
+
+eslint-config-google
+  ^0.14.0
+    devDependencies  package.json
+    devDependencies  packages\cli\create-medusa-app\package.json
+
+eslint-config-next
+  15.0.1
+    devDependencies  www\package.json
+
+eslint-config-prettier
+  ^8.5.0
+    devDependencies  package.json
+  ^8.8.0
+    devDependencies  packages\cli\create-medusa-app\package.json
+  ^9.0.0
+    dependencies  www\utils\package.json
+  9.1.0
+    devDependencies  www\package.json
+
+eslint-config-turbo
+  2.2.3
+    devDependencies  www\package.json
+
+eslint-plugin-markdown
+  5.1.0
+    devDependencies  www\package.json
+
+eslint-plugin-prettier
+  ^4.2.1
+    devDependencies  package.json
+    devDependencies  packages\cli\create-medusa-app\package.json
+  ^5.0.0
+    dependencies  www\utils\package.json
+  ^5.2.1
+    devDependencies  www\apps\api-reference\package.json
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\ui\package.json
+    devDependencies  www\apps\user-guide\package.json
+  5.2.1
+    devDependencies  www\package.json
+
+eslint-plugin-react
+  ^7.31.11
+    devDependencies  package.json
+  7.37.2
+    devDependencies  www\package.json
+
+eslint-plugin-react-hooks
+  ^4.6.0
+    devDependencies  package.json
+  ^5.0.0
+    devDependencies  www\apps\api-reference\package.json
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\ui\package.json
+    devDependencies  www\apps\user-guide\package.json
+
+eslint-plugin-react-refresh
+  ^0.4.5
+    devDependencies  package.json
+
+eslint-plugin-storybook
+  ^0.6.12
+    devDependencies  package.json
+    devDependencies  packages\design-system\ui\package.json
+
+eslint-plugin-unused-imports
+  ^2.0.0
+    devDependencies  package.json
+
+execa
+  ^4.1.0
+    dependencies  packages\cli\medusa-dev-cli\package.json
+  ^5.1.1
+    dependencies  packages\cli\medusa-cli\package.json
+    dependencies  packages\cli\oas\oas-github-ci\package.json
+  1.0.0
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+
+expect-type
+  ^0.20.0
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\types\package.json
+    devDependencies  packages\core\utils\package.json
+
+express
+  ^4.17.1
+    devDependencies  package.json
+  ^4.21.0
+    dependencies  integration-tests\package.json
+    devDependencies  packages\admin\admin-bundler\package.json
+    peerDependencies  packages\admin\admin-bundler\package.json
+    dependencies  packages\cli\medusa-cli\package.json
+    dependencies  packages\core\framework\package.json
+    peerDependencies  packages\core\modules-sdk\package.json
+    peerDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\utils\package.json
+    peerDependencies  packages\core\utils\package.json
+    peerDependencies  packages\core\workflows-sdk\package.json
+    dependencies  packages\medusa\package.json
+    dependencies  packages\medusa-test-utils\package.json
+
+express-session
+  ^1.17.3
+    dependencies  packages\core\framework\package.json
+
+faker
+  ^5.5.3
+    dependencies  integration-tests\modules\package.json
+    devDependencies  packages\modules\product\package.json
+
+fdir
+  6.1.1
+    dependencies  packages\admin\admin-vite-plugin\package.json
+
+fetch-event-stream
+  ^0.1.5
+    dependencies  packages\core\js-sdk\package.json
+
+form-data
+  ^4.0.0
+    dependencies  integration-tests\http\package.json
+
+framer-motion
+  ^11.0.3
+    dependencies  packages\admin\dashboard\package.json
+  ^11.11.9
+    dependencies  www\packages\docs-ui\package.json
+
+fs-exists-cached
+  ^1.0.0
+    dependencies  packages\cli\medusa-cli\package.json
+    dependencies  packages\medusa\package.json
+
+fs-extra
+  ^9.0.1
+    dependencies  packages\cli\medusa-dev-cli\package.json
+  ^10.0.0
+    dependencies  packages\cli\medusa-cli\package.json
+  11.1.1
+    dependencies  packages\design-system\toolbox\package.json
+
+get-port
+  ^5.1.0
+    dependencies  packages\medusa-test-utils\package.json
+  ^5.1.1
+    devDependencies  package.json
+  ^7.1.0
+    dependencies  integration-tests\package.json
+
+glob
+  ^7.1.6
+    dependencies  packages\cli\medusa-cli\package.json
+  ^8.1.0
+    dependencies  packages\cli\medusa-dev-cli\package.json
+  ^10.3.10
+    dependencies  www\utils\packages\react-docs-generator\package.json
+    dependencies  www\utils\packages\scripts\package.json
+    dependencies  www\utils\packages\typedoc-config\package.json
+    dependencies  www\utils\packages\typedoc-plugin-custom\package.json
+    dependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+  ^11.0.0
+    dependencies  integration-tests\package.json
+    devDependencies  package.json
+
+global
+  ^4.4.0
+    dependencies  package.json
+    dependencies  packages\medusa-telemetry\package.json
+
+got
+  ^11.8.6
+    dependencies  packages\cli\medusa-dev-cli\package.json
+
+graphql
+  ^16.9.0
+    dependencies  packages\core\utils\package.json
+
+handlebars
+  ^4.7.8
+    dependencies  www\utils\packages\typedoc-plugin-markdown-medusa\package.json
+
+hosted-git-info
+  ^4.0.2
+    dependencies  packages\cli\medusa-cli\package.json
+
+i18next
+  23.7.11
+    dependencies  packages\admin\dashboard\package.json
+
+i18next-browser-languagedetector
+  7.2.0
+    dependencies  packages\admin\dashboard\package.json
+
+i18next-http-backend
+  2.4.2
+    dependencies  packages\admin\dashboard\package.json
+
+import-from
+  ^3.0.0
+    dependencies  package.json
+    devDependencies  package.json
+
+inquirer
+  ^8.0.0
+    dependencies  packages\cli\medusa-cli\package.json
+  ^9.2.2
+    dependencies  packages\cli\create-medusa-app\package.json
+
+ioredis
+  ^5.4.1
+    dependencies  integration-tests\package.json
+    devDependencies  packages\core\framework\package.json
+    peerDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\types\package.json
+    peerDependencies  packages\core\types\package.json
+    dependencies  packages\modules\cache-redis\package.json
+    dependencies  packages\modules\event-bus-redis\package.json
+    dependencies  packages\modules\providers\locking-redis\package.json
+    dependencies  packages\modules\workflow-engine-redis\package.json
+
+is-docker
+  ^2.2.1
+    dependencies  packages\medusa-telemetry\package.json
+
+is-valid-path
+  ^0.1.1
+    dependencies  packages\cli\medusa-cli\package.json
+
+jest
+  ^29.1.0
+    devDependencies  packages\cli\oas\medusa-oas-cli\package.json
+  ^29.7.0
+    devDependencies  integration-tests\api\package.json
+    devDependencies  integration-tests\http\package.json
+    devDependencies  integration-tests\modules\package.json
+    devDependencies  package.json
+    devDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\cli\medusa-dev-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\js-sdk\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    devDependencies  packages\medusa\package.json
+    devDependencies  packages\medusa-telemetry\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+    devDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cache-inmemory\package.json
+    devDependencies  packages\modules\cache-redis\package.json
+    devDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\event-bus-local\package.json
+    devDependencies  packages\modules\event-bus-redis\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\providers\auth-emailpass\package.json
+    devDependencies  packages\modules\providers\auth-github\package.json
+    devDependencies  packages\modules\providers\auth-google\package.json
+    devDependencies  packages\modules\providers\file-local\package.json
+    devDependencies  packages\modules\providers\file-s3\package.json
+    devDependencies  packages\modules\providers\fulfillment-manual\package.json
+    devDependencies  packages\modules\providers\locking-postgres\package.json
+    devDependencies  packages\modules\providers\locking-redis\package.json
+    devDependencies  packages\modules\providers\notification-local\package.json
+    devDependencies  packages\modules\providers\notification-sendgrid\package.json
+    devDependencies  packages\modules\providers\payment-stripe\package.json
+    devDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+
+js-yaml
+  ^4.1.0
+    devDependencies  packages\cli\oas\medusa-oas-cli\package.json
+
+jsdom
+  ^22.1.0
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+    dependencies  www\apps\api-reference\package.json
+
+json-2-csv
+  ^5.5.4
+    dependencies  packages\core\core-flows\package.json
+
+json-schema
+  ^0.4.0
+    dependencies  www\apps\api-reference\package.json
+
+json-stringify-pretty-compact
+  ^4.0.0
+    dependencies  www\apps\api-reference\package.json
+
+jsonwebtoken
+  ^9.0.2
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  integration-tests\package.json
+    dependencies  packages\core\framework\package.json
+    dependencies  packages\core\utils\package.json
+    dependencies  packages\medusa\package.json
+    dependencies  packages\modules\providers\auth-google\package.json
+    dependencies  packages\modules\user\package.json
+
+lint-staged
+  ^11.2.6
+    devDependencies  package.json
+
+lodash
+  ^4.17.21
+    dependencies  packages\admin\dashboard\package.json
+    dependencies  packages\cli\medusa-dev-cli\package.json
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+    dependencies  packages\medusa\package.json
+
+magic-string
+  0.30.5
+    dependencies  packages\admin\admin-vite-plugin\package.json
+
+match-sorter
+  ^6.3.4
+    dependencies  packages\admin\dashboard\package.json
+
+mdast-util-toc
+  ^7.0.0
+    dependencies  www\apps\ui\package.json
+
+meant
+  ^1.0.3
+    dependencies  packages\cli\medusa-cli\package.json
+
+mermaid
+  ^10.9.0
+    dependencies  www\packages\docs-ui\package.json
+
+microbundle
+  ^0.13.3
+    devDependencies  package.json
+
+minimatch
+  ^9.0.3
+    dependencies  www\utils\packages\docs-generator\package.json
+  ^10.0.1
+    dependencies  www\utils\packages\typedoc-plugin-custom\package.json
+
+morgan
+  ^1.9.1
+    dependencies  packages\core\framework\package.json
+
+msw
+  ^2.3.0
+    devDependencies  packages\core\js-sdk\package.json
+    devDependencies  packages\modules\providers\auth-github\package.json
+    devDependencies  packages\modules\providers\auth-google\package.json
+
+multer
+  ^1.4.5-lts.1
+    dependencies  packages\medusa\package.json
+
+nanoid
+  ^4.0.2
+    dependencies  packages\cli\create-medusa-app\package.json
+
+next
+  *
+    peerDependencies  www\packages\docs-ui\package.json
+  15.0.1
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\ui\package.json
+    dependencies  www\apps\user-guide\package.json
+    devDependencies  www\packages\docs-ui\package.json
+
+next-contentlayer
+  ^0.3.4
+    dependencies  www\apps\ui\package.json
+
+next-mdx-remote
+  5.0.0
+    dependencies  www\apps\api-reference\package.json
+
+next-themes
+  ^0.2.1
+    dependencies  www\apps\ui\package.json
+
+node-emoji
+  ^2.0.2
+    dependencies  packages\cli\create-medusa-app\package.json
+
+node-fetch
+  ^3.3.1
+    dependencies  packages\cli\create-medusa-app\package.json
+
+node-schedule
+  ^2.1.1
+    dependencies  packages\medusa\package.json
+
+nodemon
+  ^2.0.20
+    devDependencies  packages\medusa-telemetry\package.json
+
+npm-to-pnpm
+  ^2.1.0
+    dependencies  www\packages\docs-ui\package.json
+
+octokit
+  ^3.1.2
+    dependencies  www\utils\packages\utils\package.json
+
+open
+  ^9.1.0
+    dependencies  packages\cli\create-medusa-app\package.json
+
+openai
+  ^4.29.1
+    dependencies  www\utils\packages\docs-generator\package.json
+
+openapi-sampler
+  ^1.3.1
+    dependencies  www\apps\api-reference\package.json
+
+openapi-types
+  ^12.1.3
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\utils\packages\docs-generator\package.json
+
+openapi3-ts
+  ^3.1.2
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+
+ora
+  ^5.4.1
+    dependencies  packages\cli\medusa-cli\package.json
+  ^6.3.0
+    dependencies  packages\cli\create-medusa-app\package.json
+
+outdent
+  ^0.8.0
+    dependencies  packages\admin\admin-vite-plugin\package.json
+
+pg
+  ^8.11.3
+    dependencies  integration-tests\api\package.json
+    dependencies  integration-tests\http\package.json
+    dependencies  integration-tests\modules\package.json
+    dependencies  packages\cli\create-medusa-app\package.json
+    dependencies  packages\cli\medusa-cli\package.json
+  ^8.13.0
+    dependencies  integration-tests\package.json
+    devDependencies  packages\cli\medusa-cli\package.json
+    peerDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\framework\package.json
+    peerDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    peerDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    peerDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\utils\package.json
+    peerDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    peerDependencies  packages\core\workflows-sdk\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+
+pg-connection-string
+  ^2.7.0
+    dependencies  packages\core\utils\package.json
+
+pg-god
+  ^1.0.12
+    dependencies  integration-tests\package.json
+    devDependencies  package.json
+    dependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\core\utils\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+
+picocolors
+  ^1.0.0
+    dependencies  packages\design-system\toolbox\package.json
+  ^1.1.0
+    dependencies  packages\admin\admin-vite-plugin\package.json
+
+pluralize
+  ^8.0.0
+    dependencies  packages\core\utils\package.json
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\utils\packages\docs-generator\package.json
+
+postcss
+  ^8
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\user-guide\package.json
+  ^8.4.32
+    dependencies  packages\admin\admin-bundler\package.json
+  ^8.4.33
+    devDependencies  packages\admin\dashboard\package.json
+  ^8.4.38
+    devDependencies  packages\design-system\ui\package.json
+  8.4.27
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\ui\package.json
+    dependencies  www\package.json
+
+prettier
+  ^2.7.1
+    devDependencies  package.json
+  ^2.8.8
+    devDependencies  packages\cli\create-medusa-app\package.json
+  ^3.0.3
+    dependencies  www\utils\package.json
+  ^3.1.1
+    devDependencies  packages\admin\dashboard\package.json
+  ^3.2.4
+    dependencies  www\utils\packages\docs-generator\package.json
+  ^3.3.3
+    dependencies  www\package.json
+
+prettier-plugin-tailwindcss
+  ^0.2.3
+    devDependencies  package.json
+
+prism-react-renderer
+  ^2.0.6
+    dependencies  packages\design-system\ui\package.json
+  2.4.0
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\packages\docs-ui\package.json
+
+prismjs
+  ^1.29.0
+    dependencies  packages\design-system\ui\package.json
+
+prompts
+  ^2.4.2
+    dependencies  packages\cli\medusa-cli\package.json
+
+prop-types
+  ^15.8.1
+    devDependencies  packages\design-system\ui\package.json
+
+qs
+  ^6.11.2
+    dependencies  packages\medusa\package.json
+  ^6.12.0
+    dependencies  packages\admin\dashboard\package.json
+  ^6.12.1
+    dependencies  packages\core\js-sdk\package.json
+
+randomatic
+  ^3.1.1
+    dependencies  packages\medusa-test-utils\package.json
+
+randomcolor
+  ^0.6.2
+    dependencies  www\utils\packages\scripts\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+
+react
+  *
+    peerDependencies  www\packages\docs-ui\package.json
+  ^16.x || ^17.x || ^18.x
+    peerDependencies  packages\design-system\icons\package.json
+  ^18.0.0
+    peerDependencies  packages\design-system\ui\package.json
+  ^18.2.0
+    dependencies  packages\admin\dashboard\package.json
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\toolbox\package.json
+    devDependencies  packages\design-system\ui\package.json
+  rc
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\ui\package.json
+    dependencies  www\apps\user-guide\package.json
+    dependencies  www\packages\docs-ui\package.json
+
+react-aria
+  ^3.33.1
+    dependencies  packages\design-system\ui\package.json
+
+react-country-flag
+  ^3.1.0
+    dependencies  packages\admin\dashboard\package.json
+
+react-currency-input-field
+  ^3.6.11
+    dependencies  packages\admin\dashboard\package.json
+    dependencies  packages\design-system\ui\package.json
+
+react-docgen
+  ^7.0.1
+    dependencies  www\utils\packages\react-docs-generator\package.json
+  ^7.1.0
+    devDependencies  www\apps\ui\package.json
+
+react-dom
+  *
+    peerDependencies  www\packages\docs-ui\package.json
+  ^18.0.0
+    peerDependencies  packages\admin\admin-bundler\package.json
+    peerDependencies  packages\design-system\ui\package.json
+  ^18.2.0
+    dependencies  packages\admin\dashboard\package.json
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+  rc
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\ui\package.json
+    dependencies  www\apps\user-guide\package.json
+    dependencies  www\packages\docs-ui\package.json
+
+react-helmet-async
+  ^2.0.5
+    dependencies  packages\admin\dashboard\package.json
+
+react-hook-form
+  7.49.1
+    dependencies  packages\admin\dashboard\package.json
+
+react-i18next
+  13.5.0
+    dependencies  packages\admin\dashboard\package.json
+
+react-instantsearch
+  ^7.13.6
+    dependencies  www\packages\docs-ui\package.json
+
+react-intersection-observer
+  ^9.13.1
+    dependencies  www\apps\api-reference\package.json
+
+react-jwt
+  ^1.2.0
+    dependencies  packages\admin\dashboard\package.json
+
+react-markdown
+  ^9.0.1
+    dependencies  www\packages\docs-ui\package.json
+
+react-medium-image-zoom
+  ^5.2.10
+    dependencies  www\packages\docs-ui\package.json
+
+react-router-dom
+  6.20.1
+    dependencies  packages\admin\dashboard\package.json
+
+react-stately
+  ^3.31.1
+    dependencies  packages\design-system\ui\package.json
+
+react-tooltip
+  ^5.28.0
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\packages\docs-ui\package.json
+
+react-transition-group
+  ^4.4.5
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\packages\docs-ui\package.json
+
+react-uuid
+  ^2.0.0
+    dependencies  www\packages\docs-ui\package.json
+
+rehype-mdx-code-props
+  ^2.0.0
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\user-guide\package.json
+  ^3.0.1
+    dependencies  www\apps\api-reference\package.json
+
+rehype-slug
+  ^6.0.0
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\book\package.json
+    dependencies  www\apps\ui\package.json
+    dependencies  www\apps\user-guide\package.json
+
+remark
+  ^14.0.3
+    dependencies  www\apps\ui\package.json
+
+remark-directive
+  ^3.0.0
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\user-guide\package.json
+
+remark-frontmatter
+  ^5.0.0
+    dependencies  www\apps\resources\package.json
+    dependencies  www\apps\user-guide\package.json
+    dependencies  www\packages\remark-rehype-plugins\package.json
+
+remark-parse
+  ^11.0.0
+    dependencies  www\packages\remark-rehype-plugins\package.json
+
+remark-rehype-plugins
+  *
+    dependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    dependencies  www\apps\user-guide\package.json
+    dependencies  www\packages\build-scripts\package.json
+
+remark-stringify
+  ^11.0.0
+    dependencies  www\packages\remark-rehype-plugins\package.json
+
+remove-trailing-slash
+  ^0.1.1
+    dependencies  packages\medusa-telemetry\package.json
+
+request-ip
+  ^3.3.0
+    dependencies  packages\medusa\package.json
+
+resize-observer-polyfill
+  ^1.5.1
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+
+resolve
+  ^1.22.8
+    dependencies  www\utils\packages\react-docs-generator\package.json
+
+resolve-cwd
+  ^3.0.0
+    devDependencies  package.json
+    dependencies  packages\cli\medusa-cli\package.json
+
+rimraf
+  ^3.0.2
+    devDependencies  packages\core\framework\package.json
+    devDependencies  packages\medusa-telemetry\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+    devDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+  ^5.0.1
+    devDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\js-sdk\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\types\package.json
+    devDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+    devDependencies  packages\medusa\package.json
+    devDependencies  packages\modules\cache-inmemory\package.json
+    devDependencies  packages\modules\cache-redis\package.json
+    devDependencies  packages\modules\event-bus-local\package.json
+    devDependencies  packages\modules\event-bus-redis\package.json
+    devDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\providers\auth-emailpass\package.json
+    devDependencies  packages\modules\providers\auth-github\package.json
+    devDependencies  packages\modules\providers\auth-google\package.json
+    devDependencies  packages\modules\providers\file-local\package.json
+    devDependencies  packages\modules\providers\file-s3\package.json
+    devDependencies  packages\modules\providers\fulfillment-manual\package.json
+    devDependencies  packages\modules\providers\locking-postgres\package.json
+    devDependencies  packages\modules\providers\locking-redis\package.json
+    devDependencies  packages\modules\providers\notification-local\package.json
+    devDependencies  packages\modules\providers\notification-sendgrid\package.json
+    devDependencies  packages\modules\providers\payment-stripe\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    devDependencies  www\packages\docs-ui\package.json
+  ^5.0.5
+    devDependencies  www\packages\build-scripts\package.json
+    devDependencies  www\packages\remark-rehype-plugins\package.json
+    devDependencies  www\packages\types\package.json
+    dependencies  www\utils\packages\utils\package.json
+
+rollup
+  ^3.26.0
+    devDependencies  packages\design-system\icons\package.json
+
+rollup-plugin-esbuild
+  ^5.0.0
+    devDependencies  packages\design-system\icons\package.json
+
+rollup-plugin-license
+  ^3.0.1
+    devDependencies  packages\design-system\icons\package.json
+
+rollup-plugin-ts
+  ^3.2.0
+    devDependencies  packages\design-system\icons\package.json
+
+rollup-plugin-visualizer
+  ^5.9.2
+    devDependencies  packages\design-system\icons\package.json
+
+scrypt-kdf
+  ^2.0.1
+    dependencies  integration-tests\modules\package.json
+    dependencies  integration-tests\package.json
+    dependencies  packages\modules\providers\auth-emailpass\package.json
+
+signal-exit
+  ^3.0.7
+    dependencies  packages\cli\medusa-dev-cli\package.json
+
+slugify
+  ^1.6.6
+    dependencies  packages\cli\create-medusa-app\package.json
+    dependencies  packages\medusa\package.json
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\packages\docs-ui\package.json
+
+sonner
+  ^1.5.0
+    dependencies  packages\design-system\ui\package.json
+
+stack-trace
+  ^0.0.10
+    dependencies  packages\cli\medusa-cli\package.json
+
+storybook
+  ^8.3.5
+    devDependencies  packages\design-system\ui\package.json
+
+stripe
+  ^15.5.0
+    dependencies  packages\modules\providers\payment-stripe\package.json
+
+supertest
+  ^4.0.2
+    devDependencies  packages\core\framework\package.json
+
+swagger-inline
+  ^6.1.0
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+
+swr
+  ^2.2.0
+    dependencies  www\apps\api-reference\package.json
+
+tailwind
+  *
+    dependencies  www\apps\api-reference\package.json
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    dependencies  www\apps\ui\package.json
+    devDependencies  www\apps\user-guide\package.json
+    devDependencies  www\packages\docs-ui\package.json
+
+tailwind-merge
+  ^2.2.1
+    dependencies  packages\design-system\ui\package.json
+
+tailwindcss
+  ^3.3.0
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\user-guide\package.json
+  ^3.3.3
+    devDependencies  www\packages\docs-ui\package.json
+  ^3.3.6
+    dependencies  packages\admin\admin-bundler\package.json
+  ^3.4.1
+    devDependencies  packages\admin\dashboard\package.json
+    devDependencies  packages\design-system\ui-preset\package.json
+  ^3.4.3
+    devDependencies  packages\design-system\ui\package.json
+  >=3.0.0
+    peerDependencies  packages\design-system\ui-preset\package.json
+  3.3.3
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\ui\package.json
+    dependencies  www\package.json
+
+tailwindcss-animate
+  ^1.0.6
+    dependencies  packages\design-system\ui-preset\package.json
+  ^1.0.7
+    dependencies  www\packages\tailwind\package.json
+
+to-vfile
+  ^8.0.0
+    dependencies  www\packages\remark-rehype-plugins\package.json
+
+ts-dedent
+  2.2.0
+    dependencies  packages\design-system\toolbox\package.json
+
+ts-jest
+  ^29.1.0
+    devDependencies  packages\cli\oas\medusa-oas-cli\package.json
+  ^29.1.1
+    devDependencies  package.json
+
+ts-node
+  ^10.9.1
+    devDependencies  package.json
+    devDependencies  packages\cli\create-medusa-app\package.json
+    devDependencies  packages\cli\oas\medusa-oas-cli\package.json
+    devDependencies  www\apps\ui\package.json
+    dependencies  www\utils\packages\docs-generator\package.json
+    dependencies  www\utils\packages\react-docs-generator\package.json
+    dependencies  www\utils\packages\scripts\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+    dependencies  www\utils\packages\workflows-diagrams-generator\package.json
+  ^10.9.2
+    peerDependencies  packages\cli\medusa-dev-cli\package.json
+    devDependencies  www\apps\resources\package.json
+
+tsc-alias
+  ^1.8.6
+    devDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+  ^1.8.7
+    devDependencies  packages\design-system\ui\package.json
+    devDependencies  www\packages\docs-ui\package.json
+
+tsconfig
+  *
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\user-guide\package.json
+    dependencies  www\package.json
+    devDependencies  www\packages\build-scripts\package.json
+    devDependencies  www\packages\remark-rehype-plugins\package.json
+    devDependencies  www\packages\types\package.json
+
+tsconfig-paths
+  ^4.2.0
+    peerDependencies  packages\cli\medusa-dev-cli\package.json
+    dependencies  packages\core\framework\package.json
+
+tsup
+  ^5.10.1
+    devDependencies  www\packages\docs-ui\package.json
+  ^7.1.0
+    devDependencies  packages\design-system\ui-preset\package.json
+  ^8.0.1
+    devDependencies  packages\admin\admin-bundler\package.json
+    devDependencies  packages\admin\admin-sdk\package.json
+  ^8.0.2
+    devDependencies  packages\admin\admin-shared\package.json
+    devDependencies  packages\admin\dashboard\package.json
+  7.1.0
+    devDependencies  packages\design-system\toolbox\package.json
+  8.0.1
+    devDependencies  packages\admin\admin-vite-plugin\package.json
+
+turbo
+  ^1.6.3
+    devDependencies  package.json
+  latest
+    dependencies  www\package.json
+    dependencies  www\utils\package.json
+
+typedoc
+  ^0.26.7
+    dependencies  www\utils\packages\react-docs-generator\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-markdown-medusa\package.json
+  0.26.x
+    peerDependencies  www\utils\packages\react-docs-generator\package.json
+    peerDependencies  www\utils\packages\typedoc-config\package.json
+    peerDependencies  www\utils\packages\typedoc-generate-references\package.json
+    peerDependencies  www\utils\packages\typedoc-plugin-custom\package.json
+    peerDependencies  www\utils\packages\typedoc-plugin-markdown-medusa\package.json
+    peerDependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+    peerDependencies  www\utils\packages\types\package.json
+    peerDependencies  www\utils\packages\utils\package.json
+
+typedoc-plugin-custom
+  *
+    dependencies  www\utils\packages\react-docs-generator\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+
+typedoc-plugin-markdown-medusa
+  *
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+
+typedoc-plugin-rename-defaults
+  ^0.7.1
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+
+typedoc-plugin-workflows
+  *
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+
+types
+  *
+    devDependencies  www\apps\api-reference\package.json
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\ui\package.json
+    devDependencies  www\apps\user-guide\package.json
+    devDependencies  www\packages\build-scripts\package.json
+    devDependencies  www\packages\docs-ui\package.json
+    devDependencies  www\packages\remark-rehype-plugins\package.json
+    devDependencies  www\utils\packages\docs-generator\package.json
+    devDependencies  www\utils\packages\typedoc-config\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-custom\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-markdown-medusa\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+
+typescript
+  ^5
+    devDependencies  www\apps\book\package.json
+    devDependencies  www\apps\resources\package.json
+    devDependencies  www\apps\user-guide\package.json
+  ^5.1.6
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+    devDependencies  packages\design-system\ui-preset\package.json
+    devDependencies  www\packages\docs-ui\package.json
+  ^5.3.3
+    devDependencies  packages\admin\admin-bundler\package.json
+    devDependencies  packages\admin\admin-sdk\package.json
+    devDependencies  packages\admin\admin-shared\package.json
+    devDependencies  packages\cli\medusa-dev-cli\package.json
+    devDependencies  www\packages\build-scripts\package.json
+    devDependencies  www\packages\remark-rehype-plugins\package.json
+    devDependencies  www\packages\types\package.json
+  ^5.6.2
+    devDependencies  integration-tests\api\package.json
+    devDependencies  integration-tests\http\package.json
+    devDependencies  integration-tests\modules\package.json
+    devDependencies  packages\cli\create-medusa-app\package.json
+    devDependencies  packages\cli\medusa-cli\package.json
+    devDependencies  packages\core\core-flows\package.json
+    devDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\js-sdk\package.json
+    devDependencies  packages\core\modules-sdk\package.json
+    devDependencies  packages\core\orchestration\package.json
+    devDependencies  packages\core\types\package.json
+    devDependencies  packages\core\utils\package.json
+    devDependencies  packages\core\workflows-sdk\package.json
+    devDependencies  packages\medusa\package.json
+    devDependencies  packages\medusa-telemetry\package.json
+    devDependencies  packages\medusa-test-utils\package.json
+    devDependencies  packages\modules\api-key\package.json
+    devDependencies  packages\modules\auth\package.json
+    devDependencies  packages\modules\cache-inmemory\package.json
+    devDependencies  packages\modules\cache-redis\package.json
+    devDependencies  packages\modules\cart\package.json
+    devDependencies  packages\modules\currency\package.json
+    devDependencies  packages\modules\customer\package.json
+    devDependencies  packages\modules\event-bus-local\package.json
+    devDependencies  packages\modules\event-bus-redis\package.json
+    devDependencies  packages\modules\file\package.json
+    devDependencies  packages\modules\fulfillment\package.json
+    devDependencies  packages\modules\index\package.json
+    devDependencies  packages\modules\inventory\package.json
+    devDependencies  packages\modules\link-modules\package.json
+    devDependencies  packages\modules\locking\package.json
+    devDependencies  packages\modules\notification\package.json
+    devDependencies  packages\modules\order\package.json
+    devDependencies  packages\modules\payment\package.json
+    devDependencies  packages\modules\pricing\package.json
+    devDependencies  packages\modules\product\package.json
+    devDependencies  packages\modules\promotion\package.json
+    devDependencies  packages\modules\providers\auth-emailpass\package.json
+    devDependencies  packages\modules\providers\auth-github\package.json
+    devDependencies  packages\modules\providers\auth-google\package.json
+    devDependencies  packages\modules\providers\file-local\package.json
+    devDependencies  packages\modules\providers\file-s3\package.json
+    devDependencies  packages\modules\providers\fulfillment-manual\package.json
+    devDependencies  packages\modules\providers\locking-postgres\package.json
+    devDependencies  packages\modules\providers\locking-redis\package.json
+    devDependencies  packages\modules\providers\notification-local\package.json
+    devDependencies  packages\modules\providers\notification-sendgrid\package.json
+    devDependencies  packages\modules\providers\payment-stripe\package.json
+    devDependencies  packages\modules\region\package.json
+    devDependencies  packages\modules\sales-channel\package.json
+    devDependencies  packages\modules\stock-location\package.json
+    devDependencies  packages\modules\store\package.json
+    devDependencies  packages\modules\tax\package.json
+    devDependencies  packages\modules\user\package.json
+    devDependencies  packages\modules\workflow-engine-inmemory\package.json
+    devDependencies  packages\modules\workflow-engine-redis\package.json
+    dependencies  www\utils\packages\docs-generator\package.json
+    dependencies  www\utils\packages\react-docs-generator\package.json
+    dependencies  www\utils\packages\scripts\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-custom\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-markdown-medusa\package.json
+    devDependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+    devDependencies  www\utils\packages\types\package.json
+    devDependencies  www\utils\packages\utils\package.json
+    dependencies  www\utils\packages\workflows-diagrams-generator\package.json
+  4.9.5
+    devDependencies  packages\cli\oas\medusa-oas-cli\package.json
+  5.1.6
+    devDependencies  packages\design-system\toolbox\package.json
+    dependencies  www\apps\api-reference\package.json
+    dependencies  www\apps\ui\package.json
+  5.2.2
+    devDependencies  packages\admin\dashboard\package.json
+  5.3.3
+    devDependencies  packages\admin\admin-vite-plugin\package.json
+
+typescript-eslint
+  8.11.0
+    devDependencies  www\package.json
+
+ulid
+  ^2.3.0
+    dependencies  packages\cli\medusa-cli\package.json
+    dependencies  packages\core\utils\package.json
+    dependencies  packages\core\workflows-sdk\package.json
+    dependencies  packages\modules\event-bus-local\package.json
+    dependencies  packages\modules\providers\file-s3\package.json
+    dependencies  packages\modules\workflow-engine-inmemory\package.json
+    dependencies  packages\modules\workflow-engine-redis\package.json
+
+unified
+  ^11.0.4
+    dependencies  www\packages\remark-rehype-plugins\package.json
+
+unist-builder
+  3.0.0
+    dependencies  www\apps\ui\package.json
+    dependencies  www\packages\remark-rehype-plugins\package.json
+
+unist-util-visit
+  4.1.2
+    dependencies  www\apps\ui\package.json
+    dependencies  www\packages\remark-rehype-plugins\package.json
+
+utils
+  *
+    dependencies  www\utils\packages\docs-generator\package.json
+    dependencies  www\utils\packages\react-docs-generator\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+    dependencies  www\utils\packages\typedoc-plugin-custom\package.json
+    dependencies  www\utils\packages\typedoc-plugin-markdown-medusa\package.json
+    dependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+
+uuid
+  ^8.3.2
+    dependencies  packages\medusa-telemetry\package.json
+  ^9.0.0
+    dependencies  packages\cli\create-medusa-app\package.json
+    devDependencies  packages\cli\oas\medusa-oas-cli\package.json
+    dependencies  packages\medusa\package.json
+
+validator
+  ^13.9.0
+    dependencies  packages\cli\create-medusa-app\package.json
+
+verdaccio
+  ^4.10.0
+    dependencies  packages\cli\medusa-dev-cli\package.json
+
+vfile-matter
+  ^5.0.0
+    dependencies  www\packages\remark-rehype-plugins\package.json
+
+vite
+  ^4.3.9
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+  ^5.0.0
+    peerDependencies  packages\admin\admin-vite-plugin\package.json
+  ^5.2.11
+    dependencies  packages\admin\admin-bundler\package.json
+    devDependencies  packages\admin\admin-vite-plugin\package.json
+    devDependencies  packages\admin\dashboard\package.json
+    devDependencies  packages\core\framework\package.json
+    peerDependencies  packages\core\framework\package.json
+    devDependencies  packages\core\types\package.json
+    peerDependencies  packages\core\types\package.json
+
+vite-plugin-inspect
+  ^0.8.7
+    devDependencies  packages\admin\dashboard\package.json
+
+vite-plugin-turbosnap
+  ^1.0.2
+    devDependencies  packages\design-system\ui\package.json
+
+vitest
+  ^0.32.2
+    devDependencies  packages\design-system\icons\package.json
+    devDependencies  packages\design-system\ui\package.json
+  ^2.1.3
+    devDependencies  packages\admin\admin-vite-plugin\package.json
+  ^2.1.4
+    devDependencies  packages\admin\dashboard\package.json
+
+wait-on
+  ^7.0.1
+    dependencies  packages\cli\create-medusa-app\package.json
+
+winston
+  ^3.8.2
+    dependencies  packages\cli\medusa-cli\package.json
+  ^3.9.0
+    dependencies  packages\cli\create-medusa-app\package.json
+
+yaml
+  ^2.3.1
+    dependencies  www\apps\api-reference\package.json
+  ^2.3.3
+    dependencies  www\utils\packages\typedoc-plugin-custom\package.json
+    dependencies  www\utils\packages\typedoc-plugin-workflows\package.json
+  ^2.3.4
+    dependencies  www\utils\packages\docs-generator\package.json
+    dependencies  www\utils\packages\typedoc-generate-references\package.json
+
+yargs
+  ^15.3.1
+    dependencies  packages\cli\medusa-cli\package.json
+  ^15.4.1
+    dependencies  packages\cli\medusa-dev-cli\package.json
+  ^17.7.2
+    dependencies  packages\cli\oas\medusa-oas-cli\package.json
+
+zod
+  ^3.22
+    devDependencies  packages\admin\admin-sdk\package.json
+    peerDependencies  packages\admin\admin-sdk\package.json
+  3.22.4
+    dependencies  packages\admin\dashboard\package.json
+    dependencies  packages\core\framework\package.json
+    dependencies  packages\medusa\package.json
+
+Found mismatch 401 packages with version drift.
