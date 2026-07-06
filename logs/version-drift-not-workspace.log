@@ -1,8 +1,4 @@
 
-@actions/core
-  ^1.10.1
-    dependencies         www\utils\packages\scripts\package.json
-
 @ariakit/react
   ^0.4.1
     dependencies         packages\admin\dashboard\package.json
@@ -18,16 +14,6 @@
 @aws-sdk/s3-request-presigner
   ^3.556.0
     dependencies         packages\modules\providers\file-s3\package.json
-
-@babel/core
-  ^7.23.0
-    dependencies         www\utils\package.json
-
-@babel/eslint-parser
-  ^7.22.15
-    dependencies         www\utils\package.json
-  ^7.25.9
-    devDependencies      www\package.json
 
 @babel/parser
   7.25.6
@@ -53,10 +39,6 @@
   ^2.26.0
     dependencies         package.json
 
-@cloudinary/url-gen
-  ^1.17.0
-    dependencies         www\packages\remark-rehype-plugins\package.json
-
 @dnd-kit/core
   ^6.1.0
     dependencies         packages\admin\dashboard\package.json
@@ -64,20 +46,6 @@
 @dnd-kit/sortable
   ^8.0.0
     dependencies         packages\admin\dashboard\package.json
-
-@emotion/is-prop-valid
-  ^1.3.1
-    dependencies         www\packages\docs-ui\package.json
-
-@eslint/js
-  9.13.0
-    devDependencies      www\package.json
-
-@faker-js/faker
-  ^8.0.2
-    dependencies         www\apps\ui\package.json
-  ^8.4.0
-    dependencies         www\utils\packages\docs-generator\package.json
 
 @graphql-codegen/core
   ^4.0.2
@@ -114,52 +82,6 @@
 @jercle/yargonaut
   ^1.1.5
     dependencies         packages\core\framework\package.json
-
-@linear/sdk
-  ^1.22.0
-    dependencies         www\utils\packages\scripts\package.json
-
-@mdx-js/loader
-  ^3.1.0
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\user-guide\package.json
-
-@mdx-js/react
-  ^3.1.0
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\ui\package.json
-    dependencies         www\apps\user-guide\package.json
-
-@medusajs/icons
-  ^2.0.0
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\ui\package.json
-    dependencies         www\apps\user-guide\package.json
-    dependencies         www\packages\docs-ui\package.json
-    dependencies         www\packages\types\package.json
-
-@medusajs/ui
-  ^3.0.0
-    dependencies         www\apps\api-reference\package.json
-  ^4.0.0
-    dependencies         www\apps\ui\package.json
-    dependencies         www\packages\docs-ui\package.json
-
-@medusajs/ui-preset
-  ^1.1.2
-    dependencies         www\packages\tailwind\package.json
-  ^1.1.3
-    dependencies         www\apps\ui\package.json
-
-@mermaid-js/mermaid-cli
-  ^10.6.1
-    dependencies         www\utils\packages\workflows-diagrams-generator\package.json
 
 @mikro-orm/cli
   5.9.7
@@ -416,27 +338,6 @@
     devDependencies      packages\modules\workflow-engine-redis\package.json
     peerDependencies     packages\modules\workflow-engine-redis\package.json
 
-@next/bundle-analyzer
-  15.0.1
-    devDependencies      www\apps\api-reference\package.json
-
-@next/mdx
-  15.0.1
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\user-guide\package.json
-
-@octokit/core
-  ^4.0.5
-    dependencies         www\utils\packages\scripts\package.json
-  ^5.0.2
-    dependencies         www\utils\packages\docs-generator\package.json
-
-@octokit/request
-  ^8.1.1
-    dependencies         www\packages\docs-ui\package.json
-
 @opentelemetry/api
   ^1.9.0
     dependencies         packages\core\framework\package.json
@@ -526,26 +427,6 @@
   1.1.2
     dependencies         packages\design-system\ui\package.json
 
-@react-hook/resize-observer
-  ^1.2.6
-    dependencies         www\packages\docs-ui\package.json
-  ^2.0.2
-    dependencies         www\apps\api-reference\package.json
-
-@readme/json-schema-ref-parser
-  ^1.2.0
-    dependencies         packages\cli\oas\medusa-oas-cli\package.json
-
-@readme/openapi-parser
-  ^2.4.0
-    dependencies         packages\cli\oas\medusa-oas-cli\package.json
-  ^2.5.0
-    dependencies         www\apps\api-reference\package.json
-
-@redocly/cli
-  ^1.7.0
-    dependencies         packages\cli\oas\medusa-oas-cli\package.json
-
 @rollup/plugin-node-resolve
   ^15.1.0
     devDependencies      packages\design-system\icons\package.json
@@ -553,10 +434,6 @@
 @rollup/plugin-replace
   ^5.0.2
     devDependencies      packages\design-system\icons\package.json
-
-@segment/analytics-next
-  ^1.75.0
-    dependencies         www\packages\docs-ui\package.json
 
 @sendgrid/mail
   ^8.1.3
@@ -778,18 +655,6 @@
   ^6.0.0
     devDependencies      packages\cli\create-medusa-app\package.json
 
-@types/eslint
-  ^8.56.6
-    devDependencies      www\utils\packages\typedoc-plugin-workflows\package.json
-  ^9.6.1
-    devDependencies      www\utils\packages\typedoc-plugin-custom\package.json
-  8.56.6
-    devDependencies      www\utils\packages\docs-generator\package.json
-
-@types/eslint__js
-  8.42.3
-    devDependencies      www\package.json
-
 @types/express
   ^4.17.17
     dependencies         packages\cli\medusa-cli\package.json
@@ -807,15 +672,10 @@
   ^9.0.3
     devDependencies      packages\cli\create-medusa-app\package.json
 
-@types/js-yaml
-  ^4.0.9
-    devDependencies      packages\cli\oas\medusa-oas-cli\package.json
-
 @types/jsdom
   ^21.1.1
     devDependencies      packages\design-system\icons\package.json
     devDependencies      packages\design-system\ui\package.json
-    devDependencies      www\apps\api-reference\package.json
 
 @types/jsonwebtoken
   ^8.5.9
@@ -824,53 +684,19 @@
 
 @types/lodash
   ^4.14.191
-    dependencies         packages\cli\oas\medusa-oas-cli\package.json
     devDependencies      packages\medusa\package.json
-
-@types/mapbox__rehype-prism
-  ^0.8.0
-    devDependencies      www\apps\api-reference\package.json
-
-@types/mdx
-  ^2.0.13
-    devDependencies      www\apps\api-reference\package.json
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\user-guide\package.json
 
 @types/multer
   ^1.4.7
     devDependencies      packages\medusa\package.json
 
 @types/node
-  ^20
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\user-guide\package.json
   ^20.10.4
     devDependencies      packages\admin\admin-vite-plugin\package.json
   ^20.11.15
     devDependencies      packages\admin\dashboard\package.json
-  ^20.11.20
-    devDependencies      www\packages\build-scripts\package.json
-    devDependencies      www\packages\remark-rehype-plugins\package.json
-    devDependencies      www\packages\types\package.json
-  ^20.12.10
-    devDependencies      www\utils\packages\docs-generator\package.json
-    devDependencies      www\utils\packages\react-docs-generator\package.json
-    devDependencies      www\utils\packages\scripts\package.json
-    devDependencies      www\utils\packages\typedoc-generate-references\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-custom\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-markdown-medusa\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-workflows\package.json
-    devDependencies      www\utils\packages\utils\package.json
-    devDependencies      www\utils\packages\workflows-diagrams-generator\package.json
   ^20.12.11
     devDependencies      packages\cli\create-medusa-app\package.json
-  20.4.5
-    devDependencies      www\apps\api-reference\package.json
-  20.4.9
-    devDependencies      www\apps\ui\package.json
 
 @types/node-emoji
   ^1.8.2
@@ -880,19 +706,7 @@
   ^8.6.6
     devDependencies      packages\cli\create-medusa-app\package.json
 
-@types/pluralize
-  ^0.0.33
-    devDependencies      www\apps\api-reference\package.json
-    devDependencies      www\utils\packages\docs-generator\package.json
-    devDependencies      www\utils\packages\typedoc-generate-references\package.json
-
-@types/randomcolor
-  ^0.5.8
-    devDependencies      www\utils\packages\scripts\package.json
-
 @types/react
-  *
-    peerDependencies     www\packages\docs-ui\package.json
   ^18.2.0
     devDependencies      packages\design-system\ui\package.json
   ^18.2.14
@@ -903,30 +717,14 @@
   ^18.3.2
     devDependencies      packages\admin\admin-sdk\package.json
     devDependencies      packages\admin\admin-shared\package.json
-  npm:types-react@rc
-    devDependencies      www\apps\api-reference\package.json
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\ui\package.json
-    devDependencies      www\apps\user-guide\package.json
-    devDependencies      www\packages\docs-ui\package.json
 
 @types/react-dom
-  *
-    peerDependencies     www\packages\docs-ui\package.json
   ^18.2.0
     devDependencies      packages\design-system\ui\package.json
   ^18.2.6
     devDependencies      packages\design-system\icons\package.json
   ^18.2.25
     devDependencies      packages\admin\dashboard\package.json
-  npm:types-react@rc
-    devDependencies      www\apps\api-reference\package.json
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\ui\package.json
-    devDependencies      www\apps\user-guide\package.json
-    devDependencies      www\packages\docs-ui\package.json
 
 @types/uuid
   ^9.0.1
@@ -945,22 +743,14 @@
     devDependencies      packages\cli\medusa-cli\package.json
 
 @typescript-eslint/eslint-plugin
-  ^6.7.4
-    dependencies         www\utils\package.json
   ^6.19.0
     devDependencies      package.json
     devDependencies      packages\cli\create-medusa-app\package.json
 
 @typescript-eslint/parser
-  ^6.7.4
-    dependencies         www\utils\package.json
   ^6.19.0
     devDependencies      package.json
     devDependencies      packages\cli\create-medusa-app\package.json
-
-@uidotdev/usehooks
-  ^2.4.1
-    dependencies         www\packages\docs-ui\package.json
 
 @uiw/react-json-view
   ^2.0.0-alpha.17
@@ -982,27 +772,13 @@ ajv
   ^8.17.1
     devDependencies      packages\admin\dashboard\package.json
 
-algoliasearch
-  ^5.2.1
-    dependencies         www\packages\docs-ui\package.json
-  4
-    dependencies         www\apps\api-reference\package.json
-
 autoprefixer
-  ^10.0.1
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\user-guide\package.json
   ^10.4.16
     dependencies         packages\admin\admin-bundler\package.json
   ^10.4.17
     devDependencies      packages\admin\dashboard\package.json
   ^10.4.19
     devDependencies      packages\design-system\ui\package.json
-  10.4.14
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\ui\package.json
-    dependencies         www\package.json
 
 awilix
   ^8.0.1
@@ -1088,12 +864,6 @@ boxen
     dependencies         packages\medusa-telemetry\package.json
     dependencies         packages\medusa\package.json
 
-build-scripts
-  *
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\user-guide\package.json
-
 bullmq
   5.13.0
     dependencies         packages\modules\event-bus-redis\package.json
@@ -1105,10 +875,6 @@ chalk
     dependencies         packages\medusa\package.json
   ^5.2.0
     dependencies         packages\cli\create-medusa-app\package.json
-  ^5.3.0
-    dependencies         www\utils\packages\react-docs-generator\package.json
-    dependencies         www\utils\packages\scripts\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
 
 chokidar
   ^3.4.2
@@ -1129,29 +895,14 @@ ci-info
 clsx
   ^1.2.1
     dependencies         packages\design-system\ui\package.json
-  ^2.0.0
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\ui\package.json
-    devDependencies      www\packages\docs-ui\package.json
-  ^2.1.0
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\user-guide\package.json
 
 cmdk
   ^0.2.0
     dependencies         packages\admin\dashboard\package.json
 
 commander
-  ^10.0.0
-    dependencies         packages\cli\oas\medusa-oas-cli\package.json
   ^10.0.1
     dependencies         packages\cli\create-medusa-app\package.json
-  ^11.1.0
-    dependencies         www\utils\packages\docs-generator\package.json
-    dependencies         www\utils\packages\react-docs-generator\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-    dependencies         www\utils\packages\workflows-diagrams-generator\package.json
   11.0.0
     dependencies         packages\design-system\toolbox\package.json
 
@@ -1173,10 +924,6 @@ connect-redis
   5.2.0
     dependencies         packages\core\framework\package.json
 
-contentlayer
-  ^0.3.4
-    dependencies         www\apps\ui\package.json
-
 cookie-parser
   ^1.4.6
     dependencies         packages\core\framework\package.json
@@ -1188,15 +935,10 @@ copy-to-clipboard
 copyfiles
   ^2.4.1
     devDependencies      packages\admin\admin-bundler\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-markdown-medusa\package.json
 
 cors
   ^2.8.5
     dependencies         packages\core\framework\package.json
-
-cpy-cli
-  ^5.0.0
-    devDependencies      www\packages\docs-ui\package.json
 
 cron-parser
   ^4.9.0
@@ -1209,15 +951,12 @@ cross-env
     devDependencies      packages\modules\link-modules\package.json
   ^7.0.3
     devDependencies      package.json
-    devDependencies      www\utils\packages\typedoc-generate-references\package.json
 
 cva
   1.0.0-beta.1
     dependencies         packages\design-system\ui\package.json
 
 date-fns
-  ^3.3.1
-    dependencies         www\apps\ui\package.json
   ^3.6.0
     dependencies         packages\admin\dashboard\package.json
 
@@ -1225,22 +964,9 @@ del
   ^6.0.0
     dependencies         packages\cli\medusa-dev-cli\package.json
 
-docs-ui
-  *
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\ui\package.json
-    dependencies         www\apps\user-guide\package.json
-    devDependencies      www\packages\remark-rehype-plugins\package.json
-    peerDependencies     www\packages\tailwind\package.json
-
 dotenv
   ^10.0.0
     devDependencies      integration-tests\package.json
-  ^16.3.1
-    dependencies         www\utils\packages\docs-generator\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
   ^16.4.5
     dependencies         packages\cli\medusa-cli\package.json
     dependencies         packages\cli\medusa-dev-cli\package.json
@@ -1263,81 +989,32 @@ eslint
     devDependencies      package.json
   ^8.40.0
     devDependencies      packages\cli\create-medusa-app\package.json
-  ^8.53.0
-    dependencies         www\utils\packages\typedoc-plugin-workflows\package.json
-  ^9.13.0
-    devDependencies      www\apps\api-reference\package.json
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\ui\package.json
-    devDependencies      www\apps\user-guide\package.json
-    dependencies         www\package.json
-    devDependencies      www\packages\docs-ui\package.json
-    dependencies         www\utils\packages\typedoc-plugin-custom\package.json
   7.32.0
     devDependencies      packages\design-system\toolbox\package.json
-  8.36.0
-    dependencies         www\utils\package.json
-  8.56.0
-    dependencies         www\utils\packages\docs-generator\package.json
 
 eslint-config-google
   ^0.14.0
     devDependencies      package.json
     devDependencies      packages\cli\create-medusa-app\package.json
 
-eslint-config-next
-  15.0.1
-    devDependencies      www\package.json
-
 eslint-config-prettier
   ^8.5.0
     devDependencies      package.json
   ^8.8.0
     devDependencies      packages\cli\create-medusa-app\package.json
-  ^9.0.0
-    dependencies         www\utils\package.json
-  9.1.0
-    devDependencies      www\package.json
-
-eslint-config-turbo
-  2.2.3
-    devDependencies      www\package.json
-
-eslint-plugin-markdown
-  5.1.0
-    devDependencies      www\package.json
 
 eslint-plugin-prettier
   ^4.2.1
     devDependencies      package.json
     devDependencies      packages\cli\create-medusa-app\package.json
-  ^5.0.0
-    dependencies         www\utils\package.json
-  ^5.2.1
-    devDependencies      www\apps\api-reference\package.json
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\ui\package.json
-    devDependencies      www\apps\user-guide\package.json
-  5.2.1
-    devDependencies      www\package.json
 
 eslint-plugin-react
   ^7.31.11
     devDependencies      package.json
-  7.37.2
-    devDependencies      www\package.json
 
 eslint-plugin-react-hooks
   ^4.6.0
     devDependencies      package.json
-  ^5.0.0
-    devDependencies      www\apps\api-reference\package.json
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\ui\package.json
-    devDependencies      www\apps\user-guide\package.json
 
 eslint-plugin-react-refresh
   ^0.4.5
@@ -1357,9 +1034,6 @@ execa
     dependencies         packages\cli\medusa-dev-cli\package.json
   ^5.1.1
     dependencies         packages\cli\medusa-cli\package.json
-    dependencies         packages\cli\oas\oas-github-ci\package.json
-  1.0.0
-    dependencies         packages\cli\oas\medusa-oas-cli\package.json
 
 expect-type
   ^0.20.0
@@ -1408,8 +1082,6 @@ form-data
 framer-motion
   ^11.0.3
     dependencies         packages\admin\dashboard\package.json
-  ^11.11.9
-    dependencies         www\packages\docs-ui\package.json
 
 fs-exists-cached
   ^1.0.0
@@ -1437,12 +1109,6 @@ glob
     dependencies         packages\cli\medusa-cli\package.json
   ^8.1.0
     dependencies         packages\cli\medusa-dev-cli\package.json
-  ^10.3.10
-    dependencies         www\utils\packages\react-docs-generator\package.json
-    dependencies         www\utils\packages\scripts\package.json
-    dependencies         www\utils\packages\typedoc-config\package.json
-    dependencies         www\utils\packages\typedoc-plugin-custom\package.json
-    dependencies         www\utils\packages\typedoc-plugin-workflows\package.json
   ^11.0.0
     dependencies         integration-tests\package.json
     devDependencies      package.json
@@ -1459,10 +1125,6 @@ got
 graphql
   ^16.9.0
     dependencies         packages\core\utils\package.json
-
-handlebars
-  ^4.7.8
-    dependencies         www\utils\packages\typedoc-plugin-markdown-medusa\package.json
 
 hosted-git-info
   ^4.0.2
@@ -1512,8 +1174,6 @@ is-valid-path
     dependencies         packages\cli\medusa-cli\package.json
 
 jest
-  ^29.1.0
-    devDependencies      packages\cli\oas\medusa-oas-cli\package.json
   ^29.7.0
     devDependencies      integration-tests\api\package.json
     devDependencies      integration-tests\http\package.json
@@ -1572,27 +1232,14 @@ jest
     devDependencies      packages\modules\workflow-engine-inmemory\package.json
     devDependencies      packages\modules\workflow-engine-redis\package.json
 
-js-yaml
-  ^4.1.0
-    devDependencies      packages\cli\oas\medusa-oas-cli\package.json
-
 jsdom
   ^22.1.0
     devDependencies      packages\design-system\icons\package.json
     devDependencies      packages\design-system\ui\package.json
-    dependencies         www\apps\api-reference\package.json
 
 json-2-csv
   ^5.5.4
     dependencies         packages\core\core-flows\package.json
-
-json-schema
-  ^0.4.0
-    dependencies         www\apps\api-reference\package.json
-
-json-stringify-pretty-compact
-  ^4.0.0
-    dependencies         www\apps\api-reference\package.json
 
 jsonwebtoken
   ^9.0.2
@@ -1613,7 +1260,6 @@ lodash
   ^4.17.21
     dependencies         packages\admin\dashboard\package.json
     dependencies         packages\cli\medusa-dev-cli\package.json
-    dependencies         packages\cli\oas\medusa-oas-cli\package.json
     dependencies         packages\medusa\package.json
 
 magic-string
@@ -1624,27 +1270,13 @@ match-sorter
   ^6.3.4
     dependencies         packages\admin\dashboard\package.json
 
-mdast-util-toc
-  ^7.0.0
-    dependencies         www\apps\ui\package.json
-
 meant
   ^1.0.3
     dependencies         packages\cli\medusa-cli\package.json
 
-mermaid
-  ^10.9.0
-    dependencies         www\packages\docs-ui\package.json
-
 microbundle
   ^0.13.3
     devDependencies      package.json
-
-minimatch
-  ^9.0.3
-    dependencies         www\utils\packages\docs-generator\package.json
-  ^10.0.1
-    dependencies         www\utils\packages\typedoc-plugin-custom\package.json
 
 morgan
   ^1.9.1
@@ -1664,29 +1296,6 @@ nanoid
   ^4.0.2
     dependencies         packages\cli\create-medusa-app\package.json
 
-next
-  *
-    peerDependencies     www\packages\docs-ui\package.json
-  15.0.1
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\ui\package.json
-    dependencies         www\apps\user-guide\package.json
-    devDependencies      www\packages\docs-ui\package.json
-
-next-contentlayer
-  ^0.3.4
-    dependencies         www\apps\ui\package.json
-
-next-mdx-remote
-  5.0.0
-    dependencies         www\apps\api-reference\package.json
-
-next-themes
-  ^0.2.1
-    dependencies         www\apps\ui\package.json
-
 node-emoji
   ^2.0.2
     dependencies         packages\cli\create-medusa-app\package.json
@@ -1703,34 +1312,9 @@ nodemon
   ^2.0.20
     devDependencies      packages\medusa-telemetry\package.json
 
-npm-to-pnpm
-  ^2.1.0
-    dependencies         www\packages\docs-ui\package.json
-
-octokit
-  ^3.1.2
-    dependencies         www\utils\packages\utils\package.json
-
 open
   ^9.1.0
     dependencies         packages\cli\create-medusa-app\package.json
-
-openai
-  ^4.29.1
-    dependencies         www\utils\packages\docs-generator\package.json
-
-openapi-sampler
-  ^1.3.1
-    dependencies         www\apps\api-reference\package.json
-
-openapi-types
-  ^12.1.3
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\utils\packages\docs-generator\package.json
-
-openapi3-ts
-  ^3.1.2
-    dependencies         packages\cli\oas\medusa-oas-cli\package.json
 
 ora
   ^5.4.1
@@ -1787,38 +1371,22 @@ picocolors
 pluralize
   ^8.0.0
     dependencies         packages\core\utils\package.json
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\utils\packages\docs-generator\package.json
 
 postcss
-  ^8
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\user-guide\package.json
   ^8.4.32
     dependencies         packages\admin\admin-bundler\package.json
   ^8.4.33
     devDependencies      packages\admin\dashboard\package.json
   ^8.4.38
     devDependencies      packages\design-system\ui\package.json
-  8.4.27
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\ui\package.json
-    dependencies         www\package.json
 
 prettier
   ^2.7.1
     devDependencies      package.json
   ^2.8.8
     devDependencies      packages\cli\create-medusa-app\package.json
-  ^3.0.3
-    dependencies         www\utils\package.json
   ^3.1.1
     devDependencies      packages\admin\dashboard\package.json
-  ^3.2.4
-    dependencies         www\utils\packages\docs-generator\package.json
-  ^3.3.3
-    dependencies         www\package.json
 
 prettier-plugin-tailwindcss
   ^0.2.3
@@ -1827,9 +1395,6 @@ prettier-plugin-tailwindcss
 prism-react-renderer
   ^2.0.6
     dependencies         packages\design-system\ui\package.json
-  2.4.0
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\packages\docs-ui\package.json
 
 prismjs
   ^1.29.0
@@ -1855,14 +1420,7 @@ randomatic
   ^3.1.1
     dependencies         packages\medusa-test-utils\package.json
 
-randomcolor
-  ^0.6.2
-    dependencies         www\utils\packages\scripts\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-
 react
-  *
-    peerDependencies     www\packages\docs-ui\package.json
   ^16.x || ^17.x || ^18.x
     peerDependencies     packages\design-system\icons\package.json
   ^18.0.0
@@ -1872,13 +1430,6 @@ react
     devDependencies      packages\design-system\icons\package.json
     devDependencies      packages\design-system\toolbox\package.json
     devDependencies      packages\design-system\ui\package.json
-  rc
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\ui\package.json
-    dependencies         www\apps\user-guide\package.json
-    dependencies         www\packages\docs-ui\package.json
 
 react-aria
   ^3.33.1
@@ -1893,15 +1444,7 @@ react-currency-input-field
     dependencies         packages\admin\dashboard\package.json
     dependencies         packages\design-system\ui\package.json
 
-react-docgen
-  ^7.0.1
-    dependencies         www\utils\packages\react-docs-generator\package.json
-  ^7.1.0
-    devDependencies      www\apps\ui\package.json
-
 react-dom
-  *
-    peerDependencies     www\packages\docs-ui\package.json
   ^18.0.0
     peerDependencies     packages\admin\admin-bundler\package.json
     peerDependencies     packages\design-system\ui\package.json
@@ -1909,13 +1452,6 @@ react-dom
     dependencies         packages\admin\dashboard\package.json
     devDependencies      packages\design-system\icons\package.json
     devDependencies      packages\design-system\ui\package.json
-  rc
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\ui\package.json
-    dependencies         www\apps\user-guide\package.json
-    dependencies         www\packages\docs-ui\package.json
 
 react-helmet-async
   ^2.0.5
@@ -1929,25 +1465,9 @@ react-i18next
   13.5.0
     dependencies         packages\admin\dashboard\package.json
 
-react-instantsearch
-  ^7.13.6
-    dependencies         www\packages\docs-ui\package.json
-
-react-intersection-observer
-  ^9.13.1
-    dependencies         www\apps\api-reference\package.json
-
 react-jwt
   ^1.2.0
     dependencies         packages\admin\dashboard\package.json
-
-react-markdown
-  ^9.0.1
-    dependencies         www\packages\docs-ui\package.json
-
-react-medium-image-zoom
-  ^5.2.10
-    dependencies         www\packages\docs-ui\package.json
 
 react-router-dom
   6.20.1
@@ -1956,65 +1476,6 @@ react-router-dom
 react-stately
   ^3.31.1
     dependencies         packages\design-system\ui\package.json
-
-react-tooltip
-  ^5.28.0
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\packages\docs-ui\package.json
-
-react-transition-group
-  ^4.4.5
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\packages\docs-ui\package.json
-
-react-uuid
-  ^2.0.0
-    dependencies         www\packages\docs-ui\package.json
-
-rehype-mdx-code-props
-  ^2.0.0
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\user-guide\package.json
-  ^3.0.1
-    dependencies         www\apps\api-reference\package.json
-
-rehype-slug
-  ^6.0.0
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\book\package.json
-    dependencies         www\apps\ui\package.json
-    dependencies         www\apps\user-guide\package.json
-
-remark
-  ^14.0.3
-    dependencies         www\apps\ui\package.json
-
-remark-directive
-  ^3.0.0
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\user-guide\package.json
-
-remark-frontmatter
-  ^5.0.0
-    dependencies         www\apps\resources\package.json
-    dependencies         www\apps\user-guide\package.json
-    dependencies         www\packages\remark-rehype-plugins\package.json
-
-remark-parse
-  ^11.0.0
-    dependencies         www\packages\remark-rehype-plugins\package.json
-
-remark-rehype-plugins
-  *
-    dependencies         www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    dependencies         www\apps\user-guide\package.json
-    dependencies         www\packages\build-scripts\package.json
-
-remark-stringify
-  ^11.0.0
-    dependencies         www\packages\remark-rehype-plugins\package.json
 
 remove-trailing-slash
   ^0.1.1
@@ -2028,10 +1489,6 @@ resize-observer-polyfill
   ^1.5.1
     devDependencies      packages\design-system\icons\package.json
     devDependencies      packages\design-system\ui\package.json
-
-resolve
-  ^1.22.8
-    dependencies         www\utils\packages\react-docs-generator\package.json
 
 resolve-cwd
   ^3.0.0
@@ -2095,12 +1552,6 @@ rimraf
     devDependencies      packages\modules\providers\notification-sendgrid\package.json
     devDependencies      packages\modules\providers\payment-stripe\package.json
     devDependencies      packages\modules\stock-location\package.json
-    devDependencies      www\packages\docs-ui\package.json
-  ^5.0.5
-    devDependencies      www\packages\build-scripts\package.json
-    devDependencies      www\packages\remark-rehype-plugins\package.json
-    devDependencies      www\packages\types\package.json
-    dependencies         www\utils\packages\utils\package.json
 
 rollup
   ^3.26.0
@@ -2136,8 +1587,6 @@ slugify
   ^1.6.6
     dependencies         packages\cli\create-medusa-app\package.json
     dependencies         packages\medusa\package.json
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\packages\docs-ui\package.json
 
 sonner
   ^1.5.0
@@ -2159,34 +1608,11 @@ supertest
   ^4.0.2
     devDependencies      packages\core\framework\package.json
 
-swagger-inline
-  ^6.1.0
-    dependencies         packages\cli\oas\medusa-oas-cli\package.json
-
-swr
-  ^2.2.0
-    dependencies         www\apps\api-reference\package.json
-
-tailwind
-  *
-    dependencies         www\apps\api-reference\package.json
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    dependencies         www\apps\ui\package.json
-    devDependencies      www\apps\user-guide\package.json
-    devDependencies      www\packages\docs-ui\package.json
-
 tailwind-merge
   ^2.2.1
     dependencies         packages\design-system\ui\package.json
 
 tailwindcss
-  ^3.3.0
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\user-guide\package.json
-  ^3.3.3
-    devDependencies      www\packages\docs-ui\package.json
   ^3.3.6
     dependencies         packages\admin\admin-bundler\package.json
   ^3.4.1
@@ -2196,28 +1622,16 @@ tailwindcss
     devDependencies      packages\design-system\ui\package.json
   >=3.0.0
     peerDependencies     packages\design-system\ui-preset\package.json
-  3.3.3
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\ui\package.json
-    dependencies         www\package.json
 
 tailwindcss-animate
   ^1.0.6
     dependencies         packages\design-system\ui-preset\package.json
-  ^1.0.7
-    dependencies         www\packages\tailwind\package.json
-
-to-vfile
-  ^8.0.0
-    dependencies         www\packages\remark-rehype-plugins\package.json
 
 ts-dedent
   2.2.0
     dependencies         packages\design-system\toolbox\package.json
 
 ts-jest
-  ^29.1.0
-    devDependencies      packages\cli\oas\medusa-oas-cli\package.json
   ^29.1.1
     devDependencies      package.json
 
@@ -2225,16 +1639,8 @@ ts-node
   ^10.9.1
     devDependencies      package.json
     devDependencies      packages\cli\create-medusa-app\package.json
-    devDependencies      packages\cli\oas\medusa-oas-cli\package.json
-    devDependencies      www\apps\ui\package.json
-    dependencies         www\utils\packages\docs-generator\package.json
-    dependencies         www\utils\packages\react-docs-generator\package.json
-    dependencies         www\utils\packages\scripts\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-    dependencies         www\utils\packages\workflows-diagrams-generator\package.json
   ^10.9.2
     peerDependencies     packages\cli\medusa-dev-cli\package.json
-    devDependencies      www\apps\resources\package.json
 
 tsc-alias
   ^1.8.6
@@ -2265,17 +1671,6 @@ tsc-alias
     devDependencies      packages\modules\workflow-engine-redis\package.json
   ^1.8.7
     devDependencies      packages\design-system\ui\package.json
-    devDependencies      www\packages\docs-ui\package.json
-
-tsconfig
-  *
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\user-guide\package.json
-    dependencies         www\package.json
-    devDependencies      www\packages\build-scripts\package.json
-    devDependencies      www\packages\remark-rehype-plugins\package.json
-    devDependencies      www\packages\types\package.json
 
 tsconfig-paths
   ^4.2.0
@@ -2283,8 +1678,6 @@ tsconfig-paths
     dependencies         packages\core\framework\package.json
 
 tsup
-  ^5.10.1
-    devDependencies      www\packages\docs-ui\package.json
   ^7.1.0
     devDependencies      packages\design-system\ui-preset\package.json
   ^8.0.1
@@ -2301,77 +1694,17 @@ tsup
 turbo
   ^1.6.3
     devDependencies      package.json
-  latest
-    dependencies         www\package.json
-    dependencies         www\utils\package.json
-
-typedoc
-  ^0.26.7
-    dependencies         www\utils\packages\react-docs-generator\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-markdown-medusa\package.json
-  0.26.x
-    peerDependencies     www\utils\packages\react-docs-generator\package.json
-    peerDependencies     www\utils\packages\typedoc-config\package.json
-    peerDependencies     www\utils\packages\typedoc-generate-references\package.json
-    peerDependencies     www\utils\packages\typedoc-plugin-custom\package.json
-    peerDependencies     www\utils\packages\typedoc-plugin-markdown-medusa\package.json
-    peerDependencies     www\utils\packages\typedoc-plugin-workflows\package.json
-    peerDependencies     www\utils\packages\types\package.json
-    peerDependencies     www\utils\packages\utils\package.json
-
-typedoc-plugin-custom
-  *
-    dependencies         www\utils\packages\react-docs-generator\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-
-typedoc-plugin-markdown-medusa
-  *
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-
-typedoc-plugin-rename-defaults
-  ^0.7.1
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-
-typedoc-plugin-workflows
-  *
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-
-types
-  *
-    devDependencies      www\apps\api-reference\package.json
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\ui\package.json
-    devDependencies      www\apps\user-guide\package.json
-    devDependencies      www\packages\build-scripts\package.json
-    devDependencies      www\packages\docs-ui\package.json
-    devDependencies      www\packages\remark-rehype-plugins\package.json
-    devDependencies      www\utils\packages\docs-generator\package.json
-    devDependencies      www\utils\packages\typedoc-config\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-custom\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-markdown-medusa\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-workflows\package.json
 
 typescript
-  ^5
-    devDependencies      www\apps\book\package.json
-    devDependencies      www\apps\resources\package.json
-    devDependencies      www\apps\user-guide\package.json
   ^5.1.6
     devDependencies      packages\design-system\icons\package.json
     devDependencies      packages\design-system\ui-preset\package.json
     devDependencies      packages\design-system\ui\package.json
-    devDependencies      www\packages\docs-ui\package.json
   ^5.3.3
     devDependencies      packages\admin\admin-bundler\package.json
     devDependencies      packages\admin\admin-sdk\package.json
     devDependencies      packages\admin\admin-shared\package.json
     devDependencies      packages\cli\medusa-dev-cli\package.json
-    devDependencies      www\packages\build-scripts\package.json
-    devDependencies      www\packages\remark-rehype-plugins\package.json
-    devDependencies      www\packages\types\package.json
   ^5.6.2
     devDependencies      integration-tests\api\package.json
     devDependencies      integration-tests\http\package.json
@@ -2429,30 +1762,12 @@ typescript
     devDependencies      packages\modules\user\package.json
     devDependencies      packages\modules\workflow-engine-inmemory\package.json
     devDependencies      packages\modules\workflow-engine-redis\package.json
-    dependencies         www\utils\packages\docs-generator\package.json
-    dependencies         www\utils\packages\react-docs-generator\package.json
-    dependencies         www\utils\packages\scripts\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-custom\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-markdown-medusa\package.json
-    devDependencies      www\utils\packages\typedoc-plugin-workflows\package.json
-    devDependencies      www\utils\packages\types\package.json
-    devDependencies      www\utils\packages\utils\package.json
-    dependencies         www\utils\packages\workflows-diagrams-generator\package.json
-  4.9.5
-    devDependencies      packages\cli\oas\medusa-oas-cli\package.json
   5.1.6
     devDependencies      packages\design-system\toolbox\package.json
-    dependencies         www\apps\api-reference\package.json
-    dependencies         www\apps\ui\package.json
   5.2.2
     devDependencies      packages\admin\dashboard\package.json
   5.3.3
     devDependencies      packages\admin\admin-vite-plugin\package.json
-
-typescript-eslint
-  8.11.0
-    devDependencies      www\package.json
 
 ulid
   ^2.3.0
@@ -2464,35 +1779,11 @@ ulid
     dependencies         packages\modules\workflow-engine-inmemory\package.json
     dependencies         packages\modules\workflow-engine-redis\package.json
 
-unified
-  ^11.0.4
-    dependencies         www\packages\remark-rehype-plugins\package.json
-
-unist-builder
-  3.0.0
-    dependencies         www\apps\ui\package.json
-    dependencies         www\packages\remark-rehype-plugins\package.json
-
-unist-util-visit
-  4.1.2
-    dependencies         www\apps\ui\package.json
-    dependencies         www\packages\remark-rehype-plugins\package.json
-
-utils
-  *
-    dependencies         www\utils\packages\docs-generator\package.json
-    dependencies         www\utils\packages\react-docs-generator\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-    dependencies         www\utils\packages\typedoc-plugin-custom\package.json
-    dependencies         www\utils\packages\typedoc-plugin-markdown-medusa\package.json
-    dependencies         www\utils\packages\typedoc-plugin-workflows\package.json
-
 uuid
   ^8.3.2
     dependencies         packages\medusa-telemetry\package.json
   ^9.0.0
     dependencies         packages\cli\create-medusa-app\package.json
-    devDependencies      packages\cli\oas\medusa-oas-cli\package.json
     dependencies         packages\medusa\package.json
 
 validator
@@ -2502,10 +1793,6 @@ validator
 verdaccio
   ^4.10.0
     dependencies         packages\cli\medusa-dev-cli\package.json
-
-vfile-matter
-  ^5.0.0
-    dependencies         www\packages\remark-rehype-plugins\package.json
 
 vite
   ^4.3.9
@@ -2549,23 +1836,11 @@ winston
   ^3.9.0
     dependencies         packages\cli\create-medusa-app\package.json
 
-yaml
-  ^2.3.1
-    dependencies         www\apps\api-reference\package.json
-  ^2.3.3
-    dependencies         www\utils\packages\typedoc-plugin-custom\package.json
-    dependencies         www\utils\packages\typedoc-plugin-workflows\package.json
-  ^2.3.4
-    dependencies         www\utils\packages\docs-generator\package.json
-    dependencies         www\utils\packages\typedoc-generate-references\package.json
-
 yargs
   ^15.3.1
     dependencies         packages\cli\medusa-cli\package.json
   ^15.4.1
     dependencies         packages\cli\medusa-dev-cli\package.json
-  ^17.7.2
-    dependencies         packages\cli\oas\medusa-oas-cli\package.json
 
 zod
   ^3.22
@@ -2576,4 +1851,4 @@ zod
     dependencies         packages\core\framework\package.json
     dependencies         packages\medusa\package.json
 
-Found mismatch 343 packages with version drift.
+Found mismatch 251 packages with version drift.
