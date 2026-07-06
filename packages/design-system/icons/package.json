@@ -57,7 +57,7 @@
   "peerDependencies": {
     "react": "^16.x || ^17.x || ^18.x"
   },
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.34.4",
   "publishConfig": {
     "access": "public"
   }

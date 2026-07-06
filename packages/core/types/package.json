@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@mikro-orm/core": "5.9.7",
-    "bignumber.js": "^9.1.2"
+    "bignumber.js": "9.1.2"
   },
   "devDependencies": {
     "awilix": "^8.0.1",

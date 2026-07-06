@@ -47,5 +47,5 @@
     "outdent": "^0.8.0",
     "picocolors": "^1.1.0"
   },
-  "packageManager": "pnpm@10.15.0"
+  "packageManager": "pnpm@10.34.4"
 }

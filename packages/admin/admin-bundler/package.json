@@ -40,5 +40,5 @@
     "express": "^4.21.0",
     "react-dom": "^18.0.0"
   },
-  "packageManager": "pnpm@10.15.0"
+  "packageManager": "pnpm@10.34.4"
 }
