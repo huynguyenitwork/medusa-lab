@@ -1,0 +1,23 @@
+packages:
+  - packages/medusa
+  - packages/medusa-test-utils
+  - packages/modules/*
+  - packages/modules/providers/*
+  - packages/core/*
+  - packages/framework/*
+  - packages/cli/*
+  - packages/*
+  - packages/admin/*
+  - packages/design-system/*
+  - packages/generated/*
+  - integration-tests/**/*
+allowBuilds:
+  '@swc/core': true
+  core-js: true
+  dtrace-provider: true
+  esbuild: true
+  level: true
+  leveldown: true
+  msgpackr-extract: true
+  msw: true
+  protobufjs: true

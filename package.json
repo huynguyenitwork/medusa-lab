@@ -1,24 +1,6 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/medusa",
-      "packages/medusa-test-utils",
-      "packages/modules/*",
-      "packages/modules/providers/*",
-      "packages/plugins/*",
-      "packages/core/*",
-      "packages/framework/*",
-      "packages/cli/*",
-      "packages/cli/oas/*",
-      "packages/*",
-      "packages/admin/*",
-      "packages/design-system/*",
-      "packages/generated/*",
-      "integration-tests/**/*"
-    ]
-  },
   "devDependencies": {
     "@atomico/rollup-plugin-sizes": "^1.1.4",
     "@faker-js/faker": "^9.2.0",
@@ -168,8 +150,6 @@
     "import-from": "^3.0.0"
   },
   "resolutions": {
-    "@redocly/cli/react": "^17.0.1",
-    "@redocly/cli/react-dom": "^17.0.1",
     "pg": "8.16.3",
     "@changesets/get-github-info@^0.5.2": "patch:@changesets/get-github-info@npm:^0.5.2#.yarn/patches/changesets-github-info.patch",
     "@types/react": "^18.3.2",
