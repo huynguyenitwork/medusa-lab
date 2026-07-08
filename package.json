@@ -3,10 +3,19 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/admin/admin-shared",
-      "packages/cli/medusa-dev-cli",
-      "packages/medusa-telemetry",
-      "packages/design-system/toolbox"
+      "packages/medusa",
+      "packages/medusa-test-utils",
+      "packages/modules/*",
+      "packages/modules/providers/*",
+      "packages/core/*",
+      "packages/framework/*",
+      "packages/cli/*",
+      "packages/cli/oas/*",
+      "packages/*",
+      "packages/admin/*",
+      "packages/design-system/*",
+      "packages/generated/*",
+      "integration-tests/**/*"
     ]
   },
   "devDependencies": {
@@ -44,6 +53,7 @@
     "*.{md,yaml,yml}": "prettier --write"
   },
   "scripts": {
+    "dump:workspace-logs": "bash scripts/dump-workspace-logs.sh",
     "build": "turbo run build --concurrency=1 --no-daemon",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts,.tsx .",
     "lint:path": "eslint --ignore-path .eslintignore --ext .js,.ts,.tsx",

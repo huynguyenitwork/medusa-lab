@@ -1,0 +1,305 @@
+├─ @graphql-codegen/core@npm:4.0.2
+│  ├─ Instances: 1
+│  ├─ Version: 4.0.2
+│  │
+│  └─ Dependencies
+│     ├─ @graphql-codegen/plugin-helpers@npm:^5.0.3 → npm:5.0.4
+│     ├─ @graphql-tools/schema@npm:^10.0.0 → npm:10.0.3
+│     ├─ @graphql-tools/utils@npm:^10.0.0 → npm:10.5.4
+│     └─ tslib@npm:~2.6.0 → npm:2.6.3
+│
+├─ @graphql-codegen/typescript@npm:4.0.9
+│  ├─ Instances: 1
+│  ├─ Version: 4.0.9
+│  │
+│  └─ Dependencies
+│     ├─ @graphql-codegen/plugin-helpers@npm:^5.0.4 → npm:5.0.4
+│     ├─ @graphql-codegen/schema-ast@npm:^4.0.2 → npm:4.1.0
+│     ├─ @graphql-codegen/visitor-plugin-common@npm:5.3.1 → npm:5.3.1
+│     ├─ auto-bind@npm:~4.0.0 → npm:4.0.0
+│     └─ tslib@npm:~2.6.0 → npm:2.6.3
+│
+├─ @graphql-tools/merge@npm:9.0.7
+│  ├─ Instances: 1
+│  ├─ Version: 9.0.7
+│  │
+│  └─ Dependencies
+│     ├─ @graphql-tools/utils@npm:^10.5.4 → npm:10.5.4
+│     └─ tslib@npm:^2.4.0 → npm:2.6.2
+│
+├─ @graphql-tools/schema@npm:10.0.6
+│  ├─ Instances: 1
+│  ├─ Version: 10.0.6
+│  │
+│  └─ Dependencies
+│     ├─ @graphql-tools/merge@npm:^9.0.6 → npm:9.0.7
+│     ├─ @graphql-tools/utils@npm:^10.5.4 → npm:10.5.4
+│     ├─ tslib@npm:^2.4.0 → npm:2.6.2
+│     └─ value-or-promise@npm:^1.0.12 → npm:1.0.12
+│
+├─ @medusajs/types@workspace:packages/core/types
+│  ├─ Instances: 1
+│  ├─ Version: 2.0.7
+│  │
+│  └─ Dependencies
+│     ├─ awilix@npm:^8.0.1 → npm:8.0.1
+│     ├─ bignumber.js@npm:^9.1.2 → npm:9.1.2
+│     ├─ expect-type@npm:^0.20.0 → npm:0.20.0
+│     ├─ ioredis@npm:^5.4.1 → npm:5.4.1
+│     ├─ rimraf@npm:^5.0.1 → npm:5.0.5
+│     ├─ typescript@patch:typescript@^5.6.2#~builtin<compat/typescript> → patch:typescript@npm%3A5.6.2#~builtin<compat/typescript>::version=5.6.2&hash=7ad353
+│     └─ vite@npm:^5.2.11 → npm:5.2.11 [df0d7]
+│
+├─ @medusajs/utils@workspace:packages/core/utils
+│  ├─ Version: 2.0.7
+│  │
+│  └─ Dependencies
+│     ├─ @types/express@npm:^4.17.21 → npm:4.17.21
+│     ├─ awilix@npm:^8.0.1 → npm:8.0.1
+│     ├─ bignumber.js@npm:^9.1.2 → npm:9.1.2
+│     ├─ dotenv-expand@npm:^11.0.6 → npm:11.0.6
+│     ├─ dotenv@npm:^16.4.5 → npm:16.4.5
+│     ├─ expect-type@npm:^0.20.0 → npm:0.20.0
+│     ├─ express@npm:^4.21.0 → npm:4.21.0
+│     ├─ graphql@npm:^16.9.0 → npm:16.9.0
+│     ├─ jsonwebtoken@npm:^9.0.2 → npm:9.0.2
+│     ├─ pg-connection-string@npm:^2.7.0 → npm:2.7.0
+│     ├─ pg-god@npm:^1.0.12 → npm:1.0.12
+│     ├─ pluralize@npm:^8.0.0 → npm:8.0.0
+│     ├─ rimraf@npm:^5.0.1 → npm:5.0.5
+│     ├─ typescript@patch:typescript@^5.6.2#~builtin<compat/typescript> → patch:typescript@npm%3A5.6.2#~builtin<compat/typescript>::version=5.6.2&hash=7ad353
+│     ├─ ulid@npm:^2.3.0 → npm:2.3.0
+│     ├─ @graphql-codegen/core@npm:^4.0.2 → npm:4.0.2 [2452d]
+│     ├─ @graphql-codegen/typescript@npm:^4.0.9 → npm:4.0.9 [2452d]
+│     ├─ @graphql-tools/merge@npm:^9.0.7 → npm:9.0.7 [2452d]
+│     ├─ @graphql-tools/schema@npm:^10.0.6 → npm:10.0.6 [2452d]
+│     ├─ @medusajs/types@^2.0.7 → workspace:packages/core/types [65b54]
+│     ├─ @mikro-orm/core@npm:5.9.7 → npm:5.9.7 [7155c]
+│     ├─ @mikro-orm/knex@npm:5.9.7 → npm:5.9.7 [7155c]
+│     ├─ @mikro-orm/migrations@npm:5.9.7 → npm:5.9.7 [7155c]
+│     ├─ @mikro-orm/postgresql@npm:5.9.7 → npm:5.9.7 [7155c]
+│     ├─ @swc/core@npm:^1.7.28 → npm:1.7.28 [161a1]
+│     ├─ @swc/jest@npm:^0.2.36 → npm:0.2.36 [161a1]
+│     ├─ jest@npm:29.7.0 → npm:29.7.0 [36a01]
+│     └─ pg@npm:8.11.3 → npm:8.11.3 [6c403]
+│
+├─ @mikro-orm/core@npm:5.9.7
+│  ├─ Instances: 1
+│  ├─ Version: 5.9.7
+│  │
+│  └─ Dependencies
+│     ├─ acorn-loose@npm:8.3.0 → npm:8.3.0
+│     ├─ acorn-walk@npm:8.2.0 → npm:8.2.0
+│     ├─ dotenv@npm:16.3.1 → npm:16.3.1
+│     ├─ fs-extra@npm:11.1.1 → npm:11.1.1
+│     ├─ globby@npm:11.1.0 → npm:11.1.0
+│     ├─ mikro-orm@npm:5.9.7 → npm:5.9.7
+│     └─ reflect-metadata@npm:0.1.13 → npm:0.1.13
+│
+├─ @mikro-orm/knex@npm:5.9.7
+│  ├─ Instances: 1
+│  ├─ Version: 5.9.7
+│  │
+│  └─ Dependencies
+│     ├─ fs-extra@npm:11.1.1 → npm:11.1.1
+│     ├─ knex@npm:2.5.1 → npm:2.5.1
+│     └─ sqlstring@npm:2.3.3 → npm:2.3.3
+│
+├─ @mikro-orm/migrations@npm:5.9.7
+│  ├─ Instances: 1
+│  ├─ Version: 5.9.7
+│  │
+│  └─ Dependencies
+│     ├─ @mikro-orm/knex@npm:5.9.7 → npm:5.9.7
+│     ├─ fs-extra@npm:11.1.1 → npm:11.1.1
+│     ├─ knex@npm:2.5.1 → npm:2.5.1
+│     └─ umzug@npm:3.3.1 → npm:3.3.1
+│
+├─ @mikro-orm/postgresql@npm:5.9.7
+│  ├─ Instances: 1
+│  ├─ Version: 5.9.7
+│  │
+│  └─ Dependencies
+│     ├─ @mikro-orm/knex@npm:5.9.7 → npm:5.9.7
+│     └─ pg@npm:8.11.3 → npm:8.11.3
+│
+├─ @swc/core@npm:1.7.28
+│  ├─ Instances: 1
+│  ├─ Version: 1.7.28
+│  │
+│  └─ Dependencies
+│     ├─ @swc/core-darwin-arm64@npm:1.7.28 → npm:1.7.28
+│     ├─ @swc/core-darwin-x64@npm:1.7.28 → npm:1.7.28
+│     ├─ @swc/core-linux-arm-gnueabihf@npm:1.7.28 → npm:1.7.28
+│     ├─ @swc/core-linux-arm64-gnu@npm:1.7.28 → npm:1.7.28
+│     ├─ @swc/core-linux-arm64-musl@npm:1.7.28 → npm:1.7.28
+│     ├─ @swc/core-linux-x64-gnu@npm:1.7.28 → npm:1.7.28
+│     ├─ @swc/core-linux-x64-musl@npm:1.7.28 → npm:1.7.28
+│     ├─ @swc/core-win32-arm64-msvc@npm:1.7.28 → npm:1.7.28
+│     ├─ @swc/core-win32-ia32-msvc@npm:1.7.28 → npm:1.7.28
+│     ├─ @swc/core-win32-x64-msvc@npm:1.7.28 → npm:1.7.28
+│     ├─ @swc/counter@npm:^0.1.3 → npm:0.1.3
+│     └─ @swc/types@npm:^0.1.12 → npm:0.1.12
+│
+├─ @swc/jest@npm:0.2.36
+│  ├─ Instances: 1
+│  ├─ Version: 0.2.36
+│  │
+│  └─ Dependencies
+│     ├─ @jest/create-cache-key-function@npm:^29.7.0 → npm:29.7.0
+│     ├─ @swc/counter@npm:^0.1.3 → npm:0.1.3
+│     └─ jsonc-parser@npm:^3.2.0 → npm:3.2.1
+│
+├─ @types/express@npm:4.17.21
+│  ├─ Version: 4.17.21
+│  │
+│  └─ Dependencies
+│     ├─ @types/body-parser@npm:* → npm:1.19.5
+│     ├─ @types/express-serve-static-core@npm:^4.17.33 → npm:4.19.0
+│     ├─ @types/qs@npm:* → npm:6.9.15
+│     └─ @types/serve-static@npm:* → npm:1.15.7
+│
+├─ awilix@npm:8.0.1
+│  ├─ Version: 8.0.1
+│  │
+│  └─ Dependencies
+│     ├─ camel-case@npm:^4.1.2 → npm:4.1.2
+│     └─ fast-glob@npm:^3.2.12 → npm:3.3.2
+│
+├─ bignumber.js@npm:9.1.2
+│  └─ Version: 9.1.2
+│
+├─ dotenv-expand@npm:11.0.6
+│  ├─ Version: 11.0.6
+│  │
+│  └─ Dependencies
+│     └─ dotenv@npm:^16.4.4 → npm:16.4.5
+│
+├─ dotenv@npm:16.4.5
+│  └─ Version: 16.4.5
+│
+├─ expect-type@npm:0.20.0
+│  └─ Version: 0.20.0
+│
+├─ express@npm:4.21.0
+│  ├─ Version: 4.21.0
+│  │
+│  └─ Dependencies
+│     ├─ accepts@npm:~1.3.8 → npm:1.3.8
+│     ├─ array-flatten@npm:1.1.1 → npm:1.1.1
+│     ├─ body-parser@npm:1.20.3 → npm:1.20.3
+│     ├─ content-disposition@npm:0.5.4 → npm:0.5.4
+│     ├─ content-type@npm:~1.0.4 → npm:1.0.5
+│     ├─ cookie-signature@npm:1.0.6 → npm:1.0.6
+│     ├─ cookie@npm:0.6.0 → npm:0.6.0
+│     ├─ depd@npm:2.0.0 → npm:2.0.0
+│     ├─ encodeurl@npm:~2.0.0 → npm:2.0.0
+│     ├─ escape-html@npm:~1.0.3 → npm:1.0.3
+│     ├─ etag@npm:~1.8.1 → npm:1.8.1
+│     ├─ finalhandler@npm:1.3.1 → npm:1.3.1
+│     ├─ fresh@npm:0.5.2 → npm:0.5.2
+│     ├─ http-errors@npm:2.0.0 → npm:2.0.0
+│     ├─ merge-descriptors@npm:1.0.3 → npm:1.0.3
+│     ├─ methods@npm:~1.1.2 → npm:1.1.2
+│     ├─ on-finished@npm:2.4.1 → npm:2.4.1
+│     ├─ parseurl@npm:~1.3.3 → npm:1.3.3
+│     ├─ path-to-regexp@npm:0.1.10 → npm:0.1.10
+│     ├─ proxy-addr@npm:~2.0.7 → npm:2.0.7
+│     ├─ qs@npm:6.13.0 → npm:6.13.0
+│     ├─ range-parser@npm:~1.2.1 → npm:1.2.1
+│     ├─ safe-buffer@npm:5.2.1 → npm:5.2.1
+│     ├─ send@npm:0.19.0 → npm:0.19.0
+│     ├─ serve-static@npm:1.16.2 → npm:1.16.2
+│     ├─ setprototypeof@npm:1.2.0 → npm:1.2.0
+│     ├─ statuses@npm:2.0.1 → npm:2.0.1
+│     ├─ type-is@npm:~1.6.18 → npm:1.6.18
+│     ├─ utils-merge@npm:1.0.1 → npm:1.0.1
+│     ├─ vary@npm:~1.1.2 → npm:1.1.2
+│     └─ debug@npm:2.6.9 → npm:2.6.9 [44738]
+│
+├─ graphql@npm:16.9.0
+│  └─ Version: 16.9.0
+│
+├─ jest@npm:29.7.0
+│  ├─ Instances: 1
+│  ├─ Version: 29.7.0
+│  │
+│  ├─ Exported Binaries
+│  │  └─ jest
+│  │
+│  └─ Dependencies
+│     ├─ @jest/core@npm:^29.7.0 → npm:29.7.0
+│     ├─ @jest/types@npm:^29.6.3 → npm:29.6.3
+│     ├─ import-local@npm:^3.0.2 → npm:3.1.0
+│     └─ jest-cli@npm:^29.7.0 → npm:29.7.0
+│
+├─ jsonwebtoken@npm:9.0.2
+│  ├─ Version: 9.0.2
+│  │
+│  └─ Dependencies
+│     ├─ jws@npm:^3.2.2 → npm:3.2.2
+│     ├─ lodash.includes@npm:^4.3.0 → npm:4.3.0
+│     ├─ lodash.isboolean@npm:^3.0.3 → npm:3.0.3
+│     ├─ lodash.isinteger@npm:^4.0.4 → npm:4.0.4
+│     ├─ lodash.isnumber@npm:^3.0.3 → npm:3.0.3
+│     ├─ lodash.isplainobject@npm:^4.0.6 → npm:4.0.6
+│     ├─ lodash.isstring@npm:^4.0.1 → npm:4.0.1
+│     ├─ lodash.once@npm:^4.0.0 → npm:4.1.1
+│     ├─ ms@npm:^2.1.1 → npm:2.1.3
+│     └─ semver@npm:^7.5.4 → npm:7.6.0
+│
+├─ pg-connection-string@npm:2.7.0
+│  └─ Version: 2.7.0
+│
+├─ pg-god@npm:1.0.12
+│  ├─ Version: 1.0.12
+│  │
+│  ├─ Exported Binaries
+│  │  └─ pg-god
+│  │
+│  └─ Dependencies
+│     ├─ @oclif/config@npm:^1 → npm:1.18.17
+│     ├─ @oclif/plugin-help@npm:^3 → npm:3.3.1
+│     ├─ cli-ux@npm:^5.4.9 → npm:5.6.7
+│     ├─ tslib@npm:^1 → npm:1.14.1
+│     ├─ @oclif/command@npm:^1.8.15 → npm:1.8.36 [df361]
+│     └─ pg@npm:8.11.3 → npm:8.11.3 [6c403]
+│
+├─ pg@npm:8.11.3
+│  ├─ Instances: 1
+│  ├─ Version: 8.11.3
+│  │
+│  └─ Dependencies
+│     ├─ buffer-writer@npm:2.0.0 → npm:2.0.0
+│     ├─ packet-reader@npm:1.0.0 → npm:1.0.0
+│     ├─ pg-cloudflare@npm:^1.1.1 → npm:1.1.1
+│     ├─ pg-connection-string@npm:^2.6.2 → npm:2.6.4
+│     ├─ pg-pool@npm:^3.6.1 → npm:3.6.2
+│     ├─ pg-protocol@npm:^1.6.0 → npm:1.6.1
+│     ├─ pg-types@npm:^2.1.0 → npm:2.2.0
+│     └─ pgpass@npm:1.x → npm:1.0.5
+│
+├─ pluralize@npm:8.0.0
+│  └─ Version: 8.0.0
+│
+├─ rimraf@npm:5.0.5
+│  ├─ Version: 5.0.5
+│  │
+│  ├─ Exported Binaries
+│  │  └─ rimraf
+│  │
+│  └─ Dependencies
+│     └─ glob@npm:^10.3.7 → npm:10.3.12
+│
+├─ typescript@patch:typescript@npm%3A5.6.2#~builtin<compat/typescript>::version=5.6.2&hash=7ad353
+│  ├─ Version: 5.6.2
+│  │
+│  └─ Exported Binaries
+│     ├─ tsc
+│     └─ tsserver
+│
+└─ ulid@npm:2.3.0
+   ├─ Version: 2.3.0
+   │
+   └─ Exported Binaries
+      └─ ulid
